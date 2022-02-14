@@ -1,4 +1,4 @@
-##IP(Internet Protocol)
+## IP(Internet Protocol)
 <strong>역할</strong>
 * 지정한 IP 주소(IP Adress)에 데이터 전달
 * 패킷(Packet)이라는 통신 단위로 데이터 전달

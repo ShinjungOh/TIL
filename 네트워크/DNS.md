@@ -1,4 +1,4 @@
-##DNS
+## DNS
 <strong>IP의 문제점</strong>
 * 기억하기 어렵다
 * 변경될 수 있다

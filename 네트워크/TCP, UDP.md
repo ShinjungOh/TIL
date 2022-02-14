@@ -1,4 +1,4 @@
-##TCP, UDP
+## TCP, UDP
 <strong>인터넷 프로토콜 스택의 4계층</strong>
 * 애플리케이션 계층 : HTTP, FTP
 * 전송 계층 : TCP, UDP
