@@ -4,7 +4,7 @@
 
 <strong>Local</strong>
 1. <strong>working directory</strong> : 프로젝트의 파일을 작업하는 곳
-2. <strong>staging area</strong> : 버전 히스토리에 저장할 준비가 되어있는 파일을 옮겨놓는 곳
+2. <strong>staging area</strong> : 버전 히스토리에 저장할 준비가 되어있는 파일을 옮겨놓는 곳 (add 명령어 사용)
 3. <strong>.git directory(repository)</strong> : 버전의 히스토리를 가지고 있는 곳
 
 <br>
