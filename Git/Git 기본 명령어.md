@@ -81,3 +81,45 @@ UI툴을 이용하면 세분화해서 조정할 수 있다.
  
 * head~1 : 현재 헤드의 이전 버전
 * head~2 : 현재 헤드의 이전 이전 버전
+
+<br>
+
+### 로그 꾸미기
+* git log --pretty=oneline : --oneline과 동일
+* git log --pretty=format:"%h - %an %ar %s" : 
+* 포맷 공유
+  * git log --graph --all --pretty=format :'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short
+
+<br>
+
+### 로그 심화 내용
+* git log -2 : 최근 n개의 커밋 
+* git log --author="ellie"
+* git log --before="2020-09-29"
+* git log --after="one week ago"
+* git log --grep="message" : 커밋 메시지 중에서 찾기 
+* git log -S="code" : 코드 안에서 찾기 
+* git log file.txt
+
+<br>
+
+## tag
+<strong>특정 커밋을 북마크</strong> <br>
+
+대개 릴리즈 버전 태그
+
+* git tag v1.0.0  
+* git tag v1.0.0 hash  
+* git show v.0.0  
+* git tag -a v.1.0.0 -m "message" 
+* git tag : 모든 태그 보기
+* git tag -l "v1.0.*" : 특정 태그 보기
+* git tag -d v1.0.0 : 태그 삭
+
+<br>
+
+### semantic versioning
+> ### v2.0.1<br>
+> major : 2, 전체적인 업데이트 발생시<br>
+> minor : 0, 작은 기능 업데이트, 개선시<br>
+> fix : 1, 기존 기능에서 오류수정, 성능개선시
