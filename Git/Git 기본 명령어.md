@@ -109,12 +109,12 @@ UI툴을 이용하면 세분화해서 조정할 수 있다.
 대개 릴리즈 버전 태그
 
 * git tag v1.0.0  
-* git tag v1.0.0 hash  
-* git show v.0.0  
-* git tag -a v.1.0.0 -m "message" 
+* git tag v1.0.0 hash : 특정 커밋에 태그 추가
+* git show v.0.0 : 작성자, 작성일자, 메시지 등 정보 확인
+* git tag -a v.1.0.0 -m "message" : 메시지 추가 
 * git tag : 모든 태그 보기
 * git tag -l "v1.0.*" : 특정 태그 보기
-* git tag -d v1.0.0 : 태그 삭
+* git tag -d v1.0.0 : 태그 삭제
 
 <br>
 
