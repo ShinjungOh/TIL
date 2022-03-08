@@ -247,3 +247,121 @@ const b = a.map(function (v, i, arr) {
 }, [ 10 ])
 ```
 
+<br><br>
+
+
+## template tag function
+
+```js
+const tag = function (strs, arg1, arg2) {
+  return {strs: strs, args: [arg1, arg2]}
+}
+const res = tag `순서가 ${1}이렇게 ${2}`
+console.log(res)
+```
+
+```js
+const tags = function (strings, ...expressions) {
+  console.log(strings, expressions)
+}
+const a = 'iu', b = 'Friday'
+const str = tags `Hello, ${a}! Today is ${b}!!`
+// ["Hello, ", "! Today is ", "!!"]
+// ["iu", "Friday"]
+```
+* 괄호가 필요 없음
+* tag 뒤에 템플릿 리터럴을 넘겨주면 템플릿 태그함수가 된다.
+* 무조건 문자열이 interpolation보다 한개 더 많다.
+
+<br>
+
+### expression의 수는 언제나 string의 수보다 하나 적다!
+
+```js
+const tags = function (strs, ...exps) {
+  return { strs, exps }
+}
+console.log(tags `${10}${20}`)
+console.log(tags `a${30}`)
+console.log(tags `${40}b`)
+```
+<br>
+
+### 이를 이용하면 strings 또는 expressions 중 하나를 순회하여 별도의 처리가 가능하다.
+
+```js
+const addSuffix = function (strs, ...exps) {
+  return strs.reduce(function (acc, curr, i) {
+    let res = acc + curr + '_suffix '
+    if(exps[i]) res += exps[i]
+    return res
+  }, '')
+}
+console.log(addSuffix `이 함수는${'각 문자열'}마다${'|_suffix|'}라는 글자를 추가합니다.`)
+```
+<br>
+
+### examples
+
+```js
+const setDecimalSeperators = function (strs, ...args) {
+  return args.reduce(function (p, c, i) {
+    return p + strs[i] + (c + '').replace(/\d{1,3}(?=(\d{3})+(?!\d))/g, '$&,')
+  }, '') + strs[strs.length - 1]
+}
+const res = setDecimalSeperators `이 사과는 하나에 ${2000}원이고, 총 ${1234567}개를 구입하시면 총 ${2000 * 1234567}원 이에요.`
+console.log(res)
+```
+* 실무에 유용한 예제
+* 숫자에 , 찍기
+
+```js
+const createCollection = {
+  Map(keys, ...vals){
+    const m = new Map()
+    vals.forEach(function (val, i) {
+      m.set(keys[i].trim(), val)
+    })
+    return m
+  },
+  WMap(keys, ...vals){
+    const wm = new WeakMap()
+    for (let i = 0 ; i < vals.length ; i+=2) {
+      wm.set(vals[i], vals[i+1])
+    }
+    return wm
+  },
+}
+
+const wkeys = [ {a : 100}, {b : 200} ]
+const map = createCollection.Map `
+  a ${10}
+  b ${'what'}
+  fn ${v => v + 10}`
+let wmap = createCollection.WMap `
+  ${wkeys[0]} ${10}
+  ${wkeys[1]} ${20}`
+console.log(map)
+console.log(wmap)
+```
+
+<br><br>
+
+### String.raw
+
+```js
+console.log(`Hello\nWorld!`)
+console.log(String.raw `Hello\nWorld!`)
+console.log(String.raw `Hello
+World!`)
+```
+
+```js
+const tags = function (strs, ...exps) {
+  return { strs, exps }
+}
+const a = 'iu', b = 'Friday'
+const str = tags `Hello, ${a}\n Today is ${b}\n`
+```
+* raw : 이스케이프 문자를 문자 그대로 표현 (입력한 그대로)
+* String.raw : 원래 상태 그대로 출력
