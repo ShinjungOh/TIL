@@ -42,3 +42,24 @@ reference log, 로그를 참조하다 <br>
 커밋하지 않은 경우, 로컬에 작성한 것을 git reset hard 했다면
 * local history 확장 프로그램 설치 
 * 로컬에서 작업하는 파일 시간별로 히스토리 자동 저장
+
+<br>
+
+## revert
+문제가 되는 커밋을 취소하고, 취소가 된 커밋을 새로 생성 <br>
+(새로운 커밋을 만들어서 이미 추가된 내용을 변경)
+* git revert hash 
+* git revert HEAD~1
+* gut revert --no-commit hash : 커밋을 따로 만들지 않음 (취소되는 변경사항을 staging area에 추가해 줌)
+  * conflict의 경우에 유용
+
+<br>
+
+## interactive rebasing
+기존의 히스토리를 변경, 이전 커밋 수정 <br>
+서버에 업로드된 경우는 피하기 <br>
+수정한 이후의 전체적인 히스토리가 업데이트
+
+* git rebase -i HEAD~2 : 지정한 해시코드부터 interactive하게 뒤에 이어지는 것까지 rebase
+* git rebase --continue
+* git rebase --abort
