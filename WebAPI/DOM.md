@@ -64,3 +64,28 @@ CSSOM에서는 사용자가 정의한 스타일, 브라우저에서 기본적으
 
 >**CSSOM**
 https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
+
+<br><br>
+
+## Critical Rendering Path
+###주요 렌더링 경로
+
+`requests/response -> loading -> scripting -> rendering -> layout -> painting`
+
+1. `Construction` DOM CSSOM RenderTree
+2. `Operation` Layout paint composition
+
+paint 단계에서는 레이어 단계를 만들어서 레이어별로 paint를 준비한다. <br>
+브라우저 성능 개선을 위함 (ex. 포토샵 레이어) <br>
+너무 많은 레이어가 존재해도 브라우저 성능이 나빠질 수 있다
+
+<br>
+
+### 성능 개선하는 방법
+
+1. `Construction` : 불필요한 요소 자제, 요소들을 작게 만들기 
+2. `Operation` : paint가 자주 일어나지 않도록 만들기, 특히 layout이 일어나는 경우 피하기  
+
+>http://csstriggers.com/
+
+
