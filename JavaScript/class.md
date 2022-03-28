@@ -315,4 +315,200 @@ console.log(jn)
 * 클래스 본인에 의해서만 create 메소드 호출 가능
 * 인스턴스에서 접근 불가 (접근 방법은 있지만, 의미 없다)
 
+<br><br>
+
+## 클래스 상속
+
+### 소개
+
+```js
+function Square (width) {
+  this.width = width
+}
+
+Square.prototype.getArea = function () {
+  return this.width * (this.height || this.width)
+}
+
+function Rectangle (width, height) {
+  Square.call(this, width)
+  this.height = height
+}
+
+
+//클래스 상속을 흉내내기 위해
+function F() { }
+
+F.prototype = Square.prototype
+Rectangle.prototype = new F()
+Rectangle.prototype.constructor = Rectangle
+
+const square = Square(3)
+const rect = new Rectangle(3, 4)
+
+console.log(rect.getArea())
+console.log(rect instanceof Rectangle)
+console.log(rect instanceof Square)
+```
+* 이전의 방법
+
+```js
+class Square {
+  constructor (width) {
+    this.width = width
+  }
+  getArea () {
+    return this.width * (this.height || this.width)
+  }
+}
+class Rectangle extends Square {  //extends만 써주면 됨
+  constructor (width, height) {
+    super(width)  //상위클래스의 constructor를 호출하는 함수. 오직 constructor안에서만 호출 가능      
+    // -> this.width = width;
+    this.height = height 
+  }
+}
+
+const rect = new Rectangle(3, 4)
+console.log(rect.getArea())
+console.log(rect instanceof Rectangle)
+console.log(rect instanceof Square)
+
+rect.(__proto__)  // === Rectangle.prototype
+rect.(__proto__).(__proto__)  // === Square.prototype
+rect.getArea();  // === rect.(__proto__).(__proto__).getArea();  
+//상위 클래스의 메소드도 자신의 것처럼 사용 가능 (프로토타입 체이닝을 통해)
+```
+
 <br>
+
+### 상세
+
+1. `class [서브클래스명] extends [수퍼클래스명] { [서브클래스 본문] }`
+
+- 반드시 변수만 와야 하는 것이 아니라, 클래스 식이 와도 된다.
+```js
+class Employee extends class Person {
+  constructor (name) { this.name = name }
+} {
+  constructor (name, position) {
+    super(name)
+    this.position = position
+  }
+}
+const jn = new Employee('잰남', 'worker')
+```
+* (이렇게 하지 말 것)
+
+```js
+class Employee extends class {
+  constructor (name) { this.name = name }
+} {
+  constructor (name, position) {
+    super(name)
+    this.position = position
+  }
+}
+const jn = new Employee('잰남', 'worker')
+console.log(jn.__proto__.__proto__.constructor.name)
+```
+
+- 함수도 상속 가능.
+
+```js
+function Person (name) { this.name = name }
+class Employee extends Person {
+  constructor (name, position) {
+    super(name)
+    this.position = position
+  }
+}
+const jn = new Employee('잰남', 'worker')
+```
+
+```js
+class Employee extends function (name) { this.name = name } {
+  constructor (name, position) {
+    super(name)
+    this.position = position
+  }
+}
+const jn = new Employee('잰남', 'worker')
+```
+
+- 내장 타입 상속 가능
+
+```js
+class NewArray extends Array {
+  toString () {
+    return `[${super.toString()}]`
+  }
+}
+const arr = new NewArray(1, 2, 3)
+console.log(arr)
+console.log(arr.toString())
+```
+
+<br>
+
+2. super (내부키워드로써, 허용된 동작 외엔 활용 불가)
+
+- (1) constructor 내부에서
+  - 수퍼클래스의 constructor를 호출하는 함수 개념.
+  - 서브클래스의 constructor 내부에서 `this`에 접근하려 할 때는 **가장 먼저** super함수를 호출해야만 한다.
+  - 서브클래스에서 constructor를 사용하지 않는다면 무관. (이 경우 상위클래스의 constructor만 실행된다.)거나, 내부에서 `this`에 접근하지 않는다면 무관.
+
+- (2) - 메소드 내부에서
+  - 수퍼클래스의 프로토타입 객체 개념.
+  - 메소드 오버라이드 또는 상위 메소드 호출 목적으로 활용.
+
+```js
+class Rectangle {
+  constructor (width, height) {
+    this.width = width
+    this.height = height
+  }
+  getArea () {
+    return this.width * this.height
+  }
+}
+class Square extends Rectangle {
+  constructor (width) {
+    console.log(super)
+    super(width, width)
+  }
+  getArea () {
+    console.log('get area of square.')
+    console.dir(super)
+    return super.getArea()
+  }
+}
+const square = new Square(3)
+console.log(square.getArea())
+```
+<br>
+
+3. `new.target`을 활용한 abstract class 추상 클래스 흉내
+
+```js
+class Shape {
+  constructor () {
+    if(new.target === Shape) {
+      throw new Error('이 클래스는 직접 인스턴스화할 수 없는 추상클래스입니다.')
+    }
+  }
+  getSize () {}
+}
+class Rectangle extends Shape {
+  constructor (width, height) {
+    super()
+    this.width = width
+    this.height = height
+  }
+  getSize () {
+    return this.width * this.height
+  }
+}
+const s = new Shape()  //에러
+const r = new Rectangle(4, 5)  //작동
+```
