@@ -9,9 +9,14 @@ staging area에 옮길 때 사용
 <br>
 
 ## ignore
-Git, Github에 올리고 싶지 않은 파일을 git ignore 파일 안에 넣어둔다. <br>
+Git, Github에 올리고 싶지 않은 파일을 .gitignore 파일 안에 넣어둔다. <br>
 
-트래킹되는 파일의 트래킹을 중지하려면 git rm --cached 사용 (staging area -> working directory로 이동)
+1️⃣ 트래킹되는 파일의 트래킹을 중지하려면 <br>
+git rm --cached . 사용 (staging area -> working directory로 이동)
+
+2️⃣ git add .
+
+3️⃣ git commit -m "Apply .gitignore"
 
 <br>
 
