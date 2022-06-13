@@ -67,5 +67,35 @@ Node.js를 이용해서 JS파일을 실행하려면 운영체제에 명령을 �
 ### Common JS 
 Node.js가 기본적으로 제공하는 모듈 시스템
 * exports, require 등의 내장함수 
-* 모듈 시스템 : 모듈을 내보내고, 불러와서 사용하는 기능 제
+* 모듈 시스템 : 모듈을 내보내고, 불러와서 사용하는 기능 제공
 * 그 외 모듈 시스템 : ES 모듈 
+
+<br>
+
+## npm
+**npm (Node Package Manager)** <br>
+Node.js의 패키지 관리 도구
+
+<br>
+
+## package
+
+### 패키지 생성
+패키지 생성 명령어
+> npm init
+
+![](../Images/npm_init.png)
+
+![](../Images/npm_package.png)
+
+`package.json` : 패키지의 정보를 기록하는 환경설정 파일
+* main : 패키지를 실행할 때 어떤 파일을 실행해야 하는지 명시
+* scripts : 자주 실행하는 명령어를 사전 정의
+
+<br>
+
+### 외부 패키지 사용
+> https://www.npmjs.com/
+
+외부 패키지를 설치하면 디펜던시가 생성되고, 패키지의 이름과 버전이 기록된다. <br>
+정확한 버전 정보는 `package-lock.json` 에서 확인 가능
