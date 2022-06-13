@@ -46,9 +46,26 @@ React는 JavaScript의 라이브러리 <br>
 리액트로 만든 JS 파일들은 웹브라우저에 전달되었을 때, 프로그램처럼 실행 => `웹 어플리케이션` <br>
 node.js를 기반으로 사용
 
+<br>
 
+## 실행방법
+> **GUI (Graphic User Interface)** <br>
+> 그래픽 아이콘을 기반으로 명령 내리는 방식
 
+> **CLI (Command Line Interface)** <br>
+> 터미널에 명령어를 입력해서 명령 내리는 방식
 
+Node.js를 이용해서 JS파일을 실행하려면 운영체제에 명령을 내려야 함 => `CLI 방식이 간편`
 
+<br>
 
+### 실행
+> node `파일 이름.js`
 
+<br>
+
+### Common JS 
+Node.js가 기본적으로 제공하는 모듈 시스템
+* exports, require 등의 내장함수 
+* 모듈 시스템 : 모듈을 내보내고, 불러와서 사용하는 기능 제
+* 그 외 모듈 시스템 : ES 모듈 
