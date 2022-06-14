@@ -15,7 +15,7 @@ node JS를 이용해 자바스크립트로 스크립트를 만들 수 있다.<br
 
 라이브러리 관리, 패키지 관리를 도움<br>
 라이브러리 설치, 버전 업데이트, 삭제 등 (실행은 불가)<br>
-package.json → 사용 중인 외부 라이브러리, 버전 등의 정보 담김<br>
+`package.json` → 사용 중인 외부 라이브러리, 버전 등의 정보 담김<br>
 
 <br>
 
@@ -42,6 +42,10 @@ npm 위에서 동작 (호환 가능)<br>
 ECMA script 2015+ 버전 → 예전 버전으로 변환<br>
 최신 버전으로 개발, 배포시 예전 브라우저에서도 작동하는 예전 버전 코드로 변환<br>
 타입스크립트, JSX 등, 순수 자바스크립트가 아닌 것 → 자바스크립트로 변환<br>
+
+> 바벨을 통해 변환된 것, 만든 컴포넌트를 HTML과 연결하는 작업 필요 ⇒ `react DOM` <br>
+`react DOM` : 제일 상위의 컴포넌트를 연결해줌
+
 
 <br>
 
@@ -70,4 +74,15 @@ ECMA script 2015+ 버전 → 예전 버전으로 변환<br>
 ## PostCSS
 ### CSS 전처리기
 less, sass와 비슷 : 그들이 제공하는 프레임워크에 맞게 css를 작성하면 그 css를 브라우저가 이해할 수 있도록 변환<br>
-다양항 플러그인 덕분에 원하는 것을 추가할 수 있다<br>
+다양한 플러그인 덕분에 원하는 것을 추가할 수 있다<br>
+
+> **PostCSS** : [https://postcss.org/](https://postcss.org/) <br>
+**PostCSS Plugins** : [https://www.postcss.parts/](https://www.postcss.parts/) <br>
+**Plugins Github** : [https://github.com/postcss/postcss/blob/master/docs/plugins.md](https://github.com/postcss/postcss/blob/master/docs/plugins.md) <br>
+
+<br>
+
+## Postman 
+### API 개발
+API 확인, 테스트 가능
+> [https://www.postman.com/](https://www.postman.com/)
