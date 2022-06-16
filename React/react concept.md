@@ -27,6 +27,23 @@ M**V**C 패턴 이용 : Model, **View**, Controller - react는 view 담당<br>
 
 state의 데이터가 변경되면 → render함수 호출 (자식 요소의 render함수도 재호출)
 
+<br>
+
+### State
+계속해서 변화하는 특정 상태 <br>
+상태에 따라 각각 다른 동작을 함 
+
+<br>
+
+### Props
+컴포넌트에 데이터를 전달하는 방법
+* 부모 컴포넌트가 자식 컴포넌트에 전달
+* 값에 이름을 붙여서 전달
+* properties 의 줄임말
+* 정적, 동적 데이터(state), 컴포넌트 전달 가능
+* 자식 컴포넌트의 props가 바뀔 때마다, 부모 컴포넌트가 re-render가 될 때마다 re-render된다 
+
+
 <br><br>
 
 ## Virtual DOM Tree (가상 DOM 트리)
