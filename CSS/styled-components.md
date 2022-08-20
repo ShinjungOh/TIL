@@ -28,6 +28,20 @@ const Button = styled.button`
 `;
 ```
 
+<br>
+
+### 2가지 이상의 Props
+
+```javascript
+const Text = styled.div<{ done: boolean }>`
+ ${(props) => props.done
+          && css`
+            color: #ced4da;
+            text-decoration: line-through;
+          `};
+`;
+```
+
 <br><br>
 
 ## Styled component 상속받기
