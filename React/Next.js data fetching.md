@@ -77,6 +77,32 @@ export async function getStaticProps() {
 
 <br><br>
 
+## pre-render와 SEO
+
+next.js는 기본적으로 모든 페이지를 pre-render  
+**pre-render** : 기초적인 UI가 미리 그려져서 내려오는 것 (js 제외)
+
+<br>
+
+**SEO (Search Engine Optimization)**  
+CSR만 제공시, 클라이언트(브라우저)처럼 동작하지 않는 검색엔진의 경우, 아무 데이터도 조회할 수 없음  
+=> pre-render 해두면 필요한 데이터 제공 가능
+
+<br>
+
+### next.js의 pre-rendering 방식
+
+> **SSG** : 빌드 타임에 pre-render (권장 - 서버 부하가 적음)  
+> **SSR** : 요청 타임에 pre-render
+
+<br>
+
+### SSG의 2가지 상황
+1️⃣ Page의 내용이 외부 데이터에 의존적인 상황 -> getStaticProps  
+2️⃣ Page Paths까지 외부 데이터에 의존적인 상황 -> getStaticPaths 도 함께 활용해야 함
+
+<br><br>
+
 ## 참고 사이트
 
 > https://nextjs.org/docs/basic-features/data-fetching/overview
