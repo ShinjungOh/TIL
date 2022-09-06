@@ -16,9 +16,9 @@ data fetching을 일으키고 싶지 않을 때
 
 ## url을 바꾸는 3가지 방식
 
-1️⃣ location.replace("url") -> 로컬 state 유지 ❌ (re-render), date-fetching 발생 ✔️ <br>
-2️⃣ router.push(url) -> 로컬 state 유지 ✔️ , date-fetching 발생 ✔️ <br>
-3️⃣ router.push(url, as, { shallow: true })️ -> 로컬 state 유지 ✔️, date-fetching 발생 ❌ <br>
+1️⃣ `location.replace("url")` -> 로컬 state 유지 ❌ (re-render), data-fetching 발생 ✔️ <br>
+2️⃣ `router.push(url)` -> 로컬 state 유지 ✔️ , data-fetching 발생 ✔️ <br>
+3️⃣ `router.push(url, as, { shallow: true })`️ -> 로컬 state 유지 ✔️, data-fetching 발생 ❌ <br>
 
 * 동일한 페이지에서 query만 바뀌어야 함
 
