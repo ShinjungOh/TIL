@@ -58,6 +58,17 @@ export async function getStaticProps(context) {
 }
 ```
 
+<br>
+
+#### getStaticPaths
+SSG시 생성할 목록은 getStaticPaths에서 가져옴 (paths 배열 반환)   
+
+getStaticPaths가 반환하는 `fallback` => 빌드시 생성되지 않은 page에 대한 처리
+
+*  false : 처리하지 않음 (404)
+* true : loader ✅, 그 후에 화면을 그림 
+* blocking : loader ❌, generation 되는 순간 그림
+
 <br><br>
 
 ## ISR
@@ -123,8 +134,6 @@ CSR만 제공시, 클라이언트(브라우저)처럼 동작하지 않는 검색
 
 YES ✅ => SSG  
 NO ❌ => SSR, CSR, ISR (커스터마이징 된 페이지를 보여줘야 하는 경우 - 로그인 등)
-
-
 
 <br><br>
 
