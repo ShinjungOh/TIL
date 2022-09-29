@@ -43,7 +43,8 @@
 [github](https://github.com/ShinjungOh/TIL/blob/main/Git/github.md)  
 [Git Hooks](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks.md)  
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
-[port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)
+[port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
+[github에 업로드한 commit 메시지 수정](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%A0%95.md)  
 
 <br>
 
@@ -54,7 +55,8 @@
 [React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
 [React에서 label for 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/HTML%20input%2C%20label%20%ED%83%9C%EA%B7%B8.md)  
 [모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)    
-[Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)
+[Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)  
+[Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)  
 
 [Next.js page layout](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20page%20layout.md)  
 [Next.js dynamic routes](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20dynamic%20routes.md)  
@@ -62,7 +64,7 @@
 [Next.js shallow routing](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20shallow%20routing.md)  
 [Next.js link component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20link%20component.md)  
 [Next.js image component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20image%20component.md)      
-[Next.js react router migration](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20react%20router%20migration.md)
+[Next.js react router migration](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20react%20router%20migration.md)  
 
 <br>
 
@@ -100,7 +102,8 @@
 [promise](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/promise.md)  
 
 [node.js](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/node.js.md)  
-[toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)
+[toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
+[map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
 
 <br>
 
