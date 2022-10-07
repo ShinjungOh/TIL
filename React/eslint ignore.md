@@ -32,7 +32,7 @@
 
 `package.json` 파일에 추가
 
-```json
+```
 “eslintIgnore”: [“file1.js”, “file2.js”]
 ```
 
