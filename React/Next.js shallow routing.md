@@ -24,6 +24,52 @@ data fetching을 일으키고 싶지 않을 때
 
 <br><br>
 
+## replace와 push의 차이점
+
+### push
+
+```js
+import { useRouter } from 'next/router';
+
+export default function Page() {
+    const router = useRouter()
+    
+    const handleClick = (e) => {
+    e.preventDefault()
+    router.push('/about');
+}
+```
+
+* router.push를 사용하면 stack의 맨 위에 새 경로가 추가됨
+
+<br>
+
+### replace
+
+```js
+import { useRouter } from 'next/router';
+
+export default function Page() {
+  const router = useRouter();
+
+  return (
+    <button type="button" onClick={() => router.replace('/home')}>
+      Click me
+    </button>
+  )
+}
+```
+
+* router.replace를 사용하면 스택 상단을 덮어 씀
+* 사용자가 유효하지 않은 경로로 이동하면 router.replace를 통해 이동하지 못하게 할 수 있음
+* 뒤로가기 시 해당 페이지가 보이지 않도록 처리 (로그아웃 등)
+
+
+
+
+<br><br>
+
 ## 참고 사이트
 
-> https://nextjs.org/docs/routing/shallow-routing
+> https://nextjs.org/docs/routing/shallow-routing  
+> https://nextjs.org/docs/api-reference/next/router
