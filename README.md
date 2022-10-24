@@ -1,26 +1,26 @@
 # TIL
 
 ## 네트워크
+[IP(Internet Protocol)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP(Internet%20Protocol).md)  
+[TCP, UDP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%2C%20UDP.md)  
+[PORT(포트)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/PORT(%ED%8F%AC%ED%8A%B8).md)  
 [DNS](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/DNS.md)  
-[HTTP API 설계 예시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API%20%EC%84%A4%EA%B3%84%20%EC%98%88%EC%8B%9C.md)  
-[HTTP API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API.md)  
+[URI](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/URI.md)  
+[웹 브라우저 요청 흐름](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%9A%94%EC%B2%AD%20%ED%9D%90%EB%A6%84.md)  
 [HTTP 기본](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EA%B8%B0%EB%B3%B8.md)  
+[클라이언트 서버 구조](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%A1%B0.md)  
+[Stateful, Stateless](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Stateful%2C%20Stateless.md)  
+[비연결성(connectionless)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%B9%84%EC%97%B0%EA%B2%B0%EC%84%B1(connectionless).md)  
+[HTTP 메시지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80.md)  
+[HTTP API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API.md)  
 [HTTP 메소드 - GET, POST](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20-%20GET%2C%20POST.md)  
 [HTTP 메소드 - PUT, PATCH, DELETE.md](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20-%20PUT%2C%20PATCH%2C%20DELETE.md)  
 [HTTP 메소드 속성](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20%EC%86%8D%EC%84%B1.md)  
-[HTTP 메시지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80.md)  
+[클라이언트에서 서버로 데이터 전송](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%86%A1.md)
+[HTTP API 설계 예시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API%20%EC%84%A4%EA%B3%84%20%EC%98%88%EC%8B%9C.md)  
 [HTTP 상태코드](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md)  
 [HTTP 일반 헤더(전송, 정보, 인증, 쿠키)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%9D%BC%EB%B0%98%20%ED%97%A4%EB%8D%94(%EC%A0%84%EC%86%A1%2C%20%EC%A0%95%EB%B3%B4%2C%20%EC%9D%B8%EC%A6%9D%2C%20%EC%BF%A0%ED%82%A4).md)  
 [HTTP 헤더 (캐시와 조건부 요청)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%97%A4%EB%8D%94%20(%EC%BA%90%EC%8B%9C%EC%99%80%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20%EC%9A%94%EC%B2%AD).md)  
-[IP(Internet Protocol)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP(Internet%20Protocol).md)  
-[PORT(포트)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/PORT(%ED%8F%AC%ED%8A%B8).md)  
-[Stateful, Stateless](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Stateful%2C%20Stateless.md)  
-[TCP, UDP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%2C%20UDP.md)  
-[URI](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/URI.md)  
-[비연결성(connectionless)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%B9%84%EC%97%B0%EA%B2%B0%EC%84%B1(connectionless).md)  
-[웹 브라우저 요청 흐름](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%9A%94%EC%B2%AD%20%ED%9D%90%EB%A6%84.md)  
-[클라이언트 서버 구조](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%A1%B0.md)  
-[클라이언트에서 서버로 데이터 전송](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%86%A1.md)
 
 <br>
 
@@ -33,11 +33,18 @@
 <br>
 
 ## CS
+### 기본
 [JSON](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/JSON.md)   
 [XML](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/XML.md)   
 [API](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/API.md)  
 [클라우드, SaaS, IaaS, PaaS](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%2C%20SaaS%2C%20IaaS%2C%20PaaS.md)    
-[도커, 컨테이너](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%EB%8F%84%EC%BB%A4%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
+[도커, 컨테이너](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%EB%8F%84%EC%BB%A4%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)  
+[정적 타입시스템](https://github.com/ShinjungOh/TIL/blob/5f90c5e94863606a4fa2f82136d8236260da3dc8/CS/%EA%B8%B0%EB%B3%B8/%EC%A0%95%EC%A0%81%20%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C.md)  
+
+<br>
+
+### 디자인패턴  
+[디자인패턴](https://github.com/ShinjungOh/TIL/blob/557dedf5fa0985e220025058ec5210d1994a2747/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.md)  
 
 <br>
 
@@ -59,6 +66,7 @@
 
 ## React
 [React concept](https://github.com/ShinjungOh/TIL/blob/main/React/react%20concept.md)  
+[React, Vue 비교](https://github.com/ShinjungOh/TIL/blob/main/React/React%2C%20Vue%20%EB%B9%84%EA%B5%90.md)  
 [JSX](https://github.com/ShinjungOh/TIL/blob/main/React/JSX.md)  
 [React tools](https://github.com/ShinjungOh/TIL/blob/main/React/react%20tools.md)  
 [React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
@@ -66,7 +74,8 @@
 [모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)    
 [Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)  
 [Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)  
-[eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)
+[eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
+[MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)
 
 [Next.js page layout](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20page%20layout.md)  
 [Next.js dynamic routes](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20dynamic%20routes.md)  
@@ -134,3 +143,9 @@
 [덱](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%8D%B1.md)  
 [해시 테이블](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94.md)    
 [셋](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%85%8B.md)  
+
+<br>
+
+## 알고리즘
+
+[재귀함수](https://github.com/ShinjungOh/TIL/blob/78a37976adc73824358cb87afaa1742d53d18823/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9E%AC%EA%B7%80.md)    
