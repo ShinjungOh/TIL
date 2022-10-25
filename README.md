@@ -14,9 +14,9 @@
 [HTTP 메시지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80.md)  
 [HTTP API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API.md)  
 [HTTP 메소드 - GET, POST](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20-%20GET%2C%20POST.md)  
-[HTTP 메소드 - PUT, PATCH, DELETE.md](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20-%20PUT%2C%20PATCH%2C%20DELETE.md)  
+[HTTP 메소드 - PUT, PATCH, DELETE](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20-%20PUT%2C%20PATCH%2C%20DELETE.md)  
 [HTTP 메소드 속성](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20%EC%86%8D%EC%84%B1.md)  
-[클라이언트에서 서버로 데이터 전송](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%86%A1.md)
+[클라이언트에서 서버로 데이터 전송](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%86%A1.md)  
 [HTTP API 설계 예시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API%20%EC%84%A4%EA%B3%84%20%EC%98%88%EC%8B%9C.md)  
 [HTTP 상태코드](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md)  
 [HTTP 일반 헤더(전송, 정보, 인증, 쿠키)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%9D%BC%EB%B0%98%20%ED%97%A4%EB%8D%94(%EC%A0%84%EC%86%A1%2C%20%EC%A0%95%EB%B3%B4%2C%20%EC%9D%B8%EC%A6%9D%2C%20%EC%BF%A0%ED%82%A4).md)  
@@ -45,6 +45,7 @@
 
 ### 디자인패턴  
 [디자인패턴](https://github.com/ShinjungOh/TIL/blob/557dedf5fa0985e220025058ec5210d1994a2747/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.md)  
+[싱글톤 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)
 
 <br>
 
@@ -148,4 +149,8 @@
 
 ## 알고리즘
 
-[재귀함수](https://github.com/ShinjungOh/TIL/blob/78a37976adc73824358cb87afaa1742d53d18823/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9E%AC%EA%B7%80.md)    
+[재귀함수](https://github.com/ShinjungOh/TIL/blob/78a37976adc73824358cb87afaa1742d53d18823/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9E%AC%EA%B7%80.md)  
+[재귀 패턴](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9E%AC%EA%B7%80%20%ED%8C%A8%ED%84%B4.md)    
+[하노이 탑](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%ED%95%98%EB%85%B8%EC%9D%B4%20%ED%83%91.md)  
+[버블 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC.md)  
+[선택 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC.md)    
