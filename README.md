@@ -45,7 +45,9 @@
 
 ### 디자인패턴  
 [디자인패턴](https://github.com/ShinjungOh/TIL/blob/557dedf5fa0985e220025058ec5210d1994a2747/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.md)  
-[싱글톤 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)
+[싱글톤 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)  
+[의존성 주입](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85.md)  
+[팩토리 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%8C%A9%ED%86%A0%EB%A6%AC%20%ED%8C%A8%ED%84%B4.md)  
 
 <br>
 
@@ -153,4 +155,5 @@
 [재귀 패턴](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9E%AC%EA%B7%80%20%ED%8C%A8%ED%84%B4.md)    
 [하노이 탑](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%ED%95%98%EB%85%B8%EC%9D%B4%20%ED%83%91.md)  
 [버블 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC.md)  
-[선택 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC.md)    
+[선택 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC.md)  
+[삽입 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC.md)  
