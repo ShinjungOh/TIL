@@ -68,7 +68,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
 <br><br>
 
 ## Critical Rendering Path
-###주요 렌더링 경로
+### 주요 렌더링 경로
 
 `requests/response -> loading -> scripting -> rendering -> layout -> painting`
 
