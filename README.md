@@ -28,7 +28,8 @@
 [API](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/API.md)  
 [DOM](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/DOM.md)  
 [Event](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event.md)  
-[Event Loop](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20Loop.md)
+[Event Loop](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20Loop.md)  
+[DOM concept](https://github.com/ShinjungOh/TIL/blob/4fa2afb49fc5b06849e94fd8d92493aeacc70e14/WebAPI/DOM%20concept.md)  
 
 <br>
 
@@ -99,6 +100,7 @@
 [데이터 타입](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md)  
 [실행 컨텍스트](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%8B%A4%ED%96%89%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(Execution%20Context).md)  
 [this](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/This.md)  
+[메소드, 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%A9%94%EC%86%8C%EB%93%9C%2C%20%ED%95%A8%EC%88%98.md)  
 [콜백 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%BD%9C%EB%B0%B1%20%ED%95%A8%EC%88%98(Callback%20Function).md)  
 [클로저](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%A1%9C%EC%A0%80(Closure).md)  
 [프로토타입](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85(prototype).md)  
