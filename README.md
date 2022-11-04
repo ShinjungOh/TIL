@@ -128,6 +128,8 @@
 [node.js](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/node.js.md)  
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
 [map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
+[생성자 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%83%9D%EC%84%B1%EC%9E%90%20%ED%95%A8%EC%88%98.md)  
+[클래스](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4.md)
 
 <br>
 
