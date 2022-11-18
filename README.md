@@ -69,6 +69,7 @@
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [github에 업로드한 commit 메시지 수정](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%A0%95.md)  
 [github 잔디 표시 설정](https://github.com/ShinjungOh/TIL/blob/cc876a9401cfef4271d245a6b32eb2475faa48e6/Git/github%20%EC%9E%94%EB%94%94%20%ED%91%9C%EC%8B%9C%20%EC%84%A4%EC%A0%95.md)  
+[git 커밋 컨벤션 설정](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20%EC%BB%A4%EB%B0%8B%20%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%84%A4%EC%A0%95.md)  
 
 <br>
 
@@ -133,7 +134,11 @@
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
 [map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
 [생성자 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%83%9D%EC%84%B1%EC%9E%90%20%ED%95%A8%EC%88%98.md)  
-[클래스](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+[클래스](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
+[데이터 속성 사용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%86%8D%EC%84%B1%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
+[이벤트 위임(event delegation)](https://github.com/ShinjungOh/TIL/blob/6019dcc2e37f2f3a0ce893e6babc80058d56b549/JavaScript/event%20delegation(%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%9C%84%EC%9E%84).md)  
+[DOM 요소 탐색](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/DOM%20%EC%9A%94%EC%86%8C%20%ED%83%90%EC%83%89.md)  
+[getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
 
 <br>
 
