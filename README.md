@@ -33,28 +33,6 @@
 
 <br>
 
-## CS
-### 기본
-[JSON](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/JSON.md)   
-[XML](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/XML.md)   
-[API](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/API.md)  
-[클라우드, SaaS, IaaS, PaaS](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%2C%20SaaS%2C%20IaaS%2C%20PaaS.md)    
-[도커, 컨테이너](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%EB%8F%84%EC%BB%A4%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)  
-[정적 타입시스템](https://github.com/ShinjungOh/TIL/blob/5f90c5e94863606a4fa2f82136d8236260da3dc8/CS/%EA%B8%B0%EB%B3%B8/%EC%A0%95%EC%A0%81%20%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C.md)  
-
-<br>
-
-### 디자인패턴  
-[디자인패턴](https://github.com/ShinjungOh/TIL/blob/557dedf5fa0985e220025058ec5210d1994a2747/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.md)  
-[싱글톤 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)  
-[의존성 주입](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85.md)  
-[팩토리 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%8C%A9%ED%86%A0%EB%A6%AC%20%ED%8C%A8%ED%84%B4.md)  
-[이터레이터 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%8C%A8%ED%84%B4.md)  
-[전략 패턴](https://github.com/ShinjungOh/TIL/blob/f6a924644b/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%20%ED%8C%A8%ED%84%B4.md)  
-[옵저버 패턴](https://github.com/ShinjungOh/TIL/blob/60be9e4f3960e0155612ea901b3f8f0d1180b084/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%98%B5%EC%A0%80%EB%B2%84%20%ED%8C%A8%ED%84%B4.md)  
-
-<br>
-
 ## Git
 [Git과 Github](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%EA%B3%BC%20Github.md)  
 [Git Workflow](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Workflow.md)  
@@ -70,34 +48,6 @@
 [github에 업로드한 commit 메시지 수정](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%A0%95.md)  
 [github 잔디 표시 설정](https://github.com/ShinjungOh/TIL/blob/cc876a9401cfef4271d245a6b32eb2475faa48e6/Git/github%20%EC%9E%94%EB%94%94%20%ED%91%9C%EC%8B%9C%20%EC%84%A4%EC%A0%95.md)  
 [git 커밋 컨벤션 설정](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20%EC%BB%A4%EB%B0%8B%20%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%84%A4%EC%A0%95.md)  
-
-<br>
-
-## React
-[React concept](https://github.com/ShinjungOh/TIL/blob/main/React/react%20concept.md)  
-[React, Vue 비교](https://github.com/ShinjungOh/TIL/blob/main/React/React%2C%20Vue%20%EB%B9%84%EA%B5%90.md)  
-[JSX](https://github.com/ShinjungOh/TIL/blob/main/React/JSX.md)  
-[React tools](https://github.com/ShinjungOh/TIL/blob/main/React/react%20tools.md)  
-[React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
-[React에서 label for 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/HTML%20input%2C%20label%20%ED%83%9C%EA%B7%B8.md)  
-[모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)    
-[Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)  
-[Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)  
-[eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
-[MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)
-
-[Next.js page layout](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20page%20layout.md)  
-[Next.js dynamic routes](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20dynamic%20routes.md)  
-[Next.js data fetching](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20data%20fetching.md)  
-[Next.js shallow routing](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20shallow%20routing.md)  
-[Next.js link component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20link%20component.md)  
-[Next.js image component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20image%20component.md)      
-[Next.js react router migration](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20react%20router%20migration.md)  
-
-<br>
-
-## TypeScript
-[TypeScript](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/typescript.md)  
 
 <br>
 
@@ -128,7 +78,7 @@
 [Iterable, Iterator](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/Iterable%2C%20Iterator.md)  
 [generator](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/generator.md)  
 [class](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/class.md)  
-[promise](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/promise.md)  
+[promise](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/promise.md)
 
 [node.js](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/node.js.md)  
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
@@ -139,6 +89,39 @@
 [이벤트 위임(event delegation)](https://github.com/ShinjungOh/TIL/blob/6019dcc2e37f2f3a0ce893e6babc80058d56b549/JavaScript/event%20delegation(%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%9C%84%EC%9E%84).md)  
 [DOM 요소 탐색](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/DOM%20%EC%9A%94%EC%86%8C%20%ED%83%90%EC%83%89.md)  
 [getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
+[localStorage](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%20localStorage.md)  
+[debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)
+
+<br>
+
+## React
+[React concept](https://github.com/ShinjungOh/TIL/blob/main/React/react%20concept.md)  
+[React, Vue 비교](https://github.com/ShinjungOh/TIL/blob/main/React/React%2C%20Vue%20%EB%B9%84%EA%B5%90.md)  
+[JSX](https://github.com/ShinjungOh/TIL/blob/main/React/JSX.md)  
+[React tools](https://github.com/ShinjungOh/TIL/blob/main/React/react%20tools.md)  
+[React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
+[React에서 label for 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/HTML%20input%2C%20label%20%ED%83%9C%EA%B7%B8.md)  
+[모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)    
+[Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)  
+[Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)  
+[eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
+[MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)
+
+<br>
+
+### Next.js
+[Next.js page layout](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20page%20layout.md)  
+[Next.js dynamic routes](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20dynamic%20routes.md)  
+[Next.js data fetching](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20data%20fetching.md)  
+[Next.js shallow routing](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20shallow%20routing.md)  
+[Next.js link component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20link%20component.md)  
+[Next.js image component](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20image%20component.md)      
+[Next.js react router migration](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20react%20router%20migration.md)  
+
+<br>
+
+## TypeScript
+[TypeScript](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/typescript.md)  
 
 <br>
 
@@ -147,6 +130,30 @@
 [Tailwind CSS](https://github.com/ShinjungOh/TIL/blob/main/CSS/Tailwind%20CSS.md)    
 [styled-components](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components.md)  
 [flex](https://github.com/ShinjungOh/TIL/blob/main/CSS/flex.md)  
+
+<br>
+
+## CS
+
+### 기본
+[JSON](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/JSON.md)   
+[XML](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/XML.md)   
+[API](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/API.md)  
+[클라우드, SaaS, IaaS, PaaS](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%2C%20SaaS%2C%20IaaS%2C%20PaaS.md)    
+[도커, 컨테이너](https://github.com/ShinjungOh/TIL/blob/main/CS/%EA%B8%B0%EB%B3%B8/%EB%8F%84%EC%BB%A4%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)  
+[정적 타입시스템](https://github.com/ShinjungOh/TIL/blob/5f90c5e94863606a4fa2f82136d8236260da3dc8/CS/%EA%B8%B0%EB%B3%B8/%EC%A0%95%EC%A0%81%20%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
+
+<br>
+
+### 디자인패턴
+[디자인패턴](https://github.com/ShinjungOh/TIL/blob/557dedf5fa0985e220025058ec5210d1994a2747/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.md)  
+[싱글톤 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)  
+[의존성 주입](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85.md)  
+[팩토리 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%8C%A9%ED%86%A0%EB%A6%AC%20%ED%8C%A8%ED%84%B4.md)  
+[이터레이터 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%8C%A8%ED%84%B4.md)  
+[전략 패턴](https://github.com/ShinjungOh/TIL/blob/f6a924644b/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%20%ED%8C%A8%ED%84%B4.md)  
+[옵저버 패턴](https://github.com/ShinjungOh/TIL/blob/60be9e4f3960e0155612ea901b3f8f0d1180b084/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%98%B5%EC%A0%80%EB%B2%84%20%ED%8C%A8%ED%84%B4.md)  
+[프록시 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)  
 
 <br>
 
@@ -170,3 +177,4 @@
 [버블 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC.md)  
 [선택 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC.md)  
 [삽입 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC.md)  
+[병합 정렬](https://github.com/ShinjungOh/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC.md)  
