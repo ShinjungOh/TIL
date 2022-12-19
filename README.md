@@ -1,5 +1,14 @@
 # TIL
 
+## 블로그
+
+🖋개발하며 얻은 인사이트를 기록합니다.  
+https://shinjungoh.tistory.com/
+
+--- 
+
+<br>
+
 ## 네트워크
 [IP(Internet Protocol)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP(Internet%20Protocol).md)  
 [TCP, UDP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%2C%20UDP.md)  
