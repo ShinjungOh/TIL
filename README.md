@@ -112,7 +112,8 @@ https://shinjungoh.tistory.com/
 [Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)  
 [Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)  
 [eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
-[MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)
+[MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)  
+[react router v6 오류 해결](https://github.com/ShinjungOh/TIL/blob/e8a438a59a5a57b270db70d1939dd6854864cf58/React/react%20router%20v6%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)  
 
 <br>
 
@@ -137,6 +138,7 @@ https://shinjungoh.tistory.com/
 [Tailwind CSS](https://github.com/ShinjungOh/TIL/blob/main/CSS/Tailwind%20CSS.md)    
 [styled-components](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components.md)  
 [flex](https://github.com/ShinjungOh/TIL/blob/main/CSS/flex.md)  
+[우선순위 적용](https://github.com/ShinjungOh/TIL/blob/e8a438a59a/CSS/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%EC%A0%81%EC%9A%A9.md)  
 
 <br>
 

@@ -2,7 +2,7 @@
 
 ## 에러  
 
-> Uncaught Error: useRoutes() may be used only in the context of a <Router> component.   
+> Uncaught Error: useRoutes() may be used only in the context of a `<Router>` component.   
 > useRoutes는 `<Router>`로 감싸야 한다.
 
 ![](../Images/react_router_error.png)
