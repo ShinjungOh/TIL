@@ -97,7 +97,8 @@ https://shinjungoh.tistory.com/
 [DOM 요소 탐색](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/DOM%20%EC%9A%94%EC%86%8C%20%ED%83%90%EC%83%89.md)  
 [getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
 [localStorage](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%20localStorage.md)  
-[debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)
+[debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)  
+[const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)
 
 <br>
 
@@ -139,6 +140,8 @@ https://shinjungoh.tistory.com/
 [styled-components](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components.md)  
 [flex](https://github.com/ShinjungOh/TIL/blob/main/CSS/flex.md)  
 [우선순위 적용](https://github.com/ShinjungOh/TIL/blob/e8a438a59a/CSS/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%EC%A0%81%EC%9A%A9.md)  
+[styled-components 스크롤바 스타일 적용](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20%EC%8A%A4%ED%81%AC%EB%A1%A4%EB%B0%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A0%81%EC%9A%A9.md)  
+[styled-components textarea 태그 rows, cols 속성](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20textarea%20%ED%83%9C%EA%B7%B8%20rows%2C%20cols%20%EC%86%8D%EC%84%B1.md)
 
 <br>
 
