@@ -2,6 +2,8 @@
 
 ## Husky를 사용하는 이유
 
+![](../Images/husky.png)
+
 ### 자동화의 필요성
 
 eslint, prettier을 도입했더라도 사용자가 사용하지 않으면 효과가 없음  
@@ -56,17 +58,15 @@ husky는 깃 훅 설정을 돕는 npm package
 ### 실행 방법
 1. scripts 설정
 
-이전에 추가한 prettier, eslint 설정에 "postinstall": "husky install"을 추가
+package.json 파일에 이전에 추가한 prettier, eslint 설정에 "postinstall": "husky install"을 추가
 
 ```json
-// package.json
-
 {
   "scripts": {
       "postinstall": "husky install",
       "format": "prettier --cache --write .",
-      "lint": "eslint --cache .",
-  },
+      "lint": "eslint --cache ."
+  }
 }
 ```
 

@@ -55,6 +55,7 @@ https://shinjungoh.tistory.com/
 [github에 업로드한 commit 메시지 수정](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%A0%95.md)  
 [github 잔디 표시 설정](https://github.com/ShinjungOh/TIL/blob/cc876a9401cfef4271d245a6b32eb2475faa48e6/Git/github%20%EC%9E%94%EB%94%94%20%ED%91%9C%EC%8B%9C%20%EC%84%A4%EC%A0%95.md)  
 [git 커밋 컨벤션 설정](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20%EC%BB%A4%EB%B0%8B%20%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%84%A4%EC%A0%95.md)  
+[Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/3ad801a2d6c859142be891c5b8ce5b5c4379b0aa/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)
 
 <br>
 
@@ -98,7 +99,8 @@ https://shinjungoh.tistory.com/
 [getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
 [localStorage](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%20localStorage.md)  
 [debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)  
-[const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)
+[const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
+[prettier, eslint 설치 및 실행 방법](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/prettier%2C%20eslint%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95.md)
 
 <br>
 
@@ -115,6 +117,7 @@ https://shinjungoh.tistory.com/
 [eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
 [MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)  
 [react router v6 오류 해결](https://github.com/ShinjungOh/TIL/blob/e8a438a59a5a57b270db70d1939dd6854864cf58/React/react%20router%20v6%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)  
+[react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)
 
 <br>
 
@@ -131,6 +134,7 @@ https://shinjungoh.tistory.com/
 
 ## TypeScript
 [TypeScript](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/typescript.md)  
+[interface, type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/interface%2C%20type.md)  
 
 <br>
 
@@ -165,7 +169,12 @@ https://shinjungoh.tistory.com/
 [이터레이터 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%8C%A8%ED%84%B4.md)  
 [전략 패턴](https://github.com/ShinjungOh/TIL/blob/f6a924644b/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%20%ED%8C%A8%ED%84%B4.md)  
 [옵저버 패턴](https://github.com/ShinjungOh/TIL/blob/60be9e4f3960e0155612ea901b3f8f0d1180b084/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%98%B5%EC%A0%80%EB%B2%84%20%ED%8C%A8%ED%84%B4.md)  
-[프록시 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)  
+[프록시 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)    
+[MVC MVP MVVM패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/MVC%20MVP%20MVVM%ED%8C%A8%ED%84%B4.md)  
+[Spring의 MVC패턴 적용사례](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20Spring%EC%9D%98%20MVC%ED%8C%A8%ED%84%B4%20%EC%A0%81%EC%9A%A9%EC%82%AC%EB%A1%80.md)  
+[flux 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/flux%20%ED%8C%A8%ED%84%B4.md)  
+[의존성주입과 전략패턴의 차이](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85%EA%B3%BC%20%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
+[프로그래밍 컨텍스트](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
 
 <br>
 

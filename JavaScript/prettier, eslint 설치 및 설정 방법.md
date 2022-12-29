@@ -154,4 +154,4 @@ prettier 캐시 파일 생성
 },
 ```
 
-npm run format/lint 등으로 실행
+`npm run format/lint` 등으로 실행
