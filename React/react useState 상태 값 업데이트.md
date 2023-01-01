@@ -23,7 +23,7 @@ Hook을 이용하여 기존 Class 바탕의 코드를 작성할 필요 없이 `�
 ![](../Images/setState_1.png)
 
 * 입력값을 받을 user와, user값을 업데이트 해줄 setUser 생성
-* 각 input의 초기값으로 email, password가 담긴 오브젝트
+* 초기값으로 email, password가 담긴 오브젝트
 * email, password 초기값은 공백으로 처리
 
 <br>
@@ -69,3 +69,4 @@ Hook을 이용하여 기존 Class 바탕의 코드를 작성할 필요 없이 `�
 ## 참고 사이트
 
 > https://ko.reactjs.org/docs/hooks-intro.html  
+> https://www.youtube.com/watch?v=8aGhZQkoFbQ  

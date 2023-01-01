@@ -117,7 +117,8 @@ https://shinjungoh.tistory.com/
 [eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)  
 [MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)  
 [react router v6 오류 해결](https://github.com/ShinjungOh/TIL/blob/e8a438a59a5a57b270db70d1939dd6854864cf58/React/react%20router%20v6%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)  
-[react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)
+[react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)  
+[react useState 상태 값 업데이트](https://github.com/ShinjungOh/TIL/blob/main/React/react%20useState%20%EC%83%81%ED%83%9C%EA%B0%92%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)  
 
 <br>
 
