@@ -1,8 +1,8 @@
-# localStorage
+# localStorage 이용하기
 
 ## localStorage
 
-브라우저에 key-value 값을 Storage에 저장 가능  
+웹 스토리지 객체인 Storage에 브라우저 내의 key-value 값을 저장 가능  
 페이지를 새로 고침하고 브라우저를 다시 실행해도, 세션이 바뀌어도 저장한 데이터 유지
 
 <br>
