@@ -54,6 +54,7 @@ https://shinjungoh.tistory.com/
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [github에 업로드한 commit 메시지 수정](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%A0%95.md)  
+[github에 업로드한 이전 커밋 덮어쓰기](https://github.com/ShinjungOh/TIL/blob/main/Git/github%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C%20%EC%9D%B4%EC%A0%84%20%EC%BB%A4%EB%B0%8B%20%EB%8D%AE%EC%96%B4%EC%93%B0%EA%B8%B0.md)  
 [github 잔디 표시 설정](https://github.com/ShinjungOh/TIL/blob/cc876a9401cfef4271d245a6b32eb2475faa48e6/Git/github%20%EC%9E%94%EB%94%94%20%ED%91%9C%EC%8B%9C%20%EC%84%A4%EC%A0%95.md)  
 [git 커밋 컨벤션 설정](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20%EC%BB%A4%EB%B0%8B%20%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%84%A4%EC%A0%95.md)  
 [Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/3ad801a2d6c859142be891c5b8ce5b5c4379b0aa/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)  
@@ -98,10 +99,12 @@ https://shinjungoh.tistory.com/
 [이벤트 위임(event delegation)](https://github.com/ShinjungOh/TIL/blob/6019dcc2e37f2f3a0ce893e6babc80058d56b549/JavaScript/event%20delegation(%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%9C%84%EC%9E%84).md)  
 [DOM 요소 탐색](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/DOM%20%EC%9A%94%EC%86%8C%20%ED%83%90%EC%83%89.md)  
 [getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
-[localStorage](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/localStorage.md)  
+[localStorage 이용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/localStorage%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)    
+[localStorage, sessionStorage](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/localStorage%2C%20sessionStorage.md)  
 [debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)  
 [const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
-[prettier, eslint 설치 및 실행 방법](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/prettier%2C%20eslint%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95.md)
+[prettier, eslint 설치 및 실행 방법](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/prettier%2C%20eslint%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95.md)    
+[tab focus 이동 tabIndex 속성 이용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/tab%20focus%20%EC%9D%B4%EB%8F%99%20tabIndex%20%EC%86%8D%EC%84%B1%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 
 <br>
 
@@ -121,6 +124,8 @@ https://shinjungoh.tistory.com/
 [react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)  
 [react router 뒤로가기 방지](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0%20%EB%B0%A9%EC%A7%80.md)  
 [react useState 상태 값 업데이트](https://github.com/ShinjungOh/TIL/blob/main/React/react%20useState%20%EC%83%81%ED%83%9C%20%EA%B0%92%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)  
+[react에서 select 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/react%EC%97%90%EC%84%9C%20select%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)    
+[react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)
 
 <br>
 
@@ -138,6 +143,7 @@ https://shinjungoh.tistory.com/
 ## TypeScript
 [TypeScript](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/typescript.md)  
 [interface, type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/interface%2C%20type.md)  
+[JavaScript 프로젝트 TypeScript로 변경하기](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/JavaScript%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20TypeScript%EB%A1%9C%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)
 
 <br>
 
