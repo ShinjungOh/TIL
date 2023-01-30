@@ -58,6 +58,9 @@ https://shinjungoh.tistory.com/
 [github 잔디 표시 설정](https://github.com/ShinjungOh/TIL/blob/cc876a9401cfef4271d245a6b32eb2475faa48e6/Git/github%20%EC%9E%94%EB%94%94%20%ED%91%9C%EC%8B%9C%20%EC%84%A4%EC%A0%95.md)  
 [git 커밋 컨벤션 설정](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20%EC%BB%A4%EB%B0%8B%20%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%84%A4%EC%A0%95.md)  
 [Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/3ad801a2d6c859142be891c5b8ce5b5c4379b0aa/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)  
+[디렉토리 구조 출력 명령어 tree](https://github.com/ShinjungOh/TIL/blob/main/Git/linux%20tree.md)  
+[git fork](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20fork.md)  
+[fork repository 잔디 심기](https://github.com/ShinjungOh/TIL/blob/main/Git/fork%20repository%20%EC%9E%94%EB%94%94%20%EC%8B%AC%EA%B8%B0.md)
 
 <br>
 
@@ -125,7 +128,8 @@ https://shinjungoh.tistory.com/
 [react router 뒤로가기 방지](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0%20%EB%B0%A9%EC%A7%80.md)  
 [react useState 상태 값 업데이트](https://github.com/ShinjungOh/TIL/blob/main/React/react%20useState%20%EC%83%81%ED%83%9C%20%EA%B0%92%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)  
 [react에서 select 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/react%EC%97%90%EC%84%9C%20select%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)    
-[react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)
+[react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)  
+[Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)
 
 <br>
 

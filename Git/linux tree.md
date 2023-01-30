@@ -72,7 +72,7 @@ sjoh@SJOH-MacBookPro TIL % tree -L 2 -d
 ### 특정 폴더 제외
 
 `tree -N -L 2 -d -I "node_modules|tests"`    
-tests와 node_moduels 폴더를 제외하는 경우
+tests와 node_modules 폴더를 제외하는 경우
 
 * -I : 특정 폴더를 제외할 경우 -I 뒤에 제외할 패턴을 입력
 * -N : -N 옵션을 추가하면 한글의 깨지는 글자가 제대로 표시됨
