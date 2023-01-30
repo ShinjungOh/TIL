@@ -45,7 +45,7 @@ import { createContext } from "react";
 const MyContext = createContext(defaultValue);
 ```
 
-* defaultValue 매개변수는 트리 안에서 적절한 Provider를 찾지 못했을 때만 쓰이는 값
+* defaultValue 매개변수는 Provider가 없을 때만 사용됨
 * Provider를 통해 undefined를 값으로 보내도, 구독 컴포넌트가 defaultValue를 읽지는 않음
 
 <br><br>
@@ -64,8 +64,33 @@ const MyContext = createContext(defaultValue);
   * 이 패턴을 function as a child 또는 **Render Props** 라고 부름 
   * 이 함수는 context의 현재값을 받고 React 노드를 반환 
   * 이 함수가 받는 value 값은 해당 context의 Provider 중 상위 트리에서 가장 가까운 Provider의 value prop과 동일
-  * 상위에 Provider가 없다면 value 매개변수 값은 createContext()에 보냈던 defaultValue와 동일
+  * 상위에 Provider가 없다면 value 매개변수 값은 createContext에 보냈던 defaultValue와 동일
   
+<br><br>
+
+## Context.Provider
+
+Context의 value를 변경 가능한 React 컴포넌트
+
+```jsx
+<MyContext.Provider value={/* 어떤 값 */}>
+...
+</MyContext.Provider>
+```
+
+Provider 컴포넌트는 value prop을 받아서 값을 하위 컴포넌트에게 전달  
+* Provider 하위에 또 다른 Provider를 배치하는 것도 가능 
+  * 이 경우 하위 Provider의 값이 우선시
+* Provider 하위에서 context를 구독하는 모든 컴포넌트는 Provider의 value가 바뀔 때마다 리렌더
+
+<br>
+
+📌**Provider 사용 시 value 값을 명시해야 함**
+* createContext 함수에서 파라미터로 넣은 기본값은 Provider를 사용하지 않았을 때만 사용됨 
+* Provider는 기본값을 사용하지 않기 때문에 value가 없으면 오류 발생
+
+![](../Images/contextapi_provider_error.png)
+
 <br><br>
 
 ## 참고 사이트
