@@ -81,15 +81,43 @@ Context의 value를 변경 가능한 React 컴포넌트
 Provider 컴포넌트는 value prop을 받아서 값을 하위 컴포넌트에게 전달  
 * Provider 하위에 또 다른 Provider를 배치하는 것도 가능 
   * 이 경우 하위 Provider의 값이 우선시
-* Provider 하위에서 context를 구독하는 모든 컴포넌트는 Provider의 value가 바뀔 때마다 리렌더
+* Provider 하위에서 context를 구독하는 모든 컴포넌트는 Provider의 value가 바뀔 때마다 리렌더링 발생
 
 <br>
 
-📌**Provider 사용 시 value 값을 명시해야 함**
+📌 **Provider 사용 시 value 값을 명시해야 함**
 * createContext 함수에서 파라미터로 넣은 기본값은 Provider를 사용하지 않았을 때만 사용됨 
 * Provider는 기본값을 사용하지 않기 때문에 value가 없으면 오류 발생
 
+<br>
+
 ![](../Images/contextapi_provider_error.png)
+
+<br><br>
+
+## useContext
+
+context 객체를 받아 그 context의 현재 값을 반환, context 값 조회
+
+```jsx
+const value = useContext(MyContext);
+
+// 틀린 사용: useContext(MyContext.Consumer)
+// 틀린 사용: useContext(MyContext.Provider)
+```
+
+> **클래스에서의 static contextType = MyContext 또는 <MyContext.Consumer>와 동일**   
+> 클래스 메소드에서도 context에 넣어 둔 함수 호출 가능  
+> 한 클래스에서 하나의 context만 사용 가능
+
+useContext를 호출한 컴포넌트는 context 값이 변경되면 항상 리렌더링 발생
+* 메모이제이션을 사용하여 최적화 가능
+
+<br>
+ 
+context의 현재 값은 Hook을 호출하는 컴포넌트에 가장 가까운 <MyContext.Provider>의 value prop에 의해 결정 
+* <MyContext.Provider>가 갱신되면 Hook은 provider에게 전달된 가장 최신의 context value를 사용하여 렌더 
+* 상위 컴포넌트에서 React.memo 또는 shouldComponentUpdate를 사용하더라도 useContext를 사용하고 있는 컴포넌트 자체에서부터 다시 렌더링
 
 <br><br>
 
@@ -97,3 +125,4 @@ Provider 컴포넌트는 value prop을 받아서 값을 하위 컴포넌트에�
 
 > https://ko.reactjs.org/docs/context.html  
 > https://ko.reactjs.org/docs/render-props.html  
+> https://ko.reactjs.org/docs/hooks-reference.html#usecontext
