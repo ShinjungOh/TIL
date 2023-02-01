@@ -50,27 +50,9 @@ const MyContext = createContext(defaultValue);
 
 <br><br>
 
-## Context.Consumer 
-
-함수 컴포넌트안에서 context 변화를 구독하는 React 컴포넌트
-
-```jsx
-<MyContext.Consumer>
-    {value => /* context 값을 이용한 렌더링 */}
-</MyContext.Consumer>
-```
-
-* Consumer 사이에 **{ 함수 }** 전달
-  * 이 패턴을 function as a child 또는 **Render Props** 라고 부름 
-  * 이 함수는 context의 현재값을 받고 React 노드를 반환 
-  * 이 함수가 받는 value 값은 해당 context의 Provider 중 상위 트리에서 가장 가까운 Provider의 value prop과 동일
-  * 상위에 Provider가 없다면 value 매개변수 값은 createContext에 보냈던 defaultValue와 동일
-  
-<br><br>
-
 ## Context.Provider
 
-Context의 value를 변경 가능한 React 컴포넌트
+Context의 value를 변경 가능한 React 컴포넌트, 값을 제공하는 역할
 
 ```jsx
 <MyContext.Provider value={/* 어떤 값 */}>
@@ -95,9 +77,28 @@ Provider 컴포넌트는 value prop을 받아서 값을 하위 컴포넌트에�
 
 <br><br>
 
+## Context.Consumer
+
+함수 컴포넌트안에서 context 변화를 구독하는 React 컴포넌트, 값을 소비하는 역할
+
+```jsx
+<MyContext.Consumer>
+    {value => /* context 값을 이용한 렌더링, Provider에서 받은 값 */}
+</MyContext.Consumer>
+```
+
+* Consumer 사이에 **{ 함수 }** 전달
+  * 이 패턴을 function as a child 또는 **Render Props** 라고 부름
+  * 이 함수는 context의 현재값을 받고 React 노드를 반환
+  * 이 함수가 받는 value 값은 가장 가까운 상위 Provider의 value prop과 동일
+  * 상위 Provider가 없다면 value 매개변수 값은 createContext의 defaultValue와 동일
+
+<br><br>
+
 ## useContext
 
-context 객체를 받아 그 context의 현재 값을 반환, context 값 조회
+context 객체를 받아 그 context의 현재 값을 반환, context 값을 편리하게 조회  
+💡 context의 값에 접근할 때, Consumer를 사용하지 않아도 됨
 
 ```jsx
 const value = useContext(MyContext);
