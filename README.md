@@ -8,6 +8,9 @@ https://shinjungoh.tistory.com/
 <br>
 
 ## 네트워크
+[네트워크 기초 - 네트워크, 트래픽, 처리량, 대역폭, RTT](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EC%B4%88%20-%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%ED%8A%B8%EB%9E%98%ED%94%BD%2C%20%EC%B2%98%EB%A6%AC%EB%9F%89%2C%20%EB%8C%80%EC%97%AD%ED%8F%AD%2C%20RTT.md)  
+[네트워크 토폴로지 - 버스, 스타, 트리](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80%20-%20%EB%B2%84%EC%8A%A4%2C%20%EC%8A%A4%ED%83%80%2C%20%ED%8A%B8%EB%A6%AC.md)  
+[네트워크 토폴로지 - 링, 메시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80%20-%20%EB%A7%81%2C%20%EB%A9%94%EC%8B%9C.md)  
 [IP(Internet Protocol)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP(Internet%20Protocol).md)  
 [TCP, UDP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%2C%20UDP.md)  
 [PORT(포트)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/PORT(%ED%8F%AC%ED%8A%B8).md)  
@@ -129,7 +132,8 @@ https://shinjungoh.tistory.com/
 [react useState 상태 값 업데이트](https://github.com/ShinjungOh/TIL/blob/main/React/react%20useState%20%EC%83%81%ED%83%9C%20%EA%B0%92%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)  
 [react에서 select 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/react%EC%97%90%EC%84%9C%20select%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)    
 [react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)  
-[Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)
+[Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)  
+[Redux](https://github.com/ShinjungOh/TIL/blob/main/React/Redux.md)  
 
 <br>
 
@@ -196,8 +200,12 @@ https://shinjungoh.tistory.com/
 [자료구조, 알고리즘](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%2C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)  
 [자료구조와 알고리즘의 중요성](https://github.com/ShinjungOh/TIL/blob/ef8586cbd2f8c3835a177eee0eb93e6c937cd428/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98%20%EC%A4%91%EC%9A%94%EC%84%B1.md)  
 [코딩테스트 준비 방법](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A4%80%EB%B9%84%20%EB%B0%A9%EB%B2%95.md)  
-[배열](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%B0%B0%EC%97%B4.md)    
+[자료구조의 종류](https://github.com/ShinjungOh/TIL/blob/92d326f049f2dcbd2f6ac3d96d85f81a3e1d50a6/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98%20%EC%A2%85%EB%A5%98.md)  
+[시간 복잡도](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84.md)  
+[배열](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%B0%B0%EC%97%B4.md)  
+[배열과 객체](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EA%B0%9D%EC%B2%B4.md)  
 [연결 리스트](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EA%B2%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)  
+[연결 리스트의 종류](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EA%B2%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98%20%EC%A2%85%EB%A5%98.md)  
 [스택](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%8A%A4%ED%83%9D.md)  
 [큐](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%81%90.md)  
 [덱](https://github.com/ShinjungOh/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%8D%B1.md)  
