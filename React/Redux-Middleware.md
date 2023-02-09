@@ -73,7 +73,7 @@ const store = createStore(rootReducer, applyMiddleware(loggerMiddleware));
 
 <br><br>
 
-## redux-logger
+## 📌 redux-logger
 
 리덕스 미들웨어를 사용할 때는 미리 완성된 미들웨어를 라이브러리로 설치해 사용하는 경우가 많음  
 
@@ -97,3 +97,61 @@ const store = createStore(rootReducer, applyMiddleware(logger));
 * 액션 디스패치 시간
 
 <br><br>
+
+## 📌 redux-thunk
+
+리덕스 프로젝트에서 비동기 작업을 처리할 때 가장 많이 사용하는 미들웨어  
+리덕스 창시자인 댄 아브라모프(Dan Abramov)가 만듦  
+리덕스 공식 매뉴얼에서도 이 미들웨어를 사용하여 비동기 작업을 다루는 예시를 보여줌
+
+* 객체가 아닌 `함수 형태의 액션`을 디스패치할 수 있도록 해줌
+* `Thunk` : 특정 작업을 나중에 할 수 있도록 미루기 위해 함수 형태로 감싼 것
+
+### 라이브러리 설치
+
+```
+yarn add redux-thunk
+```
+
+```js
+// 적용 
+import ReduxThunk from 'redux-thunk';
+
+const logger = createLogger();
+const store = createStore(rootReducer, applyMiddleware(logger, ReduxThunk));
+```
+
+<br>
+
+### 예시
+
+```js
+const sampleThunk = () => (dispatch, getState) => {
+    // 현재 상태를 참조할 수 있고, 
+    // 새 액션을 디스패치 할 수도 있다.
+}
+```
+
+* 처음 사용할 때는 작성해야 하는 코드가 많아서 불편할 수 있음
+* 유용한 함수와 리듀서를 만들어서 상태를 관리하면 깔끔한 코드로 구현할 수 있음 
+
+<br>
+
+
+<br><br>
+
+## 📌 redux-saga
+
+redux-thunk 다음으로 가장 많이 사용되는 비동기 작업 관련 미들웨어 라이브러리  
+특정 액션이 디스패치되었을 때, 정해진 로직에 따라 다른 액션을 디스패치시키는 규칙을 작성해 비동기 작업을 처리
+
+### 라이브러리 설치
+
+```
+yarn add redux-saga
+```
+
+
+
+
+
