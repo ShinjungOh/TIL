@@ -11,8 +11,13 @@ https://shinjungoh.tistory.com/
 [네트워크 기초 - 네트워크, 트래픽, 처리량, 대역폭, RTT](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EC%B4%88%20-%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%ED%8A%B8%EB%9E%98%ED%94%BD%2C%20%EC%B2%98%EB%A6%AC%EB%9F%89%2C%20%EB%8C%80%EC%97%AD%ED%8F%AD%2C%20RTT.md)  
 [네트워크 토폴로지 - 버스, 스타, 트리](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80%20-%20%EB%B2%84%EC%8A%A4%2C%20%EC%8A%A4%ED%83%80%2C%20%ED%8A%B8%EB%A6%AC.md)  
 [네트워크 토폴로지 - 링, 메시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80%20-%20%EB%A7%81%2C%20%EB%A9%94%EC%8B%9C.md)  
+[네트워크 토폴로지의 필요성과 병목현상](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80%EC%9D%98%20%ED%95%84%EC%9A%94%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%AA%A9%ED%98%84%EC%83%81.md)  
+[네트워크의 분류 - LAN, MAN, WAN](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98%20%EB%B6%84%EB%A5%98%20-%20LAN%2C%20MAN%2C%20WAN.md)  
 [IP(Internet Protocol)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP(Internet%20Protocol).md)  
 [TCP, UDP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%2C%20UDP.md)  
+[TCP/IP 4계층 - 개념, 캡슐화, 비캡슐화, PDU, OSI 7계층](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%20-%204%EA%B3%84%EC%B8%B5%20%231.%20%EA%B0%9C%EB%85%90%2C%20%EC%BA%A1%EC%8A%90%ED%99%94%2C%20%EB%B9%84%EC%BA%A1%EC%8A%90%ED%99%94%2C%20PDU%2C%20OSI%207%EA%B3%84%EC%B8%B5.md)  
+[TCP/IP 4계층 - MTU, MSS, PMTUD](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%204%EA%B3%84%EC%B8%B5%20-%20MTU%2C%20MSS%2C%20PMTUD.md)  
+[TCP/IP 4계층 - 애플리케이션 계층(application) HTTP, SSH, FTP, SMTP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%204%EA%B3%84%EC%B8%B5%20-%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B3%84%EC%B8%B5(application)%20HTTP%2C%20SSH%2C%20FTP%2C%20SMTP.md)  
 [PORT(포트)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/PORT(%ED%8F%AC%ED%8A%B8).md)  
 [DNS](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/DNS.md)  
 [URI](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/URI.md)  
@@ -134,6 +139,8 @@ https://shinjungoh.tistory.com/
 [react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)  
 [Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)  
 [Redux](https://github.com/ShinjungOh/TIL/blob/main/React/Redux.md)  
+[React-Redux](https://github.com/ShinjungOh/TIL/blob/main/React/React-Redux.md)  
+[Redux-Middleware](https://github.com/ShinjungOh/TIL/blob/main/React/Redux-Middleware.md)  
 
 <br>
 
