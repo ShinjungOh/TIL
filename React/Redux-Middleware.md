@@ -106,6 +106,7 @@ const store = createStore(rootReducer, applyMiddleware(logger));
 
 * 객체가 아닌 `함수 형태의 액션`을 디스패치할 수 있도록 해줌
 * 함수 형태의 액션을 디스패치해서, 미들웨어에서 해당 함수에 스토어의 dispatch와 getState를 파라미터로 넣어서 사용하는 원리
+* 일반 함수로 이루어져 있어서 간단함
 * `Thunk` : 특정 작업을 나중에 할 수 있도록 미루기 위해 함수 형태로 감싼 것
 
 ### 라이브러리 설치
@@ -158,7 +159,8 @@ redux-thunk 다음으로 가장 많이 사용되는 비동기 작업 관련 미�
 
 💡 함수를 작성할 때 함수를 특정 구간에 멈춰 놓을 수 있고, 원할 때 다시 돌아가게 할 수도 있음
 
-제너레이터 문법 : `function*`
+* 제너레이터 문법 : `function*`
+* 제너레이터 함수 : 사가 saga
 
 ```js
 // 1️⃣
@@ -251,6 +253,42 @@ watch.next({ type: 'HELLO' });
 ```
 yarn add redux-saga
 ```
+
+```js
+// 적용 
+import { applyMiddleware, createStore } from 'redux';
+import rootReducer, { rootSaga } from './modules';
+import { createLogger } from 'redux-logger/src';
+import ReduxThunk from 'redux-thunk';
+import createSagaMiddleware from 'redux-saga';
+
+const logger = createLogger();
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(
+  rootReducer,
+  applyMiddleware(logger, ReduxThunk, sagaMiddleware)
+);
+sagaMiddleware.run(rootSaga);
+```
+
+### 리덕스 개발자 도구 라이브러리  
+
+```
+yarn add redux-devtools-extension
+```
+
+```js
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+const store = createStore(
+  rootReducer,
+  composeWithDevTools(applyMiddleware(logger, ReduxThunk, sagaMiddleware)),
+);
+```
+
+composeWithDevTools를 리덕스 미들웨어와 함께 사용할 경우
+
+> https://redux-saga.js.org/
 
 
 
