@@ -30,7 +30,7 @@
 서버는 listen 상태가 되어야 클라이언트의 연락을 받을 수 있음   
 클라이언트의 연락을 기다리는 상태, 이를 기반으로 서버 메소드의 이름이 결정됨
 
-![](../Images/3-way Handshake_server.png)
+![](../Images/3-way_Handshake_server.png)
 
 ```js
 const express = require('express');
