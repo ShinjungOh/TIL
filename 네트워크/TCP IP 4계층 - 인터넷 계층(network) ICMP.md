@@ -9,7 +9,7 @@ IP, ICMP, ARP가 대표적
 
 ## ICMP
 
-ICMP(Internet Control Message Protocol)는 노드와 노드 사이에서 **통신이 잘 되는지를 확인**할 때 쓰는 프로토콜
+ICMP(Internet Control Message Protocol)는 노드와 노드 사이에서 **통신이 잘 되는지를 확인**할 때 쓰는 프로토콜  
 ⚠️ 데이터를 교환하는데는 사용되지 않는 프로토콜  
 
 
