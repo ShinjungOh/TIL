@@ -22,3 +22,19 @@
 * border-box : Border 영역을 기준으로 box의 size를 적용 
   * 사람이 인식하는 박스 크기는 대개 border를 기준으로 함
   * content와 padding을 포함한 박스 크기
+    
+<br><br>
+
+## block vs inline 
+
+![](../Images/block-inline.png)
+
+- `block` 
+  - 블록 요소를 여러개 연속해서 쌓을 경우 자동으로 다음 줄로 넘어감
+  - 좌우 양 쪽으로 늘어나 부모 요소의 너비를 가득 채움
+  - `<div>`, `<p>`, `<ul>`, `<dl>`, `<h1>`, `<section>`, `<article>`, `<aside>` 등 
+
+- `inline` 
+  - 여러개의 요소를 연속해서 입력해도 자동으로 다음 줄로 넘어가지 않음
+  - 태그에 할당된 공간 만큼의 너비만 차지
+  - `<a>`, `<span>`, `<img>`, `<strong>`, `<em>`, `<input>`, `<button>`, `<textarea>`, `<select>` 등 
