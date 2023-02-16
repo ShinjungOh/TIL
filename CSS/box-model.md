@@ -38,3 +38,24 @@
   - 여러개의 요소를 연속해서 입력해도 자동으로 다음 줄로 넘어가지 않음
   - 태그에 할당된 공간 만큼의 너비만 차지
   - `<a>`, `<span>`, `<img>`, `<strong>`, `<em>`, `<input>`, `<button>`, `<textarea>`, `<select>` 등 
+
+<br>
+
+### display: inline-block
+
+```css
+div {
+    display: inline-block;
+}
+```
+
+#### `block 속성` 
+
+무조건 한 줄을 점유하고 있으며, 다음 태그는 무조건 **줄바꿈** 적용  
+width/height 값을 지정하지 않을 때, **부모요소 전체**를 width/height로 가짐
+
+#### `inline-block 속성` 
+
+inline 속성과 비슷(줄바꿈을 하지 않고, 동일한 라인에 작성가능)     
+inline 속성에서 할 수 없는 **width/height, margin/padding, line-height 적용** 가능   
+width/height 값을 지정하지 않을 때, **자기 자신의 크기만큼만** width/height를 가짐
