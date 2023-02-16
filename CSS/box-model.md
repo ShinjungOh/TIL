@@ -25,7 +25,7 @@
     
 <br><br>
 
-## block vs inline 
+## display : block vs inline 
 
 ![](../Images/block-inline.png)
 
