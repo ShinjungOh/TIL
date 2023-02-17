@@ -8,6 +8,8 @@
 * `background-attachment` : 요소의 배경 이미지의 스크롤 여부를 지정
   * fixed, scroll(기본값), local(내부 스크롤 적용)
 
+<br><br>
+
 ## background-image
 
 요소의 배경 이미지를 한 개, 혹은 여러개 지정
@@ -75,4 +77,4 @@ object-fit : cover / fill(기본값) / contain(이미지 전체가 보임) / non
 
 `<img>` 나 `<video>` 등 대체요소의 콘텐츠 정렬 방식을 지정
 
-background-position와 사용 방법 동일  
+background-position과 사용 방법 동일  
