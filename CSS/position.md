@@ -33,7 +33,7 @@ top, left, bottom, right 속성 적용 가능
 
 ## position : absolute
 
-**`절대 좌표를 기준`**으로 요소의 위치를 조정    
+`절대 좌표를 기준`으로 요소의 위치를 조정    
 top, left, bottom, right 속성 적용 가능
 
 기준이 절대 좌표인 만큼, **절대 좌표의 기준이 되는 축**이 필요  
