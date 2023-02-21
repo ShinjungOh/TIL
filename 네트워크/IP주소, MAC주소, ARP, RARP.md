@@ -32,6 +32,8 @@ ipconfig/all
 
 > 💻 맥북 MAC 주소 확인 : 환경설정 > 네트워크 > 고급 > 하드웨어 
 
+<br>
+
 ![](../Images/MAC주소.png)
 
 > https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries
@@ -69,6 +71,8 @@ MAC주소는 ARP를 통해 파악이 가능
 <br><br>
 
 ### ARP의 과정
+
+![](../Images/arp,rarp.png)
 
 1. 해당 IP주소에 맞는 MAC주소를 찾기 위해 해당 데이터를 `브로드캐스팅`을 통해 연결된 네트워크에 있는 장치한테 모두 보냄
 2. 맞는 장치가 있다면 해당 장치는 보낸 장치에게 `유니캐스트`로 데이터를 전달해 주소를 찾음
