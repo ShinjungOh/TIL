@@ -23,6 +23,7 @@
 |       응답 데이터       |              모든 데이터              | 필요한 데이터만 골라서 응답 -> **비용절감** |
 | API에 전송을 요청하는 라이브러리 |              axios              | apollo-client |
 
+<br>
 
 ![](../Images/rest_vs_graphql.webp)
 
@@ -37,16 +38,20 @@ API에 `요청`할 때 보내는 데이터는 **API 함수에 들어갈 인자**
 
 기본적인 데이터 처리 기능  
 📌 Create(생성), Read(상세 조회), Update(수정), Delete(삭제) + 목록 조회  
-하나의 기능을 만들 때 최소한 5개의 API가 있어야 함
+하나의 기능을 만들 때 최소한 `5개의 API`가 있어야 함
 
 
 ![](../Images/crud_api.png)
 
-* Graphql은 데이터 변경 유무에 따라 Queriy, Mutation을 구분
+* Graphql은 데이터 변경 유무에 따라 Query, Mutation을 구분
+
+<br>
 
 ### 사용 방법 
 
 ![](../Images/rest_vs_graphql_code.png)
+
+<br>
 
 ### API 명세서
 
