@@ -52,7 +52,8 @@ var example = "Hello"
 
 * 변수 선언 : 함수 실행이 시작될 때 처리(호이스팅) 
 * 할당 : 호이스팅 되지 않음, 할당 관련 코드에서 처리됨
-  * 변수에 값을 할당하기 전까진 기본 초기화 상태인 `undefined`
+  * 선언과 동시에, 변수에 값을 할당하기 전까진 기본 초기화 상태인 `undefined`
+  * LexicalEnvironment가 생성되면서 동시에 `undefined`로 초기화
 
 
 ```js
@@ -69,10 +70,19 @@ num = 6;  // 초기화
 
 * 공통점 : let과 const로 선언한 변수도 호이스팅됨 
 * 차이점 : var와는 달리 `undefined`로 변수를 초기화 하지 않기 때문에 변수 선언 전에 먼저 사용하면 오류 발생
-
+  * 자기 코드 위치까지 읽어지면 그 지점에서 초기화
+  * LexicalEnvironment가 활성화될 때 생성
+  * `undefined`를 할당하지 않고 초기화를 마침
+  
 <br>
 
+#### var, let, const 초기화 
+
 ![](../Images/var,let,const.png)
+
+#### let 초기화  
+
+![](../Images/let_초기화.png)
 
 <br>
 
