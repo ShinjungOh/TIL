@@ -47,20 +47,54 @@
 
 <br><br>
 
+## 콜백 큐(callback queue)
+
+콜백함수가 큐로 쌓임  
+Web APIs 에서 처리한 콜백함수가 쌓임 - timer 대기 등의 벗겨내는 작업
+* 큐 : 선입선출(FIFO)
+* 콜백함수 : 다른 함수에게 인자로 전달된 함수
+
+![](../Images/callback_queue.png)
+
+![](../Images/이벤트루프_영상.gif)
+
+**중요도 순서**에 따라, 앞의 것이 비워져야 그 다음 것이 들어갈 수 있음
+
+>setTimeout이 0초에 처리되고, promise가 3초 뒤에 처리된다고 해도 ✅ promise가 먼저 콜 스택으로 들어감  
+
+<br>
+
+### 1. 마이크로태스크 큐(microtask queue)
+
+잡 큐  
+🤝 promise, async, fetch  
+
+Ex. 👩🏻‍🍳 요리하기 - 굵직한 일  
+
+<br>
+
+### 2. 애니메이션 프레임(animation frames)
+
+애니메이션, CSS 속성, transform 
+
+<br>
+
+### 3. 매크로태스크 큐(macrotask queue)
+
+이벤트 큐 or 콜백 큐 or 태스크 큐  
+⏰ timing - setTimeout, setInterval
+
+Ex. 🧂 소금치기 - 자잘한 일 
+
+<br><br>
+
 ## Event Loop  
 
-> `Web APIs` ➡️ `callback queue` ➡️ `🔄event loop` ➡️ `call stack` 
+> `Web APIs` ➡️ `callback queue` ➡️ `🔄 event loop` ➡️ `call stack` 
 
 ![](../Images/callstack_ex.webp)
 
 ![](../Images/callstack_ex2.webp)
-
-### 콜백 큐(callback queue)
-
-콜백함수가 큐로 쌓임  
-Web APIs 에서 처리한 콜백함수가 쌓임 - timer 대기 등의 벗겨내는 작업    
-* 큐 : 선입선출(FIFO) 
-* 콜백함수 : 다른 함수에게 인자로 전달된 함수 
 
 ### Event Loop
 
@@ -72,3 +106,7 @@ Web APIs 에서 처리한 콜백함수가 쌓임 - timer 대기 등의 벗겨내
 
 > https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5  
 > https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/  
+> https://ko.javascript.info/event-loop#ref-441  
+> https://ko.javascript.info/microtask-queue  
+> https://www.youtube.com/watch?v=8aGhZQkoFbQ  
+> https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
