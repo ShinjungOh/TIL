@@ -58,11 +58,9 @@ var example = "Hello"
 
 ```js
 console.log(num); // 호이스팅한 var 선언으로 인해 undefined 출력
-var num; // 선언
-num = 6;  // 초기화
+var num; // 선언 & 초기화
+num = 6;  // 할당
 ```
-
-변수 선언 시 초기화를 제외한 선언만 호이스팅   
 
 <br>
 
@@ -89,10 +87,9 @@ num = 6;  // 초기화
 ### var가 블록 레벨 스코프를 가지는 방법
 
 `즉시 실행 함수 표현식(immediately-invoked function expressions, IIFE)`  
-함수 표현식을 괄호로 둘러싼 `(function {…})` 형태로 만들어 함수 표현식으로 인식하도록 속임   
+함수 표현식을 괄호로 둘러싼 `(function() {…})();` 형태로 만들어 함수 표현식으로 인식하도록 속임   
 * 함수 표현식은 이름이 없어도 괜찮고, 즉시 호출도 가능
 * 즉시 실행 함수 표현식은 요즘에는 자주 쓰지 않음
-
 
 <br><br>
 

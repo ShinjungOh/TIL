@@ -24,7 +24,12 @@ https://shinjungoh.tistory.com/
 [TCP의 연결해제과정 - 4-way Handshake, TIME_WAIT](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%EC%9D%98%20%EC%97%B0%EA%B2%B0%ED%95%B4%EC%A0%9C%EA%B3%BC%EC%A0%95%20-%204-way%20Handshake%2C%20TIME_WAIT.md)  
 [라우팅 - 개념, 라우터](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%9D%BC%EC%9A%B0%ED%8C%85%20-%20%EA%B0%9C%EB%85%90%2C%20%EB%9D%BC%EC%9A%B0%ED%84%B0.md)  
 [라우팅 - 라우팅 테이블](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%9D%BC%EC%9A%B0%ED%8C%85%20-%20%EB%9D%BC%EC%9A%B0%ED%8C%85%20%ED%85%8C%EC%9D%B4%EB%B8%94.md)  
-[IP주소, MAC주소, ARP, RARP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%EC%A3%BC%EC%86%8C%2C%20MAC%EC%A3%BC%EC%86%8C%2C%20ARP%2C%20RARP.md)  
+[IP 주소, MAC 주소, ARP, RARP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%EC%A3%BC%EC%86%8C%2C%20MAC%EC%A3%BC%EC%86%8C%2C%20ARP%2C%20RARP.md)  
+[IP 주소체계 - 이진수 이해하기](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%20%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20-%20%EC%9D%B4%EC%A7%84%EC%88%98%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)  
+[IP 주소체계 - IPv4와 IPv6](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%20%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20-%20IPv4%EC%99%80%20IPv6.md)  
+[IP 주소체계 - 클래스풀(Classful IP Addressing)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%20%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20-%20%ED%81%B4%EB%9E%98%EC%8A%A4%ED%92%80(Classful%20IP%20Addressing).md)  
+[IP 주소체계 - 클래스리스, 서브넷마스크, 서브네팅](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%20%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20-%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A6%AC%EC%8A%A4%2C%20%EC%84%9C%EB%B8%8C%EB%84%B7%EB%A7%88%EC%8A%A4%ED%81%AC%2C%20%EC%84%9C%EB%B8%8C%EB%84%A4%ED%8C%85.md)  
+[IP 주소체계 - NAT, public IP, private IP](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%20%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20-%20public%20IP%2C%20private%20IP%2C%20NAT.md)  
 [PORT(포트)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/PORT(%ED%8F%AC%ED%8A%B8).md)  
 [DNS](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/DNS.md)  
 [URI](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/URI.md)  
@@ -43,6 +48,7 @@ https://shinjungoh.tistory.com/
 [HTTP 상태코드](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md)  
 [HTTP 일반 헤더(전송, 정보, 인증, 쿠키)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%9D%BC%EB%B0%98%20%ED%97%A4%EB%8D%94(%EC%A0%84%EC%86%A1%2C%20%EC%A0%95%EB%B3%B4%2C%20%EC%9D%B8%EC%A6%9D%2C%20%EC%BF%A0%ED%82%A4).md)  
 [HTTP 헤더 (캐시와 조건부 요청)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%97%A4%EB%8D%94%20(%EC%BA%90%EC%8B%9C%EC%99%80%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20%EC%9A%94%EC%B2%AD).md)  
+[Rest-API vs Graphql-API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Rest-API%20vs%20Graphql-API.md)    
 
 <br>
 
@@ -51,6 +57,7 @@ https://shinjungoh.tistory.com/
 [DOM](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/DOM.md)  
 [Event](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event.md)  
 [Event Loop](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20Loop.md)  
+[자바스크립트 엔진과 Event Loop](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20loop%2C%20call%20stack.md)  
 [DOM concept](https://github.com/ShinjungOh/TIL/blob/4fa2afb49fc5b06849e94fd8d92493aeacc70e14/WebAPI/DOM%20concept.md)  
 
 <br>
@@ -80,6 +87,8 @@ https://shinjungoh.tistory.com/
 <br>
 
 ## JavaScript
+
+### 코어 자바스크립트
 [데이터 타입](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md)  
 [실행 컨텍스트](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%8B%A4%ED%96%89%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(Execution%20Context).md)  
 [this](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/This.md)  
@@ -108,6 +117,7 @@ https://shinjungoh.tistory.com/
 [class](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/class.md)  
 [promise](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/promise.md)
 
+[var](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/var.md)  
 [node.js](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/node.js.md)  
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
 [map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
