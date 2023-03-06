@@ -46,6 +46,7 @@ https://shinjungoh.tistory.com/
 
 [HTTP 기본](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EA%B8%B0%EB%B3%B8.md)  
 [HTTP1, HTTP2, HTTP3](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP1%2C%20HTTP2%2C%20HTTP3.md)  
+[HTTPS, TLS - 암호화](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTPS%2C%20TLS%20-%20%EC%95%94%ED%98%B8%ED%99%94.md)  
 [클라이언트 서버 구조](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%A1%B0.md)  
 [Stateful, Stateless](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Stateful%2C%20Stateless.md)  
 [비연결성(connectionless)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%B9%84%EC%97%B0%EA%B2%B0%EC%84%B1(connectionless).md)  
@@ -69,7 +70,8 @@ https://shinjungoh.tistory.com/
 [Event](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event.md)  
 [Event Loop 개념](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20Loop.md)  
 [자바스크립트 엔진과 Event Loop](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Event%20loop%2C%20call%20stack.md)  
-[DOM concept](https://github.com/ShinjungOh/TIL/blob/4fa2afb49fc5b06849e94fd8d92493aeacc70e14/WebAPI/DOM%20concept.md)  
+[DOM 개념](https://github.com/ShinjungOh/TIL/blob/4fa2afb49fc5b06849e94fd8d92493aeacc70e14/WebAPI/DOM%20concept.md)  
+[브라우저 렌더링 과정](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EA%B3%BC%EC%A0%95.md)  
 
 <br>
 
@@ -99,7 +101,10 @@ https://shinjungoh.tistory.com/
 [디렉토리 구조 출력 명령어 tree](https://github.com/ShinjungOh/TIL/blob/main/Git/linux%20tree.md)  
 [github에서 프로젝트 가져오기](https://github.com/ShinjungOh/TIL/blob/main/Git/github.md)  
 [git fork](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20fork.md)  
-[fork repository 잔디 심기](https://github.com/ShinjungOh/TIL/blob/main/Git/fork%20repository%20%EC%9E%94%EB%94%94%20%EC%8B%AC%EA%B8%B0.md)
+[fork repository 잔디 심기](https://github.com/ShinjungOh/TIL/blob/main/Git/fork%20repository%20%EC%9E%94%EB%94%94%20%EC%8B%AC%EA%B8%B0.md)  
+[git fork - 원본 저장소에 PR 요청하기](https://github.com/ShinjungOh/TIL/blob/main/Git/git%20fork%20-%20%EC%9B%90%EB%B3%B8%20%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%20PR%20%EC%9A%94%EC%B2%AD%ED%95%98%EA%B8%B0.md)  
+[Git Book 활용하기](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Book%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
+[WakaTime 이용하기](https://github.com/ShinjungOh/TIL/blob/main/Git/WakaTime%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 
 <br>
 

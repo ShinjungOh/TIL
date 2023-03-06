@@ -16,7 +16,7 @@ Preference > Plugins > MarketPlace
 
 <br><br>
 
-### 3. WakaTime 설치 후 재시작
+### 3. WakaTime 설치 후 에디터 재시작
 
 <br><br>
 
