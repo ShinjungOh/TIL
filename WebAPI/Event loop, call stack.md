@@ -67,7 +67,9 @@ Web APIs 에서 처리한 콜백함수가 쌓임 - timer 대기 등의 벗겨내
 ### 1. 마이크로태스크 큐(microtask queue)
 
 잡 큐  
-🤝 promise, async, fetch  
+🤝 promise, async  
+코드를 사용해서만 만들 수 있는데, 주로 Promise를 사용해 만듦  
+Promise와 함께 쓰이는 .then/catch/finally, async 함수 등
 
 Ex. 👩🏻‍🍳 요리하기 - 굵직한 일  
 
@@ -105,8 +107,9 @@ Ex. 🧂 소금치기 - 자잘한 일
 ## 참고 사이트 
 
 > https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5  
-> https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/  
+> https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/    
 > https://ko.javascript.info/event-loop#ref-441  
 > https://ko.javascript.info/microtask-queue  
+> https://developer.mozilla.org/ko/docs/Web/API/HTML_DOM_API/Microtask_guide  
 > https://www.youtube.com/watch?v=8aGhZQkoFbQ  
 > https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
