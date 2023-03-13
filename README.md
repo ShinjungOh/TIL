@@ -253,9 +253,9 @@ https://shinjungoh.tistory.com/
 [옵저버 패턴](https://github.com/ShinjungOh/TIL/blob/60be9e4f3960e0155612ea901b3f8f0d1180b084/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%98%B5%EC%A0%80%EB%B2%84%20%ED%8C%A8%ED%84%B4.md)  
 [프록시 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)    
 [MVC MVP MVVM패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/MVC%20MVP%20MVVM%ED%8C%A8%ED%84%B4.md)  
-[Spring의 MVC패턴 적용사례](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20Spring%EC%9D%98%20MVC%ED%8C%A8%ED%84%B4%20%EC%A0%81%EC%9A%A9%EC%82%AC%EB%A1%80.md)  
+[Spring의 MVC패턴 적용사례](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Spring%EC%9D%98%20MVC%ED%8C%A8%ED%84%B4%20%EC%A0%81%EC%9A%A9%EC%82%AC%EB%A1%80.md)  
 [flux 패턴](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/flux%20%ED%8C%A8%ED%84%B4.md)  
-[의존성주입과 전략패턴의 차이](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%20%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85%EA%B3%BC%20%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
+[의존성주입과 전략패턴의 차이](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85%EA%B3%BC%20%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
 [프로그래밍 컨텍스트](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)  
 [자바스크립트 class, static](https://github.com/ShinjungOh/TIL/blob/main/CS/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20class%EC%99%80%20static.md)
 
