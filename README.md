@@ -47,6 +47,7 @@ https://shinjungoh.tistory.com/
 [HTTP 기본](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EA%B8%B0%EB%B3%B8.md)  
 [HTTP1, HTTP2, HTTP3](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP1%2C%20HTTP2%2C%20HTTP3.md)  
 [HTTPS, TLS - 암호화](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTPS%2C%20TLS%20-%20%EC%95%94%ED%98%B8%ED%99%94.md)  
+[HTTPS, TLS - TLS 핸드쉐이크](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTPS%2C%20TLS%20-%20TLS%20%ED%95%B8%EB%93%9C%EC%89%90%EC%9D%B4%ED%81%AC.md)  
 [클라이언트 서버 구조](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%A1%B0.md)  
 [Stateful, Stateless](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Stateful%2C%20Stateless.md)  
 [비연결성(connectionless)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%B9%84%EC%97%B0%EA%B2%B0%EC%84%B1(connectionless).md)  
