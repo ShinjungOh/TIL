@@ -98,8 +98,8 @@ https://shinjungoh.tistory.com/
 [디버깅 - blame, bisect](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%94%94%EB%B2%84%EA%B9%85.md)  
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
-[Git Hooks - husky](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks.md)  
-[Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/3ad801a2d6c859142be891c5b8ce5b5c4379b0aa/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)  
+[Git Hooks - husky](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks%20-%20husky.md)  
+[Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/main/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)  
 
 ### github 활용하기
 
