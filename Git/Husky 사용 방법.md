@@ -56,9 +56,10 @@ husky는 깃 훅 설정을 돕는 npm package
 <br>
 
 ### 실행 방법
+
 1. scripts 설정
 
-package.json 파일에 이전에 추가한 prettier, eslint 설정에 "postinstall": "husky install"을 추가
+`package.json` 파일에 이전에 추가한 prettier, eslint 설정에 "postinstall": "husky install"을 추가
 
 ```json
 {

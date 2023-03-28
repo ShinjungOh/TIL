@@ -67,6 +67,8 @@ https://shinjungoh.tistory.com/
 
 [웹브라우저 캐시 - 로컬스토리지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)  
 [웹브라우저 캐시 - 로컬스토리지와 오리진](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EC%99%80%20%EC%98%A4%EB%A6%AC%EC%A7%84.md)  
+[웹브라우저 캐시 - 로컬스토리지를 활용한 UX 개선](https://github.com/ShinjungOh/TIL/blob/c9833af612/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20UX%20%EA%B0%9C%EC%84%A0.md)    
+[웹브라우저 캐시 - 세션스토리지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EC%84%B8%EC%85%98%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)  
 
 <br>
 
@@ -88,14 +90,15 @@ https://shinjungoh.tistory.com/
 
 [Git과 Github 개념](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%EA%B3%BC%20Github.md)  
 [Git Workflow](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Workflow.md)  
-[Git 기본 명령어](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)  
-[undo](https://github.com/ShinjungOh/TIL/blob/main/Git/undo.md)  
+[Git 기본 명령어 - add, status, diff, commit, log, tag](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)  
+[undo - restore, reset, reflog, revert](https://github.com/ShinjungOh/TIL/blob/main/Git/undo.md)  
+[rebase 중단하기](https://github.com/ShinjungOh/TIL/blob/main/Git/rebase%20%EC%A4%91%EB%8B%A8%ED%95%98%EA%B8%B0.md)  
 [stash](https://github.com/ShinjungOh/TIL/blob/main/Git/stash.md)  
-[브랜치](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98.md)  
+[브랜치 - branch, merge, rebase](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98.md)  
 [디버깅 - blame, bisect](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%94%94%EB%B2%84%EA%B9%85.md)  
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
-[Git Hooks](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks.md)  
+[Git Hooks - husky](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks.md)  
 [Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/3ad801a2d6c859142be891c5b8ce5b5c4379b0aa/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)  
 
 ### github 활용하기
@@ -164,6 +167,7 @@ https://shinjungoh.tistory.com/
 [const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
 [prettier, eslint 설치 및 실행 방법](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/prettier%2C%20eslint%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95.md)    
 [tab focus 이동 tabIndex 속성 이용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/tab%20focus%20%EC%9D%B4%EB%8F%99%20tabIndex%20%EC%86%8D%EC%84%B1%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
+[CodeceptJS로 E2E 테스트하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/CodeceptJS.md)  
 
 <br>
 
