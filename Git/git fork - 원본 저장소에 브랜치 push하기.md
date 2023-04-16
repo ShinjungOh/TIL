@@ -28,7 +28,7 @@
 
 <br>
 
-### 해당 브랜치로 이동하면 `upstream/ShinjunhOh`라고 표기됨  
+### 해당 브랜치로 이동하면 `upstream/ShinjungOh`라고 표기됨  
 
 ![](../Images/깃허브_브랜치5.png)
 
