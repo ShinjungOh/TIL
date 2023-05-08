@@ -2,8 +2,8 @@
 
 ## 1. tsconfig 적용하기
 
-워크스페이스 별로 매번 tsconfig를 설정하기가 번거로울수 있습니다.   
-이와 같은 문제로 tsconfig base를 생성해서 사용하는 워크스페이스에서 활용하도록 합니다.
+워크스페이스 별로 매번 tsconfig를 설정하기가 번거로울 수 있음     
+이와 같은 문제로 `tsconfig base`를 생성해서 사용하는 워크스페이스에서 활용하기 
 
 ### root 폴더에 `tsconfig.base.json` 파일 생성
 
@@ -305,7 +305,7 @@ module.exports = {
 
 ### Eslint 설정 공유하기
 
-eslint 패키지를 만들어서 공유허는 방법 
+eslint 패키지를 만들어서 공유하는 방법 
 
 [Kakao - ESLint 조금 더 잘 활용하기](https://tech.kakao.com/2019/12/05/make-better-use-of-eslint/)
 

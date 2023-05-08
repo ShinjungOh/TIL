@@ -122,10 +122,10 @@ apps/wanted 프로젝트에 의존성을 주입
 ### 설치
 
 ```bash
-$ root로 이동
+# root로 이동
 cd ../../
 
-$ pwd 실행시 root 폴더에 위치해야 함 
+# pwd 실행시 root 폴더에 위치해야 함 
 yarn workspace @wanted/web add @wanted/lib
 ```
 
