@@ -34,6 +34,8 @@
 extends에 `tsconfig.base.json` 을 설정하여, 기본적인 설정을 추가  
 💡 워크스페이스마다 필요한 설정이 있을 경우 개별로 작성
 
+📌 전체를 복사해서 붙여넣기하는 것이 편리 
+
 #### apps/wanted/tsconfig.json 파일에 extends 추가
 
 ```
@@ -298,8 +300,14 @@ module.exports = {
 
 ### 워크스페이스별 설정
 
-기존 워크스페이스에 .eslintrc.json 파일과 같은 설정파일이 있다면 삭제  
+기존 워크스페이스에 .eslintrc.json 파일과 같은 설정파일이 있다면 삭제
+
+* apps/wanted/.eslintrc.json
+
 코드에서 lint 설정이 올바르게 적용 되는지 테스트할 것 
+
+* import 순서 바꿔보기
+* 띄어쓰기 임의로 집어넣기  
 
 <br>
 

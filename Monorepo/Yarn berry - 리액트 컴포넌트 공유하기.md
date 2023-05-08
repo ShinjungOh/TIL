@@ -49,7 +49,7 @@ yarn workspace @wanted/ui add typescript react react-dom @types/node @types/reac
 
 ui 패키지를 tsconfig 설정과 컴포넌트를 하나 만들어서 공유하기 
 
-`packages/ui/tsconfig.json`
+#### `packages/ui/tsconfig.json`
 
 ```json
 {
@@ -93,7 +93,7 @@ const Button = (props: ButtonProps) => {
 export default Button;
 ```
 
-#### packages/ui/src/index.ts
+`packages/ui/src/index.ts`
 
 ```tsx
 export { default as Button } from './Button';
@@ -131,7 +131,7 @@ yarn workspace @wanted/web add @wanted/ui
 
 <br>
 
-### `apps/wanted/pages/index.tsx` 파일 수정
+### `apps/wanted/src/pages.tsx` 파일 수정
 
 ```tsx
 import { sayHello } from '@wanted/lib/src';
@@ -153,6 +153,8 @@ export default function Home() {
 ```bash
 yarn workspace @wanted/web dev
 ```
+
+* 이전 버전에선 오류가 발생 
 
 <br>
 
@@ -185,3 +187,5 @@ module.exports = nextConfig;
 ```bash
 yarn workspace @wanted/web dev
 ```
+
+![](../Images/yarnberry_Button.png)

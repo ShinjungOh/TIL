@@ -75,7 +75,7 @@ yarn workspace @wanted/web typecheck
 yarn plugin import workspace-tools
 ```
 
-#### `root package.json` 수정하기
+#### `root package.json`에 scripts 추가하기
 
 ```bash
 "scripts": {
@@ -88,6 +88,11 @@ yarn plugin import workspace-tools
 * g:* : global 하게 모든 프로젝트를 실행
 * p : 병렬 실행
 * v : workspace name 출력
+
+```bash
+# 실행하기 
+yarn g:typecheck
+```
 
 ![](../Images/yarnberry_foreach.png)
 
@@ -104,6 +109,8 @@ export default function Home() {
       <div>{sayHello()}</div>
       <Button variant="outlined">Click</Button>
 ```
+
+![](../Images/yarnberry_typecheck_done.png)
 
 #### 최종적으로 정상 작동하는 것을 확인
 

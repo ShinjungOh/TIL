@@ -105,7 +105,7 @@ yarn add typescript
 
 <br>
 
-### package/lib/src/index.js 파일 생성하기 
+### package/lib/src/index.ts 파일 생성하기 
 
 ```tsx
 export const sayHello = () => {
@@ -131,7 +131,7 @@ yarn workspace @wanted/web add @wanted/lib
 
 * pwd : print working directory, 현재 작업 중인 디렉토리의 이름을 출력 
 
-`apps/wanted/package.json` 에 의존성 추가된 것 확인 
+#### `apps/wanted/package.json` 에 의존성 추가된 것 확인 
 
 ```
 "@wanted/lib": "workspace:^"
@@ -141,8 +141,7 @@ yarn workspace @wanted/web add @wanted/lib
 
 ### @wanted/lib 사용하기
 
-`apps/wanted/pages/index.tsx`에서 sayHello 함수를 호출
-
+`apps/wanted/src/pages.tsx`에서 sayHello 함수를 호출
 ```tsx
 import { sayHello } from '@wanted/lib';
 
@@ -163,3 +162,5 @@ export default function Home() {
 ```
 yarn workspace @wanted/web dev
 ```
+
+![](../Images/yarnberry_sayHello.png)

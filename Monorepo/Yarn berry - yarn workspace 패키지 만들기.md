@@ -3,17 +3,22 @@
 ## 1. 프로젝트 폴더 생성
 
 ```bash
-$ 폴더 생성
-
+# 폴더 생성
 mkdir yarn-berry-workspace
 cd yarn-berry-workspace
 ```
 
 ```bash
-$ Yarn berry 설정
-
+# Yarn berry 설정
 yarn set version berry
+
+# 버전 확인 
+yarn --version
 ```
+
+[yarn set version](https://yarnpkg.com/cli/set/version)  
+
+해당 레포에서 특정 yarn 버전을 설치하는 방법  
 
 <br><br>
 
@@ -48,8 +53,6 @@ yarn init -w
 ## 3. root package.json 파일 수정
 
 ```
-// package.json
-
 {
   "name": "yarn-berry-workspace",
   "packageManager": "yarn@3.5.0",
@@ -63,7 +66,7 @@ yarn init -w
 
 <br><br>
 
-## 4. apps 폴더에 next.js 프로젝트 추가
+## 4. apps 폴더 생성 후, next.js 프로젝트 추가
 
 ```bash
 cd apps
@@ -81,7 +84,7 @@ yarn create next-app
 
 ### `package.json` 변경 
 
-wanted 프로젝트의 `package.json`에서 `“name”: “@wanted/web”`으로 변경
+wanted 프로젝트의 `package.json`에서 `"name": "@wanted/web"`으로 변경
 
 <br>
 
@@ -103,3 +106,5 @@ yarn
 ```bash
 yarn workspace @wanted/web run dev
 ```
+
+![](../Images/yarnberry_rundev.png)
