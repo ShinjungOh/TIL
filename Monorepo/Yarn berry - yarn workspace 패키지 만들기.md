@@ -1,4 +1,4 @@
-# yarn worksapce 패키지 만들기
+# yarn workspace 패키지 만들기
 
 ## 1. 프로젝트 폴더 생성
 
@@ -83,6 +83,8 @@ yarn create next-app
 
 wanted 프로젝트의 `package.json`에서 `“name”: “@wanted/web”`으로 변경
 
+<br>
+
 ### 상태 갱신
 
 변경 후 root로 이동해서 상태를 갱신
@@ -91,6 +93,8 @@ wanted 프로젝트의 `package.json`에서 `“name”: “@wanted/web”`으�
 cd ..
 yarn
 ```
+
+<br>
 
 ### 작동 확인 
 

@@ -8,6 +8,8 @@
 yarn add -D typescript
 ```
 
+<br>
+
 ### Webstorm 패키지 매니저 설정
 
 웹스톰을 사용하는 경우, yarn berry를 이용해야하기 때문에 별도의 설정이 필요
@@ -16,6 +18,8 @@ yarn add -D typescript
 ⚠️ 버전을 확인할 것 
 
 ![](../Images/yarnberry_webstorm.png)
+
+<br>
 
 ### vscode extension 설치
 
@@ -51,6 +55,8 @@ yarn init
 yarn add typescript
 ```
 
+<br>
+
 ### `packages/lib/package.json` 파일 수정
 
 ```
@@ -64,6 +70,8 @@ yarn add typescript
   }
 }
 ```
+
+<br>
 
 ### `packages/lib/tsconfig.json` 파일 생성하기 
 
@@ -94,6 +102,8 @@ yarn add typescript
   "include": ["**/*.ts", "**/*.js", "**/.cjs", "**/*.mjs", "**/*.json"]
 }
 ```
+
+<br>
 
 ### package/lib/src/index.js 파일 생성하기 
 
@@ -127,6 +137,8 @@ yarn workspace @wanted/web add @wanted/lib
 "@wanted/lib": "workspace:^"
 ```
 
+<br>
+
 ### @wanted/lib 사용하기
 
 `apps/wanted/pages/index.tsx`에서 sayHello 함수를 호출
@@ -143,6 +155,8 @@ export default function Home() {
     )
 }
 ```
+
+<br>
 
 ### 프로젝트 재실행
 
