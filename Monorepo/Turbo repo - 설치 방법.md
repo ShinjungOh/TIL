@@ -29,7 +29,6 @@ Vercerl 소유
 > 인력이 적고 시간이 없을 때, 가벼운 개인 프로젝트 등은 터보레포  
 > 신입은 터보레포를 사용해서 프로젝트하면 cicd도 쌓으면서 발전하는 모습을 보여주면 좋음
 
-
 ### 1. npx로 설치
 
 * next-create-app 같은 명령어  
@@ -40,7 +39,8 @@ npx create-turbo@latest
 
 ### 2. 설치 위치 선택
 
-선택하지 않으면 기본적으로 `./my-turborepo`
+선택하지 않으면 기본적으로 `./my-turborepo`  
+하위 폴더를 만들고 싶지 않을 경우 `.`
 
 ### 3. 패키지 매니저 선택
 
@@ -55,6 +55,8 @@ npx create-turbo@latest
   pnpm 
   yarn
 ```
+
+![](../Images/turborepo.png)
 
 <br><br>
 
