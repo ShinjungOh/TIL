@@ -8,6 +8,11 @@
 2. [[Prototype]] = 프로토 
 3. constructor 
 
+### 프로토타입
+
+자바스크립트는 프로토타입 기반 언어  
+어떤 객체를 **원형(prototype)** 으로 삼고, 이를 **복제(참조)** 함으로써 클래스 기반 언어의 상속과 비슷한 효과를 얻음
+
 <br><br>
 
 ## 도식화
@@ -100,6 +105,28 @@ prototype 프로퍼티는 객체이고, 내부에는 다음과 같은 내용이 
 
 <br>
 
+### constructor
+
+constructor는 클래스의 인스턴스 객체를 생성하고 초기화하는 특별한 메소드  
+
+원래의 생성자 함수(자기 자신)을 참조 
+
+* 생성자 함수의 prototype 프로퍼티 객체 내부
+* 인스턴스의 `__proto__` 객체 내부
+
+인스턴스에서 그 원형이 무엇인지 알 수 있는 수단 
+
+![](../Images/프로토타입_constructor.png)
+
+* constructor는 값을 바꿀 수 있음 
+  * 읽기 전용 속성인 기본형 리터럴 변수(number, string, boolean) 제외
+* constructor가 변경되어도 참조하는 대상이 변경될 뿐
+  * 이미 만들어진 인스턴스의 원형이 바뀌거나 데이터 타입이 변하지는 않음 
+  * 인스턴스의 생성자 정보를 알기 위해 constructor 프로퍼티에 의존하는 것이 할상 안전하지는 않은 이유
+  * 클래스 상속을 흉내내는 등이 가능해짐
+  
+<br>
+
 ### 생성자 함수 접근 방법 
 
 ![](../Images/프로토타입_생성자함수_접근.png)
@@ -172,8 +199,8 @@ prototype 프로퍼티는 객체이고, 내부에는 다음과 같은 내용이 
 
 ```
 { a: 1, b: 2 } 의 경우 { a: 1 }.values() = [1];
-(10).values ?
-(false).values ?
+(10).values() ?
+(false).values() ?
 ```
 
 객체 외의 데이터도 프로토타입 체인을 타고 values 메소드를 실행할 수 있게 되버림 -> 객체 전용 메소드가 아니게 됨 
@@ -200,3 +227,11 @@ prototype 프로퍼티는 객체이고, 내부에는 다음과 같은 내용이 
 가장 가까운 자기 자신부터 찾고, 없을 경우 상위의 프로토타입에서 찾음  
 가장 먼저 찾아진 메소드만 실행하고, 그보다 더 멀리 있는 체인까지는 찾아가지 않음  
 스코프 체인에서 LE의 outerEnvironmentReference를 타고 상위 스코프로 식별자를 찾아 나가는 것과 동일한 흐름
+
+<br><br>
+
+## 참고 사이트 
+
+> https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Object_prototypes#%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85_%EA%B8%B0%EB%B0%98_%EC%96%B8%EC%96%B4  
+> https://ko.javascript.info/prototype-inheritance     
+> https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes/constructor
