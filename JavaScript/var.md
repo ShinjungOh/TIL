@@ -3,7 +3,7 @@
 ## 변수 선언 방법
 
 1. let : 변수를 선언할 때
-2. const : 변화하지 않는 변수를 선언할 때  
+2. const : 변화하지 않는 변수(상수)를 선언할 때  
 3. var : let과 거의 동일하게 동작
 
 <br><br>
@@ -55,10 +55,11 @@ var example = "Hello"
   * 선언과 동시에, 변수에 값을 할당하기 전까진 기본 초기화 상태인 `undefined`
   * LexicalEnvironment가 생성되면서 동시에 `undefined`로 초기화
 
+![](../Images/var_선언된_변수의_생명주기.png)
 
 ```js
-console.log(num); // 호이스팅한 var 선언으로 인해 undefined 출력
-var num; // 선언 & 초기화
+console.log(num); // 선언 & 초기화, 호이스팅한 var 선언으로 인해 undefined 출력
+var num; // undefined
 num = 6;  // 할당
 ```
 
@@ -67,11 +68,19 @@ num = 6;  // 할당
 ### ✨ let, const와 차이
 
 * 공통점 : let과 const로 선언한 변수도 호이스팅됨 
-* 차이점 : var와는 달리 `undefined`로 변수를 초기화 하지 않기 때문에 변수 선언 전에 먼저 사용하면 오류 발생
-  * 자기 코드 위치까지 읽어지면 그 지점에서 초기화
+* 차이점 : var와는 달리 `undefined`로 변수를 **초기화** 하지 않기 때문에 변수 선언 전에 먼저 사용하면 참조 에러(ReferenceError) 발생 (**일시적 사각지대**(Temporal Dead Zone, TDZ))
+  * 자기 코드 위치까지 읽어지면 그 지점에서 초기화(변수 선언문에 도달했을 때)
   * LexicalEnvironment가 활성화될 때 생성
   * `undefined`를 할당하지 않고 초기화를 마침
   
+![](../Images/let_선언된_변수의_생명주기.png)
+
+```js
+console.log(num); // 선언, ReferenceError: foo is not defined, 초기화되지 않음 
+let num; // 초기화, undefined
+num = 6;  // 할당
+```
+
 <br>
 
 #### var, let, const 초기화 
@@ -95,4 +104,5 @@ num = 6;  // 할당
 
 ## 참고 사이트 
 
-> https://ko.javascript.info/var
+> https://ko.javascript.info/var    
+> https://poiemaweb.com/es6-block-scope
