@@ -71,7 +71,7 @@ num = 6;  // 할당
 * 차이점 : var와는 달리 `undefined`로 변수를 **초기화** 하지 않기 때문에 변수 선언 전에 먼저 사용하면 참조 에러(ReferenceError) 발생 (**일시적 사각지대**(Temporal Dead Zone, TDZ))
   * 자기 코드 위치까지 읽어지면 그 지점에서 초기화(변수 선언문에 도달했을 때)
   * LexicalEnvironment가 활성화될 때 생성
-  * `undefined`를 할당하지 않고 초기화를 마침
+  * `undefined`를 할당하지 않고 선언을 마침
   
 ![](../Images/let_선언된_변수의_생명주기.png)
 
