@@ -137,6 +137,8 @@ https://shinjungoh.tistory.com/
 [클래스](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4(Class).md)  
 [클래스 개념](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
 
+### Javascript ES6+ 제대로 알아보기 - 초급
+
 [block scope](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/block%20scope.md)  
 [block scoped variables](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/block%20scoped%20variables.md)  
 [template literal](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/template%20literal.md)  
@@ -147,6 +149,8 @@ https://shinjungoh.tistory.com/
 [arrow function](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/arrow%20function.md)  
 [function](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/function.md)  
 [destructuring assignment](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/destructuring%20assignment.md)
+
+### Javascript ES6+ 제대로 알아보기 - 중급
 
 [symbol](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/symbol.md)  
 [set, weakset](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/set%2C%20weakset.md)  
