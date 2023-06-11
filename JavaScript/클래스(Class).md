@@ -105,15 +105,57 @@ console.log(Person.getInformations(sj));
 
 ## 클래스 상속 (class inheritance)
 
-'프로토타입의 constructor는 Employee'를 만드는 과정 예시
+겹치는 메소드는 상위 클래스에만 놔두기  
+하위 클래스(생성자 함수)에는 겹치지 않는 메소드만 남기기   
+=> 하위 클래스의 인스턴스는 프로토타입 체이닝을 타고 상위 클래스의 메소드도 사용 가능   
 
 <br>
 
+### 예시 - 클래스 상속 관계 만들기  
+
+> ⛓ 다중 상속 구조   
+> 서로 다른 클래스가 슈퍼클래스, 서브클래스 관계를 갖도록 하는 방법 
+
 ![슈퍼클래스_서브클래스](../Images/슈퍼클래스_서브클래스.png)
+
+1. Employee의 프로토타입에 Person의 인스턴스를 할당
+
+```js
+Employee.prototype = new Person();
+```
+
+2. 프로토타입의 constructor에 Employee를 생성  
+원래의 프로토타입 객체와 같은 기능을 수행하도록 구현 
+
+```js
+Employee.prototype.constructor = Employee;
+```
+
+기존의 `Employee.prototype` 객체를 완전히 새로운 객체로 대체하게 되어 버리기 때문에,   
+다른 프로토타입과 동일하게 동작하도록 하려면 본래 기능을 다시 부여해야 함   
+프로토타입 객체에는 자바스크립트가 기본적으로 constructor 프로퍼티(생성자 함수가 담겨있음)를 생성해줌
+
+> superclass 👩🏻 `Person`
+> > subclass 👩🏻‍💻 `Employee`
+
+![](../Images/클래스_상속_예시.png)
+
+Employee.prototype 부분에서 `age, name`이 문제가 됨   
+⚠️ 추상적이어야 할 클래스의 프로토타입에 불필요한 프로퍼티가 담겨 있는 것이 문제  
+
+
+> `roy` 객체의 name 프로퍼티를 지운 상태에서 `getName` 메소드를 호출할 경우  
+> 원래는 undefined가 반환되어야 하지만, 실제로는 프로토타입 체이닝을 타고 '이름없음'이 반환됨 
+
+💡 프로토타입 체인 상에는 프로퍼티가 아닌 메소드만 존재하도록 하는 것이 **추상적인 클래스** 정의에 부합 
+
+<br>
+
+### 예시 - 불필요한 프로퍼티 지우기  
 
 ![클래스_상속_브릿지](../Images/클래스_상속_브릿지.png)
 
-
+<br>
 
 ![브릿지_코드](../Images/브릿지_코드.png)
 
@@ -122,9 +164,9 @@ console.log(Person.getInformations(sj));
 <br>
 
 * ES5 시스템에서 클래스 상속을 구현하는 데에 자주 등장하는 패턴
-* Bridge라는 함수는 매개체 역할만 하며, 실제 코드상에 영향 주지 않음 <br>
+* Bridge라는 함수는 매개체 역할만 하며, 실제 코드상에 영향 주지 않음 
 
-=> <strong>함수화</strong>를 통해 간단한 형태로 상속을 구현할 수 있다.
+=> **함수화**를 통해 간단한 형태로 상속을 구현할 수 있음 
 
 <br>
 
