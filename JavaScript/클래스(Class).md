@@ -77,6 +77,30 @@
 
 > 스태틱 메소드에서 제대로 된 결과를 얻으려면 생성자 함수에서 직접 접근해야 함
 
+```js
+// Person 생성자 함수 
+function Person(name, age) {...}
+
+// 스태틱 메소드
+Person.getInformations = function(instance) {...}
+
+// 프로토타입 메소드 
+Person.prototype.getName = function() {...}
+Person.prototype.getAge = function() {...}
+
+const sj = new Person('sj', 20);
+
+// OK - 메소드
+console.log(sj.getName());
+console.log(sj.getAge());
+
+// Error - 인스턴스에서 스태틱 메소드에 직접 접근할 때
+console.log(sj.getInformations(sj));
+
+// OK - 생성자 함수에서 스태틱 메소드에 접근할 때 
+console.log(Person.getInformations(sj));
+```
+
 <br><br>
 
 ## 클래스 상속 (class inheritance)
