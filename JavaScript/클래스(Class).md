@@ -116,6 +116,8 @@ console.log(Person.getInformations(sj));
 > ⛓ 다중 상속 구조   
 > 서로 다른 클래스가 슈퍼클래스, 서브클래스 관계를 갖도록 하는 방법 
 
+<br>
+
 ![슈퍼클래스_서브클래스](../Images/슈퍼클래스_서브클래스.png)
 
 1. Employee의 프로토타입에 Person의 인스턴스를 할당
@@ -135,13 +137,17 @@ Employee.prototype.constructor = Employee;
 다른 프로토타입과 동일하게 동작하도록 하려면 본래 기능을 다시 부여해야 함   
 프로토타입 객체에는 자바스크립트가 기본적으로 constructor 프로퍼티(생성자 함수가 담겨있음)를 생성해줌
 
+<br>
+
 > superclass 👩🏻 `Person`
 > > subclass 👩🏻‍💻 `Employee`
+
+<br>
 
 ![](../Images/클래스_상속_예시.png)
 
 Employee.prototype 부분에서 `age, name`이 문제가 됨   
-⚠️ 추상적이어야 할 클래스의 프로토타입에 불필요한 프로퍼티가 담겨 있는 것이 문제  
+⚠️ 추상적이어야 할 클래스의 프로토타입에 **불필요한 프로퍼티**가 담겨 있는 것이 문제  
 
 
 > `roy` 객체의 name 프로퍼티를 지운 상태에서 `getName` 메소드를 호출할 경우  
@@ -153,7 +159,38 @@ Employee.prototype 부분에서 `age, name`이 문제가 됨
 
 ### 예시 - 불필요한 프로퍼티 지우기  
 
+> ✏️ 추상적인 클래스를 만들기 위해 불필요 프로퍼티를 삭제하기 
+
+<br>
+
 ![클래스_상속_브릿지](../Images/클래스_상속_브릿지.png)
+
+1. 빈 객체를 생성하는 `Bridge` 생성자 함수 만들기  
+어떤 프로퍼티도 생성하지 않음 
+
+```js
+function Bridge() {}
+```
+
+2. Bridge의 prototype에 Person의 prototype을 연결한 상태에서 인스턴스를 생성  
+생성된 인스턴스는 아무런 프로퍼티 없이, 메소드만 상속받는 형태
+
+```js
+Bridge.prototype = Person.prototype;
+```
+
+3. Employee의 prototype과 Bridge의 인스턴스를 연결  
+원래 Person의 인스턴스를 넣는 대신에 빈 객체를 넣어줌 
+
+```js
+Employee.prototype = new Bridge();
+```
+
+4. 원래 프로토타입 기능을 되살리기 위해 constructor 연결 
+
+```js
+Employee.prototype.constructor = Employee;
+```
 
 <br>
 
@@ -161,12 +198,14 @@ Employee.prototype 부분에서 `age, name`이 문제가 됨
 
 ![브릿지_코드_결과](../Images/브릿지_코드_결과.png)
 
+> 불필요 프로퍼티가 삭제된 결과 
+
 <br>
 
 * ES5 시스템에서 클래스 상속을 구현하는 데에 자주 등장하는 패턴
 * Bridge라는 함수는 매개체 역할만 하며, 실제 코드상에 영향 주지 않음 
 
-=> **함수화**를 통해 간단한 형태로 상속을 구현할 수 있음 
+=> **함수화**를 통해 간단한 형태로 상속을 구현할 수 있음 (더글라스 크락포드)
 
 <br>
 
@@ -174,15 +213,45 @@ Employee.prototype 부분에서 `age, name`이 문제가 됨
 
 ![](../Images/브릿지_함수화.png) 
 
+**클로저**를 이용해 Bridge 생성자 함수는 단 한 번만 생성한 후 계속 재활용
 
-ES6에서는 함수를 직접 만들어서 구현하지 않아도 자바스크립트 내장 명령으로 클래스 상속 구현이 가능하다.
+super, sub 클래스로 쓰일 생성자 함수를 매개변수로 넘겨주기   
+-> 🔗 둘 사이의 상속 구조를 연결해주는 함수
+
+이후 `extendClass` 함수를 호출해주기만 하면 됨 
 
 <br>
 
-### ES6
+#### 인스턴스 값 상속
+
+> 인스턴스의 값도 상속을 활용하면 간단하게 구현할 수 있음
+
+![](../Images/클래스_인스턴스값_상속.png)
+
+Person, Employee 모두 동일한 name, age 프로퍼티를 가짐   
+하위 클래스에서 `this.superClass(name, age);` 호출로 name, age 프로퍼티를 구현하는 방법 
+
+```js
+Child.prototype.superClass = Parent;
+```
+
+![](../Images/클래스_this_superClass.png)
+
+![](../Images/클래스_this_superClass2.png)
+
+<br>
+
+### ES6 - extends
+
+[모던 자바스크립트 - 클래스 상속](https://ko.javascript.info/class-inheritance)
+
+> ES6에서는 함수를 직접 만들어서 구현하지 않아도, 자바스크립트 내장 명령으로 클래스 상속 구현이 가능
+
+클래스 상속을 사용하면 클래스를 다른 클래스로 확장 가능  
+기존에 존재하던 기능을 토대로 새로운 기능을 만들 수 있음
 
 ![](../Images/ES6_클래스_상속_구현.png)
 
-class Person 만들고, Employee는 Person을 extends 해주면 된다.
+* Person 생성자 함수(클래스)를 만들고, Employee는 Person을 `extends` 하기 
 
 
