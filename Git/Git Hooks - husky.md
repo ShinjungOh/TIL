@@ -5,9 +5,12 @@
 <br>
 
 ## husky
+
 ### 1️⃣ husky & lint-staged 사용
 
-> npx mrm lint-staged
+```
+npx mrm lint-staged
+```
 
 * mrm : 오픈소스 프로젝트의 환경 설정을 동기화 하기 위한 도구
 
@@ -17,7 +20,8 @@
 
 <br>
 
-### 3️⃣ husky 설정
+### 3️⃣ pre-commit 파일 생성 및 husky 설정
+
 **pre-commit** 파일의 설정대로 git commit을 하기전에 npx lint-staged 명령어가 실행
 
 ```
