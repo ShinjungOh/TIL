@@ -100,7 +100,7 @@ https://shinjungoh.tistory.com/
 [디버깅 - blame, bisect](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%94%94%EB%B2%84%EA%B9%85.md)  
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
-[Git Hooks - husky](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks%20-%20husky.md)  
+[Husky 설치 방법](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks%20-%20husky.md)  
 [Husky 사용 방법](https://github.com/ShinjungOh/TIL/blob/main/Git/Husky%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95.md)
 
 ### github 활용하기
@@ -136,6 +136,7 @@ https://shinjungoh.tistory.com/
 [프로토타입](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85(prototype).md)  
 [클래스](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4(Class).md)  
 [클래스 개념](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
+[객체 지향 프로그래밍](https://github.com/ShinjungOh/TIL/blob/b461dac634086b5bf3212b759088e32d197003cc/JavaScript/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5.md)
 
 ### Javascript ES6+ 제대로 알아보기 - 초급
 
@@ -160,15 +161,17 @@ https://shinjungoh.tistory.com/
 [class](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/class.md)  
 [promise](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/promise.md)
 
-### 함수, 메소드 
+### 변수, 함수, 메소드 
 
-[var](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/var.md)    
+[var](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/var.md)  
+[스코프](https://github.com/ShinjungOh/TIL/blob/6277f7eea2748bfe3be6f86c034a219852d334e6/JavaScript/%EC%8A%A4%EC%BD%94%ED%94%84.md)      
 [일급 객체](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%9D%BC%EA%B8%89%20%EA%B0%9D%EC%B2%B4.md)  
 [생성자 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%83%9D%EC%84%B1%EC%9E%90%20%ED%95%A8%EC%88%98.md)  
 [new Function](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/new%20Function.md)  
 [map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
 [getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
+[Object.freeze](https://github.com/ShinjungOh/TIL/blob/bb47d9d1284b642043e3e5fb5ef19c3c833d8b07/JavaScript/Object.freeze.md)
 
 ### 사용하기 
 
@@ -181,8 +184,7 @@ https://shinjungoh.tistory.com/
 [debounce](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/debounce.md)  
 [const 폴더로 자주 사용하는 값 관리하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/const%20%ED%8F%B4%EB%8D%94%EB%A1%9C%20%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B0%92%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
 [prettier, eslint 설치 및 실행 방법](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/prettier%2C%20eslint%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95.md)    
-[tab focus 이동 tabIndex 속성 이용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/tab%20focus%20%EC%9D%B4%EB%8F%99%20tabIndex%20%EC%86%8D%EC%84%B1%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
-[CodeceptJS로 E2E 테스트하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/CodeceptJS.md)  
+[tab focus 이동 tabIndex 속성 이용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/tab%20focus%20%EC%9D%B4%EB%8F%99%20tabIndex%20%EC%86%8D%EC%84%B1%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0.md)   
 
 <br>
 
@@ -202,13 +204,14 @@ https://shinjungoh.tistory.com/
 
 ### 라이브러리 
 
-[React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
-[react router v6 오류 해결](https://github.com/ShinjungOh/TIL/blob/e8a438a59a5a57b270db70d1939dd6854864cf58/React/react%20router%20v6%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)  
-[react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)  
-[react router 뒤로가기 방지](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0%20%EB%B0%A9%EC%A7%80.md)  
-[테스트 - CodeceptJS](https://github.com/ShinjungOh/TIL/blob/e1bc0157fca03c0f7d467c2f3c402ca926cc2c36/React/CodeceptJS.md)
-
-
+[라우터 - React Router](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router.md)  
+[라우터 - react router v6 오류 해결](https://github.com/ShinjungOh/TIL/blob/e8a438a59a5a57b270db70d1939dd6854864cf58/React/react%20router%20v6%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)  
+[라우터 - react router 동적 라우팅](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%8F%99%EC%A0%81%20%EB%9D%BC%EC%9A%B0%ED%8C%85.md)  
+[라우터 - react router 뒤로가기 방지](https://github.com/ShinjungOh/TIL/blob/main/React/react%20router%20%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0%20%EB%B0%A9%EC%A7%80.md)  
+[테스트 - CodeceptJS 개념](https://github.com/ShinjungOh/TIL/blob/e1bc0157fca03c0f7d467c2f3c402ca926cc2c36/React/CodeceptJS.md)  
+[테스트 - CodeceptJS로 E2E 테스트하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/CodeceptJS.md)  
+[테스트 - vite 프로젝트에서 jest 설정하기](https://github.com/ShinjungOh/TIL/blob/fa5e4c8aa0e738345f3e746dece778b0b58407a0/React/vite%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C%20jest%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)  
+[스토리북](https://github.com/ShinjungOh/TIL/blob/210a51c540b0609f66279ac526d6626eedf3c12b/React/%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%B6%81.md)
 
 ### 상태관리
 
