@@ -92,12 +92,13 @@ https://shinjungoh.tistory.com/
 
 [Git과 Github 개념](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%EA%B3%BC%20Github.md)  
 [Git Workflow](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Workflow.md)  
-[Git 기본 명령어 - add, status, diff, commit, log, tag](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)  
-[undo - restore, reset, reflog, revert](https://github.com/ShinjungOh/TIL/blob/main/Git/undo.md)  
+[기본 명령어 - add, status, diff, commit, log, tag](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)  
+[undo 명령어 - restore, reset, reflog, revert](https://github.com/ShinjungOh/TIL/blob/main/Git/undo.md)  
+[디버깅 명령어 - blame, bisect](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%94%94%EB%B2%84%EA%B9%85.md)  
+[브랜치 명령어 - branch, merge, rebase](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98.md)  
+[WebStorm에서 rebase하기](https://github.com/ShinjungOh/TIL/blob/main/Git/WebStorm%EC%97%90%EC%84%9C%20rebase%ED%95%98%EA%B8%B0.md)  
 [rebase 중단하기](https://github.com/ShinjungOh/TIL/blob/main/Git/rebase%20%EC%A4%91%EB%8B%A8%ED%95%98%EA%B8%B0.md)  
 [stash](https://github.com/ShinjungOh/TIL/blob/main/Git/stash.md)  
-[브랜치 - branch, merge, rebase](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98.md)  
-[디버깅 - blame, bisect](https://github.com/ShinjungOh/TIL/blob/main/Git/%EB%94%94%EB%B2%84%EA%B9%85.md)  
 [port kill](https://github.com/ShinjungOh/TIL/blob/main/Git/port%20kill.md)  
 [SSH keys](https://github.com/ShinjungOh/TIL/blob/main/Git/SSH%20keys.md)  
 [Husky 설치 방법](https://github.com/ShinjungOh/TIL/blob/main/Git/Git%20Hooks%20-%20husky.md)  
@@ -195,12 +196,13 @@ https://shinjungoh.tistory.com/
 [JSX](https://github.com/ShinjungOh/TIL/blob/main/React/JSX.md)    
 [React tools](https://github.com/ShinjungOh/TIL/blob/main/React/react%20tools.md)    
 [eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)    
-[React에서 label for 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/HTML%20input%2C%20label%20%ED%83%9C%EA%B7%B8.md)    
 [Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)    
 [Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)    
-[모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)      
+[React에서 label for 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/HTML%20input%2C%20label%20%ED%83%9C%EA%B7%B8.md)    
 [react에서 select 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/react%EC%97%90%EC%84%9C%20select%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)      
+[모바일 100vh 스크롤 문제 해결](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%AA%A8%EB%B0%94%EC%9D%BC%20100vh%20%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)      
 [react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)    
+[Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)  
 
 ### 라이브러리 
 
@@ -217,12 +219,13 @@ https://shinjungoh.tistory.com/
 
 [react useState 상태 값 업데이트](https://github.com/ShinjungOh/TIL/blob/main/React/react%20useState%20%EC%83%81%ED%83%9C%20%EA%B0%92%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.md)  
 [MobX observer](https://github.com/ShinjungOh/TIL/blob/main/React/MobX%20observer.md)  
-[Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)  
 [Redux](https://github.com/ShinjungOh/TIL/blob/main/React/Redux.md)  
 [React-Redux](https://github.com/ShinjungOh/TIL/blob/main/React/React-Redux.md)  
-[Redux-Middleware](https://github.com/ShinjungOh/TIL/blob/main/React/Redux-Middleware.md)  
+[Redux-Middleware](https://github.com/ShinjungOh/TIL/blob/main/React/Redux-Middleware.md)   
+[Zustand](https://github.com/ShinjungOh/TIL/blob/main/React/Zustand.md)
 
 ### Next.js
+
 [Next.js page layout](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20page%20layout.md)  
 [Next.js dynamic routes](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20dynamic%20routes.md)  
 [Next.js data fetching](https://github.com/ShinjungOh/TIL/blob/main/React/Next.js%20data%20fetching.md)  
@@ -268,7 +271,8 @@ https://shinjungoh.tistory.com/
 [Tailwind CSS](https://github.com/ShinjungOh/TIL/blob/main/CSS/Tailwind%20CSS.md)    
 [styled-components](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components.md)  
 [styled-components 스크롤바 스타일 적용](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20%EC%8A%A4%ED%81%AC%EB%A1%A4%EB%B0%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A0%81%EC%9A%A9.md)  
-[styled-components textarea 태그 rows, cols 속성](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20textarea%20%ED%83%9C%EA%B7%B8%20rows%2C%20cols%20%EC%86%8D%EC%84%B1.md)
+[styled-components textarea 태그 rows, cols 속성](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20textarea%20%ED%83%9C%EA%B7%B8%20rows%2C%20cols%20%EC%86%8D%EC%84%B1.md)  
+[Emotion - Global Style 적용하기](https://github.com/ShinjungOh/TIL/blob/main/CSS/emotion%20-%20Global%20Style%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 
 <br>
 

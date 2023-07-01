@@ -61,7 +61,7 @@ export default {
 import "@testing-library/jest-dom/extend-expect";
 ```
 
-### eslint 에러 발생 시, `.eslintrc` 파일에 내용 추가
+#### eslint 에러 발생 시, `.eslintrc` 파일에 내용 추가
 
 ```
   "env": {
