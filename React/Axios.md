@@ -130,7 +130,119 @@ export class AxiosError<T = unknown, D = any> extends Error {
 
 </details>
 
+<br><br>
 
+
+## 에러 핸들링
+
+### 예시
+
+```ts
+axios.get('/user/12345')
+  .catch(function (error) {
+    if (error.response) {
+      // 요청이 전송되었고, 서버는 2xx 외의 상태 코드로 응답
+      console.log(error.response.data);
+      console.log(error.response.status);
+      console.log(error.response.headers);
+    } else if (error.request) {
+      // 요청이 전송되었지만, 응답이 수신되지 않았음
+      // 'error.request'는 브라우저에서 XMLHtpRequest 인스턴스이고,
+      // node.js에서는 http.ClientRequest 인스턴스
+      console.log(error.request);
+    } else {
+      // 오류가 발생한 요청을 설정하는 동안 문제가 발생
+      console.log('Error', error.message);
+    }
+    console.log(error.config);
+  });
+```
+
+### 활용 
+
+```ts
+type APIResponse<T = unknown> = {
+    success: boolean;
+    msg: string;
+    data?: T;
+};
+
+export const handleAxiosError = (error: any) => {
+  if (axios.isAxiosError(error)) {
+    const axiosError = error as AxiosError;
+    console.error('Axios Error:', axiosError);
+    return axiosError.response?.data as APIResponse;
+  }
+  console.log('Unknown Error: ', error);
+  return {
+    success: false,
+    msg: '알 수 없는 오류가 발생했습니다.',
+  };
+};
+```
+
+<br><br>
+
+## 타입
+
+Axios는 라이브러리에 타입이 지정되어 있기 때문에 [index.d.ts](https://github.com/axios/axios/blob/v1.x/index.d.ts),
+`@types`가 붙은 라이브러리를 따로 설치할 필요가 없음 
+
+```ts
+  interface AxiosRequestConfig<D = any> {
+    url?: string;
+    method?: Method | string;
+    baseURL?: string;
+    transformRequest?: AxiosRequestTransformer | AxiosRequestTransformer[];
+    transformResponse?: AxiosResponseTransformer | AxiosResponseTransformer[];
+    headers?: (RawAxiosRequestHeaders & MethodsHeaders) | AxiosHeaders;
+    params?: any;
+    paramsSerializer?: ParamsSerializerOptions | CustomParamsSerializer;
+    data?: D;
+    timeout?: Milliseconds;
+    timeoutErrorMessage?: string;
+    withCredentials?: boolean;
+    adapter?: AxiosAdapterConfig | AxiosAdapterConfig[];
+    auth?: AxiosBasicCredentials;
+    responseType?: ResponseType;
+    responseEncoding?: responseEncoding | string;
+    xsrfCookieName?: string;
+    xsrfHeaderName?: string;
+    onUploadProgress?: (progressEvent: AxiosProgressEvent) => void;
+    onDownloadProgress?: (progressEvent: AxiosProgressEvent) => void;
+    maxContentLength?: number;
+    validateStatus?: ((status: number) => boolean) | null;
+    maxBodyLength?: number;
+    maxRedirects?: number;
+    maxRate?: number | [MaxUploadRate, MaxDownloadRate];
+    beforeRedirect?: (options: Record<string, any>, responseDetails: {headers: Record<string, string>}) => void;
+    socketPath?: string | null;
+    transport?: any;
+    httpAgent?: any;
+    httpsAgent?: any;
+    proxy?: AxiosProxyConfig | false;
+    cancelToken?: CancelToken;
+    decompress?: boolean;
+    transitional?: TransitionalOptions;
+    signal?: GenericAbortSignal;
+    insecureHTTPParser?: boolean;
+    env?: {
+        FormData?: new (...args: any[]) => object;
+    };
+    formSerializer?: FormSerializerOptions;
+    family?: 4 | 6 | undefined;
+    lookup?: ((hostname: string, options: object, cb: (err: Error | null, address: string, family: number) => void) => void) |
+        ((hostname: string, options: object) => Promise<[address: string, family: number] | string>);
+}
+```
+
+```ts
+interface InternalAxiosRequestConfig<D = any> extends AxiosRequestConfig {
+    headers: AxiosRequestHeaders;
+}
+
+type AxiosRequestHeaders = RawAxiosRequestHeaders & AxiosHeaders;
+```
 
 <br><br>
 
