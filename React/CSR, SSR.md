@@ -1,5 +1,9 @@
 # CSR, SSR
 
+## MPA, SPA, CSR, Browser Rendering
+
+<br><br>
+
 ## React SSR 구현하기
 
 > 🍲 낙곱새(낙지, 곱창, 새우)
@@ -14,6 +18,8 @@
 <br>
 
 ### CSR
+
+Client-side rendering
 
 ![](../Images/csr.png)
 
@@ -46,6 +52,8 @@ SSG는 개발자가 개발을 완료하고 빌드하는 순간에 렌더링이 �
 <br>
 
 ### SSR
+
+Server-side rendering
 
 > **🔎 CSR에 비해 SEO(Search Engine Optimization)에 유리**  
 > 렌더링(조리)이 되지 않은, 정보값이 없는 페이지에서는 인덱싱(검색 엔진 사전에 등록)해둘 수가 없음  
@@ -84,11 +92,12 @@ SSG는 개발자가 개발을 완료하고 빌드하는 순간에 렌더링이 �
 |:--------------:|:-----------------------------:|:------------------------------------------------:|
 | TTFB fast, TTI | **빈 화면(TTFB fast, TTI slow)** |          **느린 응답(TTFB slow, TTI fast)**          |
 |       -        |       번들 크기가 커질 수록 두드러짐       | 싱글 스레드 renderToString 메서드의 특징 상 최초 응답이 늦어질 수 있음  |
-|       -        |  코드 스플리팅, 번들 압축, 트리 쉐이킹의 중요성  | 번들 크기가 커질 경우 TTI까지 속도가 느려저 CSR과 마찬가지 단점을 가질 수 있음 |
+|       -        |  코드 스플리팅, 번들 압축, 트리 쉐이킹의 중요성  | 번들 크기가 커질 경우 TTI까지 속도가 느려져 CSR과 마찬가지 단점을 가질 수 있음 |
 
 **TTFB(Time to First Byte)**
 
 - 어떤 리소스를 요청하고 난 뒤, 해당 요청에 대한 첫 번째 바이트가 도착하기 까지 걸리는 시간
+- CSR이 빠름. 약속 잇는데 친구가 늦엇다고 속옷만 입고나옴 -> 어쨨든 속도는 빠름
 
 **FCP(First Contentful Paint)**
 
@@ -113,17 +122,24 @@ SSG는 개발자가 개발을 완료하고 빌드하는 순간에 렌더링이 �
 
 미리 가져다둔것(🎁밀키트, 풀필먼트)
 
-ttfb
-csr이 빠름. 약속 잇는데 친구가 늦엇다고 빤스만 입고나옴
-어쨋든 빠름
+<br>
 
-### 
+### hydration
 
-하이드레이션은 ssr에서만
+하이드레이션은 ssr에서만 사용   
 
-hydrateRoot
-온거를 갖다씀
-근데 안쓰고 응 안써 내가 직접 만들래 할수도 잇음
+React의 경우 서버 측 React(react-dom/server)에서 한번 앱을 렌더링하고, 
+문자열로 변환(serialization, 직렬화)해 클라이언트 쪽으로 넘겨줌  
+클라이언트는 한번 더 렌더링을 하긴 하지만, 넘겨 받은 결과물에 JavaScript 이벤트 리스너를 연결하는 동작을 함  
+=> **hydration(수화)**
+
+
+[ReactDOM API](https://ko.react.dev/reference/react-dom/client)
+
+`createRoot().render()` : 17버전까지의 render() 역할  
+`hydrateRoot()` : 17버전까지의 hydrate() 역할
+
+온 것을 갖다씀 (안 쓰고 직접 만들어서 사용할 수도 있음)
 
 <br><br>
 
