@@ -31,6 +31,9 @@
 1970년 1월 1일 00:00:00 UTC로부터 지난 시간을 **밀리초 단위의 숫자 값**으로 반환   
 윤초는 무시
 
+💡 `Date.now`는 `new Date().getTime()`과 동일하지만 중간에 Date 객체를 만들지 않음  
+=> new Date().getTime()를 사용하는 것보다 **빠르고 가비지 컬렉터의 일을 덜어준다는 장점**이 있음 
+
 ### `Date.parse`
 
 날짜를 나타내는 문자열을 분석한 후, 해당 날짜와 1970년 1월 1일 00:00:00 UTC의 시간 차이를 **밀리초 단위의 숫자 값**으로 반환
@@ -117,6 +120,83 @@ alert( new Date().getTimezoneOffset() ); // 540
 
 ## 인스턴스 메소드 - 날짜 구성요소 설정하기
 
+날짜 구성요소 설정하기  
+
+`setFullYear(year, [month], [date])` :  현지 시간 기준으로 연도(네 자리 연도면 네 자리로)를 설정  
+`setMonth(month, [date])` : 현지 시간 기준으로 월을 설정  
+`setDate(date)` : 현지 시간 기준으로 일을 설정  
+`setHours(hour, [min], [sec], [ms])` :  현지 시간 기준으로 시를 설정  
+`setMinutes(min, [sec], [ms])` : 현지 시간 기준으로 분을 설정  
+`setSeconds(sec, [ms])` : 현지 시간 기준으로 초를 설정  
+`setMilliseconds(ms)` : 현지 시간 기준으로 밀리초를 설정  
+`setTime(milliseconds)` : 1970년 1월 1일 00:00:00 UTC부터 밀리초 이후를 나타내는 날짜를 설정)  
+
+> `setTime`을 제외한 모든 메소드는 `setUTCHours`같이 표준시에 따라 날짜 구성 요소를 설정해주는 메소드가 존재  
+> `setHours`와 같은 메소드는 여러 개의 날짜 구성요소를 동시에 설정할 수 있는데, 인수에 없는 구성요소는 변경되지 않음 
+
+```
+let today = new Date();
+
+today.setHours(0);
+alert(today); // 날짜는 변경되지 않고 시만 0으로 변경
+
+today.setHours(0, 0, 0, 0);
+alert(today); // 날짜는 변경되지 않고 시, 분, 초가 모두 변경(00시 00분 00초).
+```
+
+<br><br>
+
+## 인스턴스 메소드 - 문자열로 변환 
+
+날짜와 시간을 특정 형식의 문자열로 변환  
+날짜와 시간 정보를 원하는 형식의 문자열로 표현할 때 유용
+
+### `toDateString`
+
+Date의 날짜 부분만 나타내는, 사람이 읽을 수 있는 문자열을 반환
+
+### `toISOString` 
+Date를 나타내는 문자열을 ISO 8601 확장 형식에 맞춰 반환
+
+### `toJSON` 
+
+`toISOString`을 사용해서 Date를 나타내는 문자열을 반환   
+`JSON.stringify`에서 사용
+
+### `toLocaleDateString` (en-US)
+
+Date의 날짜 부분을 나타내는 문자열을 시스템에 설정된 현재 지역의 형식으로 반환
+
+### `toLocaleFormat`
+
+형식 문자열을 사용해서 Date를 나타내는 문자열을 생성
+
+### `toLocaleString`
+
+Date를 나타내는 문자열을 현재 지역의 형식으로 반환  
+`Object.toLocaleString` 메소드를 재정의
+
+### `toLocaleTimeString` (en-US)
+
+Date의 시간 부분을 나타내는 문자열을 시스템에 설정된 현재 지역의 형식으로 반환
+
+### `toString`
+
+`Date를 나타내는 시간 문자열을 반환  
+Object.toString` 메소드를 재정의
+
+### `toTimeString` (en-US)
+
+Date의 시간 부분만 나타내는, 사람이 읽을 수 있는 문자열을 반환
+
+### `toUTCString`
+
+Date를 나타내는 문자열을 UTC 기준으로 반환
+
+### `valueOf`
+
+Date 객체의 원시 값을 반환   
+Object.valueOf() 메소드를 재정의
 
 <br><br>
 
