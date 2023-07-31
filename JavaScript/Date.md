@@ -20,7 +20,25 @@
 
 ### `new Date`
 
-생성자로 호출할 경우 **새로운 Date 객체를 반환**
+생성자로 호출할 경우 **새로운 Date 객체를 반환**  
+인수 없이 호출하면 현재 날짜와 시간이 저장된 Date 객체가 반환  
+
+#### `new Date(year, month, date, hours, minutes, seconds, ms)`
+
+주어진 인수를 조합해 만들 수 있는 날짜가 저장된 객체가 반환(지역 시간대 기준)  
+첫 번째와 두 번째 인수만 필수값
+
+* `year`는 반드시 네 자리 숫자여야 함 
+* `month`는 0(1월)부터 11(12월) 사이의 숫자여야 함
+* `date`는 일을 나타내며, 값이 없는 경우엔 1일로 처리
+* `hours/minutes/seconds/ms`에 값이 없는 경우엔 0으로 처리
+
+```js
+new Date(2011, 0, 1, 0, 0, 0, 0); // 2011년 1월 1일, 00시 00분 00초
+new Date(2011, 0, 1); // hours를 비롯한 인수는 기본값이 0이므로 위와 동일
+
+let date = new Date(2011, 0, 1, 2, 3, 4, 567); // 2011년 1월 1일, 02시 03분 04.567초
+```
 
 <br><br>
 
@@ -63,7 +81,8 @@
 
 ### `getMonth`
 
-월을 반환(0 이상 11 이하)
+월을 반환(0 이상 11 이하)    
+💡 월을 화면에 보여주려면 +1을 해서 1~12의 숫자로 만들 것 
 
 ### `getDate`
 
@@ -89,7 +108,7 @@ getDay에선 항상 0이 일요일을 나타내며, 이를 변경할 방법은 �
 
 현지 시간대가 UTC 시간대와 다르다면 실행했을 때 다른 값이 출력
 
-```
+```js
 // 현재 일시
 let date = new Date();
 
@@ -104,13 +123,24 @@ alert( date.getUTCHours() ); // 18
 
 ### `getTime`
 
-주어진 일시와 1970년 1월 1일 00시 00분 00초 사이의 간격(밀리초 단위)인 타임스탬프를 반환
+표준시에 따라 지정된 날짜의 시간에 해당하는 숫자 값을 반환  
+주어진 일시와 표준시(1970년 1월 1일 00시 00분 00초) 사이의 간격(밀리초 단위)인 타임스탬프를 반환  
+
+다른 Date 객체에 동일한 날짜와 시간 값을 저장해 날짜 객체를 생성해서 **날짜 복사에 이용**  
+기능적으로 `valueOf` 메소드와 동일
+
+```js
+// 월은 0부터 시작하여 생일은 1995 년 1 월 10 일이 됨 
+const birthday = new Date(1994, 12, 10);
+const copy = new Date();
+copy.setTime(birthday.getTime());
+```
 
 ### `getTimezoneOffset`
 
 현지 시간과 표준 시간의 차이(분)를 반환
 
-```
+```js
 // UTC-1 시간대에서 이 예시를 실행하면 60이 출력
 // UTC+3 시간대에서 이 예시를 실행하면 -180이 출력
 alert( new Date().getTimezoneOffset() ); // 540
@@ -131,10 +161,10 @@ alert( new Date().getTimezoneOffset() ); // 540
 `setMilliseconds(ms)` : 현지 시간 기준으로 밀리초를 설정  
 `setTime(milliseconds)` : 1970년 1월 1일 00:00:00 UTC부터 밀리초 이후를 나타내는 날짜를 설정)  
 
-> `setTime`을 제외한 모든 메소드는 `setUTCHours`같이 표준시에 따라 날짜 구성 요소를 설정해주는 메소드가 존재  
+> `setTime`을 제외한 모든 메소드는 `setUTCHours`같이 UTC 표준시에 따라 날짜 구성 요소를 설정해주는 메소드가 존재  
 > `setHours`와 같은 메소드는 여러 개의 날짜 구성요소를 동시에 설정할 수 있는데, 인수에 없는 구성요소는 변경되지 않음 
 
-```
+```js
 let today = new Date();
 
 today.setHours(0);
@@ -196,7 +226,15 @@ Date를 나타내는 문자열을 UTC 기준으로 반환
 ### `valueOf`
 
 Date 객체의 원시 값을 반환   
-Object.valueOf() 메소드를 재정의
+`Object.valueOf()` 메소드를 재정의
+
+```js
+const date1 = new Date(Date.UTC(96, 1, 2, 3, 4, 5));
+console.log(date1.valueOf()); // 823230245000
+
+const date2 = new Date('02 Feb 1996 03:04:05 GMT');
+console.log(date2.valueOf()); // 823230245000
+```
 
 <br><br>
 
