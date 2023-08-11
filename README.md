@@ -170,14 +170,16 @@ https://shinjungoh.tistory.com/
 [일급 객체](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%9D%BC%EA%B8%89%20%EA%B0%9D%EC%B2%B4.md)  
 [생성자 함수](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EC%83%9D%EC%84%B1%EC%9E%90%20%ED%95%A8%EC%88%98.md)  
 [new Function](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/new%20Function.md)  
-[map, filter](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
-[getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)  
+[map, filter, find](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/map%2C%20filter.md)  
+[getElementById, querySelector](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/getElementById%2C%20querySelector.md)    
+[Date 객체](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/Date.md)  
 [toLocaleString](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/toLocaleString.md)  
 [Object.freeze](https://github.com/ShinjungOh/TIL/blob/bb47d9d1284b642043e3e5fb5ef19c3c833d8b07/JavaScript/Object.freeze.md)
 
 ### 사용하기 
 
 [node.js](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/node.js.md)  
+[모듈 시스템](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%AA%A8%EB%93%88%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)  
 [DOM 요소 탐색](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/DOM%20%EC%9A%94%EC%86%8C%20%ED%83%90%EC%83%89.md)  
 [데이터 속성 사용하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%86%8D%EC%84%B1%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 [이벤트 위임(event delegation)](https://github.com/ShinjungOh/TIL/blob/6019dcc2e37f2f3a0ce893e6babc80058d56b549/JavaScript/event%20delegation(%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%9C%84%EC%9E%84).md)  
@@ -197,6 +199,7 @@ https://shinjungoh.tistory.com/
 [React, Vue 비교](https://github.com/ShinjungOh/TIL/blob/main/React/React%2C%20Vue%20%EB%B9%84%EA%B5%90.md)    
 [JSX](https://github.com/ShinjungOh/TIL/blob/main/React/JSX.md)    
 [React tools](https://github.com/ShinjungOh/TIL/blob/main/React/react%20tools.md)    
+[CSR, SSR](https://github.com/ShinjungOh/TIL/blob/main/React/CSR%2C%20SSR.md)  
 [eslint ignore](https://github.com/ShinjungOh/TIL/blob/main/React/eslint%20ignore.md)    
 [Node.js package 생성](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20package%20%EC%83%9D%EC%84%B1.md)    
 [Node.js dependencies, devDependencies](https://github.com/ShinjungOh/TIL/blob/main/React/Node.js%20dependencies%2C%20devDependencies.md)    
@@ -206,7 +209,8 @@ https://shinjungoh.tistory.com/
 [react 검색어 일치 글자 볼드처리](https://github.com/ShinjungOh/TIL/blob/main/React/react%20%EA%B2%80%EC%83%89%EC%96%B4%20%EC%9D%BC%EC%B9%98%20%EA%B8%80%EC%9E%90%20%EB%B3%BC%EB%93%9C%EC%B2%98%EB%A6%AC.md)    
 [Context API](https://github.com/ShinjungOh/TIL/blob/main/React/Context%20API.md)  
 [a tag 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/a%20tag%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
-[Checkbox 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/checkbox%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)
+[Checkbox 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/checkbox%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)    
+[쿼리 스트링](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%BF%BC%EB%A6%AC%20%EC%8A%A4%ED%8A%B8%EB%A7%81.md)
 
 ### 라이브러리 
 
@@ -245,7 +249,8 @@ https://shinjungoh.tistory.com/
 
 [TypeScript](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/typescript.md)  
 [interface, type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/interface%2C%20type.md)  
-[JavaScript 프로젝트 TypeScript로 변경하기](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/JavaScript%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20TypeScript%EB%A1%9C%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)
+[enum](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/enum.md)  
+[JavaScript 프로젝트 TypeScript로 변경하기](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/JavaScript%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20TypeScript%EB%A1%9C%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)  
 
 <br>
 
