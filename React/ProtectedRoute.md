@@ -3,10 +3,10 @@
 ## 개념
 
 여러 페이지에서 동일한 로직이 겹칠 경우, 특히 페이지 이동에 관한 경우  
-**ProtectedRoute** 컴포넌트를 활용해 처리할 수 있음    
+매번 로직을 적어주지 않고 **ProtectedRoute** 컴포넌트를 활용해 처리할 수 있음    
 고차 컴포넌트 방식 
 
-* 로그인 한 사용자만 유저 페이지로 이동할 수 있도록 인증 프로세스 처리 
+* 로그인한 사용자만 유저 페이지로 이동할 수 있도록 인증 프로세스 처리 
 
 <br><br>
 
@@ -38,6 +38,39 @@ const ProtectedRoute = ({
 
   return children ? children : <Outlet />;
 };
+```
+
+### 활용
+
+
+
+```tsx
+const routes = [
+  {
+    element: <RouterLayout />,
+    children: [
+      { path: PATH.HOME, element: <HomePage /> },
+      { path: PATH.SIGN_IN, element: <SigninPage /> },
+      { path: PATH.SIGN_UP, element: <SignupPage /> },
+      {
+        path: PATH.CALENDAR,
+        element: (
+          <ProtectedRoute>
+            <CalendarPage />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: PATH.TIMELINE,
+        element: (
+          <ProtectedRoute>
+            <TimelinePage />
+          </ProtectedRoute>
+        ),
+      },
+    ],
+  },
+];
 ```
 
 ```tsx
