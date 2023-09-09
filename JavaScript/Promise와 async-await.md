@@ -115,6 +115,72 @@ delay(3000).then(() => alert('3초후 실행'));
 
 <br><br>
 
+## async/await
+
+프라미스를 핸들링하는 또 다른 문법 await  
+읽고 쓰기 쉬운 비동기 코드를 작성할 수 있음  
+await는 promise.then보다 좀 더 세련되게 프라미스의 result 값을 얻을 수 있도록 해주는 문법
+
+> 📌 **async/await의 흐름**
+> 
+> 함수를 호출하고, 함수 본문이 실행되는 도중에 `await` 키워드를 만나면    
+> 함수 실행이 잠시 **중단**되었다가 Promise가 처리될 때까지 **대기**(await = 기다리다)  
+> Promise가 처리되면 함수 실행이 재개되며 **결과 반환** -> Promise 객체의 result 값이 변수 result 등에 할당됨    
+> Promise가 처리되길 기다리는 동안 엔진이 다른 일(다른 스크립트를 실행, 이벤트 처리 등)을 할 수 있어서, CPU 리소스가 낭비되지 않음
+
+<br>
+
+### 특징  
+
+* async가 붙은 함수는 **반드시 Promise를 반환** 
+  * Promise가 아닌 것은 프라미스로 감싸 반환
+* await는 async 함수 안에서만 동작
+  * 일반 함수엔 await을 사용할 수 없음 
+* await는 최상위 레벨 코드에서 작동하지 않음
+  * 익명 async 함수로 코드를 감싸면 최상위 레벨 코드에도 await를 사용할 수 있음
+
+<br>
+
+### async/await와 promise.then/catch
+
+async/await를 사용하면 promise.then/catch가 거의 필요 없음  
+
+💡 **가장 바깥 스코프에서 비동기 처리가 필요할 때** 같이 `promise.then/catch`를 써야만 하는 경우가 있음  
+-> async/await가 Promise를 기반으로 한다는 사실을 알고 있어야 함   
+여러 작업이 모두 완료될 때까지 기다리려면 `Promise.all`을 활용할 수 있음 
+
+<br>
+
+### thenable
+
+thenable = then 메소드가 있음
+
+await는 ‘thenable’ 객체를 받음 
+promise.then처럼 await에도 thenable 객체(then 메서드가 있는 호출 가능한 객체)를 사용할 수 있음  
+thenable 객체는 서드파티 객체가 프라미스가 아니지만 프라미스와 호환 가능한 객체를 제공할 수 있다는 점에서 생긴 기능  
+서드파티에서 받은 객체가 .then을 지원하면 이 객체를 await와 함께 사용할 수 있음 
+
+<br>
+
+### 에러 핸들링
+
+await가 던진 에러는 throw가 던진 에러를 잡을 때처럼 `try..catch`를 사용해 잡을 수 있음
+
+* 프로미스가 정상적으로 이행 시 : await promise는 프로미스 객체의 result에 저장된 값을 반환
+* 프로미스가 거부 시 : throw문을 작성한 것처럼 에러가 던져짐 
+
+예시:
+
+```js
+try {
+    // ...
+} catch (e) {
+   // ...
+}
+```
+
+<br><br>
+
 ## 예시 - 모달 OverlayProvider에서의 Promise 
 
 ```tsx
@@ -184,5 +250,7 @@ if (overlay) {
 
 ## 참고 사이트
 
-> https://ko.javascript.info/promise-basics
-> https://ko.javascript.info/async-await
+> https://ko.javascript.info/promise-basics  
+> https://ko.javascript.info/async-await  
+> https://ko.javascript.info/event-loop     
+> https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
