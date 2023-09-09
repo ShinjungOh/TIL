@@ -117,9 +117,9 @@ delay(3000).then(() => alert('3초후 실행'));
 
 ## async/await
 
-프라미스를 핸들링하는 또 다른 문법 await  
+Promise를 핸들링하는 또 다른 문법 await  
 읽고 쓰기 쉬운 비동기 코드를 작성할 수 있음  
-await는 promise.then보다 좀 더 세련되게 프라미스의 result 값을 얻을 수 있도록 해주는 문법
+await는 promise.then보다 좀 더 세련되게 Promise의 result 값을 얻을 수 있도록 해주는 문법
 
 > 📌 **async/await의 흐름**
 > 
@@ -183,6 +183,9 @@ try {
 
 ## 예시 - 모달 OverlayProvider에서의 Promise 
 
+* Promise가 성공했을 때의 결과를 원하는 시점에 호출하기 위해 Promise 사용
+* async/await를 사용하면 await는 async 함수 안에서만 동작하며, 코드가 동기적인 형태로 작성되기 때문에 사용하지 않은 것 
+
 ```tsx
 
 export const OverlayProvider = ({children}: PropsWithChildren) => {
@@ -205,30 +208,33 @@ export const OverlayProvider = ({children}: PropsWithChildren) => {
         return null;
     }, []);
 
-// const getItem = async () => {
-//   const response = await http.get(); // response가 resolver랑 같음 // ex. submitResult같은거 // 실행결과가 아니라 실행할 수 있는 무언가
-//   return response;
-// }
-//
-// getItem();
-
     const handleSubmitOverlay = (result: OverlaySubmitResult) => {
         console.log('제출');
-        overlay?.resolver?.(result);
+        overlay?.resolver?.(result); // -> resolve() 를 value와 함께 호출하며 Promise가 종료
         console.log('Promise가 끝남!');
-
-        if (overlay) {
-            if (overlay.resolver) {
-                overlay.resolver(result);  // await http.get()가 성공했다는 가정과 같음 // return response과 같음
-            }
-        }
-
         handleCloseOverlay();
     };
     
     // return (...)
 }
 ```
+
+* useOverlay의 반환값으로는 `resolver(value)`를 실행하면서 넘겨준 값이 담김
+
+<br>
+
+### async/await와 비교 
+
+```tsx
+const getItem = async () => {
+  const response = await http.get(); // response가 resolver랑 같음, 실행결과가 아니라 실행할 수 있는 무언가
+  return response; // 반환값 
+}
+
+getItem();
+```
+
+<br>
 
 ### 옵셔널 체이닝
 
