@@ -44,9 +44,15 @@ executor는 자동으로 실행되는데 여기서 원하는 작업이 처리됨
 
 #### 📍 then
 
+> [MDN - then](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)  
+
 ```
 .then(promise가 이행되었을 때 실행되는 함수(실행 결과를 받음), promise가 거부되었을 때 실행되는 함수(에러를 받음)) 
 ```
+
+* 두 개의 콜백 함수를 인수로 받음 
+  * Promise가 이행했을 때, 거부했을 때를 위한 콜백 함수
+* Promise를 반환 -> 프로미스 체이닝이 가능함 
 
 ```js
 promise.then(
@@ -55,7 +61,11 @@ promise.then(
 );
 ```   
 
+<br>
+
 #### 📍 catch
+
+> [MDN - catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
 
 에러가 발생한 경우만 다루고 싶을 때
 
@@ -68,9 +78,27 @@ promise.then(
 promise.catch(alert); // 1초 뒤 "Error: 에러 발생!" 출력
 ```
 
+<br>
+
 #### 📍 finally
 
-프로미스가 처리되면(resolve 또는 reject) f가 항상 실행된다는 점에서 `.finally(f)` 호출은 `.then(f, f)`과 유사
+> [MDN - finally](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
+
+
+* Promise 객체를 반환
+* Promise가 처리되면 충족되거나 거부되는지 **여부에 관계없이** 지정된 콜백 함수가 실행됨
+  * Promise가 처리 된 후 **마지막에 코드가 무조건 한 번은 실행됨** 
+* Promise의 then과 catch 핸들러에서의 코드 중복을 피하도록 함
+
+프로미스가 처리되면(resolve 또는 reject) 콜백 함수가 항상 실행된다는 점에서 `.finally(f)` 호출은 `.then(f, f)`과 유사함
+
+```js
+promise.finally(onFinally);
+
+promise.finally(function () {
+  // settled (fulfilled or rejected)
+});
+```
 
 <br>
 
@@ -117,7 +145,7 @@ delay(3000).then(() => alert('3초후 실행'));
 
 ## async/await
 
-Promise를 핸들링하는 또 다른 문법 await  
+Promise를 핸들링하는 또 다른 문법 await -> **문법 설탕**     
 읽고 쓰기 쉬운 비동기 코드를 작성할 수 있음  
 await는 promise.then보다 좀 더 세련되게 Promise의 result 값을 얻을 수 있도록 해주는 문법
 
