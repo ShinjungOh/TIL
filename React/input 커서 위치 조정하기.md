@@ -69,7 +69,11 @@ setSelectionRange(selectionStart, selectionEnd)
 setSelectionRange(selectionStart, selectionEnd, selectionDirection)
 ```
 
-<br>
+<br><br>
+
+## 맨 끝에 포커스 위치하도록 구현하기 
+
+![](../Images/inp,textarea_프로퍼티4.png)
 
 ### 직접 수정하기
 
