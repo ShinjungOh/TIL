@@ -15,6 +15,7 @@
 ```js
 function debounce(callback, limit = 100) {  // 디바운스를 적용할 콜백 함수, 함수가 실행되기 전의 대기 시간 
     let timeout;
+    
     return function (...args) {
         clearTimeout(timeout);  // limit 이내에 함수가 반복 호출될 경우 timeout이 clearTimeout되므로 실행 취소(이전의 요청이 삭제됨) 
         timeout = setTimeout(() => {  // limit 시간 후에 callback.apply 실행

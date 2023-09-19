@@ -59,4 +59,5 @@ const handleThrottle = throttle(handleResize, 1000); // React의 경우 useCallb
 
 ## 참고 사이트
 
-> https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa
+> https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa  
+> https://inpa.tistory.com/entry/jQuery-%F0%9F%93%9A-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-resize-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%B5%9C%EC%A0%81%ED%99%94
