@@ -289,6 +289,7 @@ https://shinjungoh.tistory.com/
 [반응형 웹사이트 기본](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
 [반응형 - 모바일 웹사이트](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20-%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
 [반응형 - 태블릿 웹사이트](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20-%20%ED%83%9C%EB%B8%94%EB%A6%BF%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
+[반응형 - 데스크탑 웹사이트](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20-%20%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)
 
 ### 이미지
 
