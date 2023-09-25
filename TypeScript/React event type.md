@@ -13,12 +13,15 @@ HTML input 요소의 값이 변경될 때 발생하는 이벤트를 나타냄
 
 ## KeyboardEvent, MouseEvent
 
-KeyboardEvent, MouseEvent를 제공하는 것은 React가 아닌 **DOM의 일부**     
-TypeScript에서는 이러한 이벤트 타입을 DOM 이벤트 타입으로 가져와서 사용하기 때문에, 이벤트 객체를 명시적으로 타입 지정해야 함
+React에서 제공하는 **제네릭 타입** 중 하나
 
 * KeyboardEvent와 MouseEvent는 **DOM 이벤트 객체**를 나타냄    
   * -> 이벤트 타입은 DOM에서 제공하는 것을 그대로 사용해야 함   
   * -> 이 이벤트 타입을 사용할 때는 React의 제네릭 버전을 사용해야 함
+
+```tsx
+import { KeyboardEvent, MouseEvent } from 'react';
+```
 
 <br><br>
 
@@ -51,6 +54,9 @@ interface SyntheticEvent<T = Element, E = Event> extends BaseSyntheticEvent<E, E
 * React에서 제공하는 SyntheticEvent를 기반으로 하고 있으며, 기본적으로 Element를 대상으로 함
 * ChangeEvent의 target 속성은 EventTarget & T 유형
   * -> ChangeEvent가 어떤 요소에 대한 이벤트인지를 나타내며, 기본적으로 Element로 설정
+
+
+<br>
 
 ```ts
 // KeyboardEvent 
