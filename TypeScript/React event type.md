@@ -37,6 +37,14 @@ src/pages/SigninPage.tsx:81:38 - error TS2315: Type ‘MouseEvent’ is not gene
                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
+### 해결 방법
+
+자동완성으로 import되지 않는 경우도 있기 때문에 직접 { } 안에 추가하면 됨 
+
+```
+import { KeyboardEvent, MouseEvent, ChangeEvent, useEffect } from 'react';
+```
+
 <br><br>
 
 ## index.d.ts
