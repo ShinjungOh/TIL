@@ -221,7 +221,8 @@ https://shinjungoh.tistory.com/
 [index로 모듈화하기](https://github.com/ShinjungOh/TIL/blob/main/React/index%EB%A1%9C%20%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EA%B8%B0.md)  
 [input 커서 위치 조정하기](https://github.com/ShinjungOh/TIL/blob/main/React/input%20%EC%BB%A4%EC%84%9C%20%EC%9C%84%EC%B9%98%20%EC%A1%B0%EC%A0%95%ED%95%98%EA%B8%B0.md)  
 [useRef로 반응형 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/useRef%EB%A1%9C%20%EB%B0%98%EC%9D%91%ED%98%95%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)   
-[이벤트 등록하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0.md)
+[이벤트 등록하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0.md)    
+[라디오 버튼 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%9D%BC%EB%94%94%EC%98%A4%20%EB%B2%84%ED%8A%BC%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)
 
 ### 라이브러리 
 
@@ -264,7 +265,8 @@ https://shinjungoh.tistory.com/
 [Typescript Hierarchy - unknown, any, never](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/unknown%2C%20any%2C%20never.md)  
 [enum](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/enum.md)  
 [JavaScript 프로젝트 TypeScript로 변경하기](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/JavaScript%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20TypeScript%EB%A1%9C%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)  
-[React PropsWithChildren](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/PropsWithChildren.md)
+[React PropsWithChildren](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/PropsWithChildren.md)   
+[React event type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/React%20event%20type.md)
 
 <br>
 
@@ -286,6 +288,7 @@ https://shinjungoh.tistory.com/
 [미디어 쿼리](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%BF%BC%EB%A6%AC.md)   
 [flex](https://github.com/ShinjungOh/TIL/blob/main/CSS/flex.md)    
 [공백 처리하기 - white-space](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EA%B3%B5%EB%B0%B1%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0%20-%20white-space.md)  
+[라디오 버튼](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%9D%BC%EB%94%94%EC%98%A4%20%EB%B2%84%ED%8A%BC.md)    
 [반응형 웹사이트 기본](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
 [반응형 - 모바일 웹사이트](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20-%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
 [반응형 - 태블릿 웹사이트](https://github.com/ShinjungOh/TIL/blob/main/CSS/%EB%B0%98%EC%9D%91%ED%98%95%20-%20%ED%83%9C%EB%B8%94%EB%A6%BF%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.md)  
