@@ -121,7 +121,92 @@ Modifier : .block--modifier {}
 
 <br><br>
 
+## OOCSS
 
+**O**bject **O**riented CSS  
+CSS를 모듈 방식으로 코딩하여 중복을 최소화하는 기법   
+CSS 코드를 재사용 가능한 모듈로 분리
+
+<br>
+
+### 장점 및 주의점
+
+* 스타일 속성과 콘텐츠를 분리하여 작성
+* 반복되는 패턴을 추상화하여 재사용 가능한 모듈로 분리
+* 구체적인 스타일보다는 일반적인 스타일을 사용하여 모듈의 재사용성을 높임 
+
+<br>
+
+### 단점
+
+* 다중 클래스 사용으로 HTML이 복잡해짐
+* non-semantic한 클래스 사용
+* Sass와 함께 사용하게 되면 단점을 보완할 수 있음
+
+<br>
+
+### 규칙
+
+1. **Objects** : UI 요소의 일반적인 시각적 표현을 정의
+   * Ex) button, input, list 등
+2. **Components** : Objects를 조합하여 실제 UI 컴포넌트를 생성
+   * Ex) header, footer, sidebar 등
+3. **Modules** : Components를 조합하여 페이지를 만듦
+   * Ex) home, about, contact 등
+
+<br>
+
+### 예시
+
+#### Object: button
+
+```html
+<div class="button">Click Me</div>
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+```
+
+#### Component: header, nav, list, item, link
+
+```html
+<header class="header">
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+  </div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a class="nav__link" href="/">Home</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="/about">About</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+```
+
+<br><br>
+
+## SMACSS, BEM, OOCSS 방법론 차이점
+
+클래스 이름의 규칙, CSS구조에서 차이
+
+* SMACSS : 스타일을 기능과 역할에 따라 분류, 5가지 범주인 Base, Layout, Module, State, Theme의 카테고리로 분류, 클래스 이름에 prefix를 사용해 의미를 명확하게 함
+* BEM : CSS 클래스 이름을 사용해 요소를 나타냄, 각 요소는 Block, Element, Modifier 세 가지 형태로 모듈화
+* OOCSS : CSS를 객체지향적으로 구현, 스타일과 레이아웃을 분리하고 스타일을 모듈화
+
+<br><br>
 
 ## 참고 사이트
 
