@@ -47,8 +47,81 @@ CSS의 프레임워크가 아닌 하나의 스타일 가이드
 * !important 사용 금지
 * Class 이름은 의미있게, 다른 개발자가 이해할 수 있도록 선언
 
+<br><br>
+
+## BEM
+
+**B**lock, **E**lement, **M**odifier  
+CSS를 구조화하고 모듈화하는 방법론  
+
+객체지향 프로그래밍 OOP(Object Oriented Programming)와 유사  
+ID는 사용할 수 없고, 오직 class명만 사용 가능  
+`.header__navigation‐‐secondary` 같은 class를 사용
+
+<br>
+
+### 장점 및 주의점
+
+* 클래스 이름 만으로도 원하는 요소를 선택할 수 있음 -> 유지 보수성과 확장성 증가
+* ⚠️ class명은 구체적이고 명료하여 HTML안에서도 읽기 쉬워야 함 
+  * class명이 무엇을 나타내는지 분명하게 전달해야 함
+
+<br>
+
+### 규칙
+
+1. **Block** : 독립적으로 존재할 수 있는 기본적인 컴포넌트, 문단 전체에 적용된 element 또는 element를 담고 있는 컨테이너
+   * `.block`으로 명명
+   * Ex) header, nav, logo, login form, menu, search from, content, footer, button 
+2. **Element** : block 내부에서 특정 기능을 수행하는 컴포넌트, element는 상황에 따라 달라짐
+   * `.block__element`로 명명 : `.header__menu {}`
+   * 각 element는 두 개의 밑줄표시로 연결하여 block 다음에 작성
+   * block__는 Block과 Element를 구분하는 구분자
+3. **Modifier** : Block 또는 Element의 상태를 나타냄 
+   * `.block--modifier`로 명명
+   * block--는 Block과 Modifier를 구분하는 구분자
+   * Ex) button의 상태 : primary, success, warning 등 
+
+<br>
+
+### 네이밍 컨벤션
+
+```
+Block    : .block {}
+Element  : .block__element {}
+Modifier : .block--modifier {}
+.block__element--modifier {}
+```
+
+* block 이름이나 element 이름이 길 경우 – 하이픈으로 연결 : `.block-name__element-name`
+
+<br>
+
+### 예시
+
+```html
+<nav class="nav">
+  <ul class="nav__list">
+    <li class="nav__item">
+      <a class="nav__link" href="/">Home</a>
+    </li>
+    <li class="nav__item nav__item--active">
+      <a class="nav__link" href="/about">About</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__link" href="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+```
+
+* Block : nav 
+* Element : list, item, link 
+* Modifier : item--active
 
 <br><br>
+
+
 
 ## 참고 사이트
 
