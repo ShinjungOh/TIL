@@ -26,6 +26,65 @@ CORS는 HTTP의 일부로, 어떤 호스트에서 자신의 콘텐츠를 불러�
 * 이 API를 사용하는 웹 애플리케이션은 **자신의 출처와 동일한 리소스만 불러올 수 있음**
 * 다른 출처의 리소스를 불러오려면 그 출처에서 **올바른 CORS 헤더를 포함한 응답을 반환**해야 함 
 
+<br>
+
+#### CORS 표준
+
+웹 브라우저에서 해당 정보를 읽는 것이 `허용된 출처`를 **서버**에서 설명할 수 있는 `새로운 HTTP 헤더를 추가`함으로써 동작
+
+#### CORS 명세
+
+> 서버 데이터에 사이드 이펙트를 일으킬 수 있는 HTTP 요청 메소드(GET을 제외한 HTTP 메소드)에 대해
+
+* 브라우저가 요청을 `OPTIONS` 메소드로 **프리플라이트**(preflight, 사전 전달)하여 지원하는 메소드를 요청하고,
+서버의 `허가`가 떨어지면 실제 요청을 보내도록 요구 
+* 서버는 클라이언트에게 요청에 `인증정보`(쿠키, HTTP 인증)를 함께 보내야 한다고 알려줄 수도 있음
+
+<br><br>
+
+## HTTP 헤더
+
+클라이언트와 서버가 요청/응답으로 부가적인 정보를 전송할 수 있도록 함  
+HTTP 헤더는 대소문자를 구분하지 않는 `이름`과, ':' 다음에 오는 `값`으로 구성
+
+#### CORS 관련 HTTP 헤더
+
+> 교차 출처 리소스 공유 기능을 사용하기 위한 방법  
+
+| 헤더                            | 기능                                                         |
+|-------------------------------|------------------------------------------------------------|
+| Access-Control-Allow-Origin   | 응답이 공유될 수 있는지를 나타냄                                         |
+| Access-Control-Allow-Credentials | credentials 플래그가 true일 때 요청에 대한 응답이 노출될 수 있는지를 나타냄         |
+| Access-Control-Expose-Headers | 헤더의 이름을 나열하여 어떤 헤더가 응답의 일부로 노출될 수 있는지를 나타냄                 |
+| Access-Control-Allow-Methods| preflight 요청에 대한 응답으로 리소스에 접근할 때 허용되는 메소드를 명시합니다.          |
+| Origin    | cross-site 접근 요청, preflight request의 출처를 나타냄               |
+| Access-Control-Request-Headers | 실제 요청이 있을 때 사용될 HTTP 헤더를 서버에 알리기 위한 preflight 요청을 보낼 때 사용  |
+| Access-Control-Request-Method | 실제 요청이 있을 때 사용될 HTTP 메소드를 서버에 알리기 위한 preflight 요청을 보낼 때 사용 |
+
+<br>
+
+### HTTP 요청 헤더
+
+**클라이언트**가 HTTP 요청을 발행할 때 사용할 수 있는 헤더  
+서버를 호출할 때 설정됨 
+
+* Origin 
+* Access-Control-Request-Method 
+* Access-Control-Request-Headers
+
+<br>
+
+### HTTP 응답 헤더
+
+**서버**가 접근 제어 요청을 위해 보내는 HTTP 응답 헤더
+
+* Access-Control-Allow-Origin
+* Access-Control-Expose-Headers
+* Access-Control-Max-Age 
+* Access-Control-Allow-Credentials
+* Access-Control-Allow-Methods 
+* Access-Control-Allow-Headers
+
 <br><br>
 
 ## 동일 출처 정책
