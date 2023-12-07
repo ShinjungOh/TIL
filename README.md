@@ -58,13 +58,16 @@ https://shinjungoh.tistory.com/
 [HTTP 메소드 속성](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C%20%EC%86%8D%EC%84%B1.md)  
 [클라이언트에서 서버로 데이터 전송](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%86%A1.md)  
 [HTTP API 설계 예시](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20API%20%EC%84%A4%EA%B3%84%20%EC%98%88%EC%8B%9C.md)  
-[HTTP 상태코드](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md)  
+[HTTP 상태코드](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C.md)    
+[HTTP 상태코드 - 304 Not Modified](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%83%81%ED%83%9C%EC%BD%94%EB%93%9C%20-%20304%20Not%20Modified.md)  
 [HTTP 일반 헤더(전송, 정보, 인증, 쿠키)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EC%9D%BC%EB%B0%98%20%ED%97%A4%EB%8D%94(%EC%A0%84%EC%86%A1%2C%20%EC%A0%95%EB%B3%B4%2C%20%EC%9D%B8%EC%A6%9D%2C%20%EC%BF%A0%ED%82%A4).md)  
 [HTTP 헤더 (캐시와 조건부 요청)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%97%A4%EB%8D%94%20(%EC%BA%90%EC%8B%9C%EC%99%80%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20%EC%9A%94%EC%B2%AD).md)  
-[Rest-API vs Graphql-API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Rest-API%20vs%20Graphql-API.md)    
+[Rest-API vs Graphql-API](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Rest-API%20vs%20Graphql-API.md)  
+[CORS(교차 출처 리소스 공유)](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/CORS(%EA%B5%90%EC%B0%A8%20%EC%B6%9C%EC%B2%98%20%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EA%B3%B5%EC%9C%A0).md)
 
 ### 캐시 
 
+[캐싱 종류, 개념](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%BA%90%EC%8B%B1%20%EC%A2%85%EB%A5%98%2C%20%EA%B0%9C%EB%85%90.md)  
 [웹브라우저 캐시 - 로컬스토리지](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)  
 [웹브라우저 캐시 - 로컬스토리지와 오리진](https://github.com/ShinjungOh/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EC%99%80%20%EC%98%A4%EB%A6%AC%EC%A7%84.md)  
 [웹브라우저 캐시 - 로컬스토리지를 활용한 UX 개선](https://github.com/ShinjungOh/TIL/blob/c9833af612/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%BA%90%EC%8B%9C%20-%20%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20UX%20%EA%B0%9C%EC%84%A0.md)    
@@ -229,7 +232,10 @@ https://shinjungoh.tistory.com/
 [item 대신 list가 선택되는 이슈 해결하기](https://github.com/ShinjungOh/TIL/blob/main/React/item%20%EB%8C%80%EC%8B%A0%20list%EA%B0%80%20%EC%84%A0%ED%83%9D%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%8A%88%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0.md)  
 [유효하지 않은 토큰 처리하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%9C%A0%ED%9A%A8%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%80%20%ED%86%A0%ED%81%B0%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
 [개발 중인 웹페이지 모바일로 미리보기](https://github.com/ShinjungOh/TIL/blob/main/React/%EA%B0%9C%EB%B0%9C%20%EC%A4%91%EC%9D%B8%20%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%A1%9C%20%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0.md)  
-[정보값이 여러개인 메뉴 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%A0%95%EB%B3%B4%EA%B0%92%EC%9D%B4%20%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%B8%20%EB%A9%94%EB%89%B4%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)
+[정보값이 여러개인 메뉴 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%A0%95%EB%B3%B4%EA%B0%92%EC%9D%B4%20%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%B8%20%EB%A9%94%EB%89%B4%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)  
+[로딩바 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EB%A1%9C%EB%94%A9%EB%B0%94%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)  
+[이미지 경로 설정하기(public, src)](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EA%B2%BD%EB%A1%9C%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0(public%2C%20src).md)  
+[React 18](https://github.com/ShinjungOh/TIL/blob/main/React/React%2018.md)
 
 ### 라이브러리 
 
@@ -244,6 +250,7 @@ https://shinjungoh.tistory.com/
 [테스트 - CodeceptJS 개념](https://github.com/ShinjungOh/TIL/blob/e1bc0157fca03c0f7d467c2f3c402ca926cc2c36/React/CodeceptJS.md)  
 [테스트 - CodeceptJS로 E2E 테스트하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/CodeceptJS.md)  
 [테스트 - vite 프로젝트에서 jest 설정하기](https://github.com/ShinjungOh/TIL/blob/fa5e4c8aa0e738345f3e746dece778b0b58407a0/React/vite%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C%20jest%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)  
+[테스트 - Jest로 Lottie 모킹하기](https://github.com/ShinjungOh/TIL/blob/main/React/Jest%20-%20Lottie%20%EB%AA%A8%ED%82%B9%ED%95%98%EA%B8%B0.md)  
 [스토리북](https://github.com/ShinjungOh/TIL/blob/210a51c540b0609f66279ac526d6626eedf3c12b/React/%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%B6%81.md)  
 
 ### 상태관리
@@ -276,7 +283,8 @@ https://shinjungoh.tistory.com/
 [JavaScript 프로젝트 TypeScript로 변경하기](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/JavaScript%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20TypeScript%EB%A1%9C%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)  
 [React PropsWithChildren](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/PropsWithChildren.md)   
 [React event type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/React%20event%20type.md)  
-[is 타입가드](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/is%20%ED%83%80%EC%9E%85%EA%B0%80%EB%93%9C.md)
+[is 타입가드](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/is%20%ED%83%80%EC%9E%85%EA%B0%80%EB%93%9C.md)    
+[as const](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/as%20const.md)
 
 <br>
 
