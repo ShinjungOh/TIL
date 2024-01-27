@@ -100,4 +100,4 @@ export default function PostArticle({children, post}: Props) {
 ### 주의점
 
 ⚠️ `children`이나 `props`로 넘겨서 사용해야 함   
-클라이언트 컴포넌트에서 서버 컴포넌트를 import해서 쓰면, 서버 컴포넌트가가 클라이언트 컴포넌트로 성격이 바뀌게 됨
+클라이언트 컴포넌트에서 서버 컴포넌트를 import해서 쓰면, 서버 컴포넌트가 클라이언트 컴포넌트로 성격이 바뀌게 됨
