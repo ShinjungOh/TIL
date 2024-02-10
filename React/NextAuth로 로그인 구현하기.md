@@ -92,8 +92,7 @@ export const {
 export { auth as middleware } from "./auth"
 
 export const config = {
-  matchers: ['/compost/tweet', '/home', 'explore', 'messages', '/search'],
-}
+  matcher: ['/compose/tweet', '/home', '/explore', '/messages', '/search'],}
 ```
 
 * 로그인 해야 보이는 페이지들(미로그인 시 들어가지는/안 들어가지는 페이지 구분) 처리 
