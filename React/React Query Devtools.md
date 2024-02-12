@@ -8,6 +8,20 @@ npm i @tanstack/react-query-devtools@5 -D
 
 ![RQDevtools.png](..%2FImages%2FRQDevtools.png)
 
+### ReactQueryDevtools 
+
+`ReactQueryDevtools`는 데브툴을 기본적으로 띄울지 설정하는 옵션  
+데브(개발) 모드일때만 띄우는게 좋음
+
+* 데브툴에는 데이터에 대한 자세한 정보가 다 나와있음
+
+```
+<ReactQueryDevtools initialIsOpen={process.env.NEXT_PUBLIC_MODE === ‘local’}/>
+```
+
+* `.env.local`에 `NEXT_PUBLIC_MODE=local` 추가
+
+<br>
 
 ### Devtools의 장점
 
@@ -37,10 +51,6 @@ npm i @tanstack/react-query-devtools@5 -D
 
 * React Query의 핵심은 서버의 데이터를 **가져오는** 것 
 * React Query는 캐싱을 잘해줌
-* 트래픽이 다 돈이기 때문에, 트래픽 관리를 잘 해야함 
-  * -> 최대한 **캐싱**을 많이 해두는게 중요
-  * 유저가 빠르게 컨텐츠를 볼 수 있기 때문에 UX 증대
-
 * React Query 자체에서도 컴포넌트 간 데이터 공유가 가능
   * Zustand : 리덕스의 가벼운 버전
   * 컴포넌트 간 공유할 때는 Context API를 써도 됨
@@ -50,6 +60,9 @@ npm i @tanstack/react-query-devtools@5 -D
 
 메모리, DB의 임시 저장소에다 가져온 데이터를 저장 및 재사용할수 있도록 하는 것  
 
+* 트래픽이 다 돈이기 때문에, 트래픽 관리를 잘 해야함
+    * -> 최대한 **캐싱**을 많이 해두는게 중요
+    * 유저가 빠르게 컨텐츠를 볼 수 있기 때문에 UX 증대
 * 일정 기간 마다/특정 행위 마다(Ex. 글 수정 시) 캐시 찾아서 DB와 캐시 같이 업데이트 할 수 있음 
 
 <br><br>
