@@ -23,9 +23,11 @@ Next.js에는 여러 종류의 캐시가 존재
 
 ## Request Memoization
 
+> 한 페이지를 요청할 때 여러 번 서버에 요청이 가는 중복 요청을 제거
+
 페이지를 처음에 렌더링 할 때 중복된 요청이 있으면 제거해줌   
 다음번 페이지 요청이 왔을 때는 캐시들이 전부 초기화되서 다시 새로 가져옴   
--> **한 페이지를 요청할 때 여러 번 서버에 요청이 가는 중복 요청을 제거** 
+
 
 ### Duration
 
@@ -45,7 +47,7 @@ Next.js에는 여러 종류의 캐시가 존재
 
 ## Data Cache
 
-페이지와 상관없이 프론트 서버에서 백엔드 서버, DB로 보낸 요청을 얼마나 오래 캐싱할 것인가  
+> 페이지와 상관없이 프론트 서버에서 백엔드 서버, DB로 보낸 요청을 얼마나 오래 캐싱할 것인가    
 (얼마동안 프론트 서버가 기억을 할 것인가)
 
 * 데이터 캐시를 캐싱하지 않음 : `{ cache: 'no-store' }),`
@@ -81,6 +83,38 @@ export const dynamic = 'force-dynamic'
 * 이 페이지에서 보내는 모든 요청을 캐싱하지 않겠다는 의미 
 
 <br><br>
+
+## Full Route Cache
+
+> 페이지를 얼마동안 캐싱할 것인가
+
+Full Route Cache가 제대로 돌아가려면 콘텐츠가 아예 변하지 않아야 함 (SNS와는 잘 맞지 않음)  
+매우 정적인 사이트를 만들 것이 아니면 신경쓰지 않아도 됨 
+
+* `no-store`가 하나라도 있으면 Full Route Cache는 의미가 없어짐 
+* 데이터 캐시의 영향을 많이 받음 
+* cookies, headers, searchParams, useSearchParams 등을 사용하면 Full Route Cache는 동작하지 않음
+  * 미리 캐싱해두는 의미가 없어짐
+
+<br><br>
+
+## Router Cache(static vs dynamic)
+
+> 유일하게 클라이언트에서 동작하는 캐시
+
+컴포넌트별로 기억을 해둠  
+레이아웃은 재사용하고 페이지는 새로 받아오는 것  
+페이지를 새로고침하기 전까지는 계속 유지됨  
+라우터 캐시는 끌 수 없음
+
+### static vs dynamic의 기준
+
+* 다이나믹 펑션 사용 X, 데이터 캐시 사용하는 경우만 스태틱
+  * 뉴스 기사, 블로그 글 등, 항상 콘텐츠가 고정된 경우 
+* 나머지는 전부 다이나믹
+
+* Dynamically Rendered: 30 seconds
+* Statically Rendered: 5 minutes
 
 <br><br>
 
