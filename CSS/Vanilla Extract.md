@@ -104,6 +104,10 @@ createGlobalTheme(':root', global, {
 });
 ```
 
+![vanilla-extract-브라우저.png](..%2FImages%2Fvanilla-extract-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80.png)
+
+* `bg-color`, `fg-color`가 브라우저에서는 `--bg-color`, `--fg-color`로 변환  
+
 <br>
 
 ### 객체식으로 실제 CSS 값 만들기
