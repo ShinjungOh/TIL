@@ -69,8 +69,10 @@ https://nextjs.org/docs/app/building-your-application/rendering/server-component
 무료 서버를 사용할 때 메모리가 부족해서 넥스트 서버 배포가 되지 않음 
 
 -> ⚠️ AWS 등으로 배포해야 하는데 **과금**에 주의
+* 종료할 때는 `인스턴스 종료`
+* 종료시에는 탄력적 IP도 `릴리스, 연결 해제` 
 
-### AWS EC2
+### AWS EC2로 배포하기
 
 https://aws.amazon.com/ko/ec2/?nc2=h_ql_prod_fs_ec2
 
@@ -86,6 +88,10 @@ https://aws.amazon.com/ko/ec2/?nc2=h_ql_prod_fs_ec2
 "start": "next start -p 80",
 ```
 
+<br>
+
+### 연결하기
+
 > 인스턴스 시작 후 연결 > 노드 설치 > nvm install v버전 > git clone 레포지토리 > 레포지토리로 이동 > npm i   
 
 * 노드 설치 자료 : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04#option-3-installing-node-using-the-node-version-manager
@@ -94,6 +100,16 @@ https://aws.amazon.com/ko/ec2/?nc2=h_ql_prod_fs_ec2
 > 이미지 최적화 npm i sharp > npm run build
 
 * 이미지 최적화 자료 : https://nextjs.org/docs/app/building-your-application/deploying#image-optimization
+
+<br>
+
+### 탄력적 IP 
+
+⚠️과금 주의
+
+고정 IP  
+탄력적 IP가 연결되지 않으면 IP가 계속 바뀜  
+-> 접속할 때마다 접속 정보가 달라진다는 의미(불편)
 
 <br><br>
 
