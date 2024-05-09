@@ -356,7 +356,7 @@ https://shinjungoh.tistory.com/
 [CSS-in-JS props 문법 사용하기](https://github.com/ShinjungOh/TIL/blob/b29f685ff4809d132b0393a7c6fbff992496095e/CSS/CSS-in-JS%20props%20%EB%AC%B8%EB%B2%95%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 [classnames로 조건부 className 결합하기](https://github.com/ShinjungOh/TIL/blob/main/CSS/classnames%EB%A1%9C%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20className%20%EA%B2%B0%ED%95%A9%ED%95%98%EA%B8%B0.md)  
 [Vanilla Extract 사용방법](https://github.com/ShinjungOh/TIL/blob/main/CSS/Vanilla%20Extract.md)  
-[Vanilla-extract recipes](https://github.com/ShinjungOh/TIL/blob/main/CSS/Vanilla%20Extract%20ecipes.md)  
+[Vanilla-extract recipes](https://github.com/ShinjungOh/TIL/blob/main/CSS/Vanilla%20Extract%20recipes.md)  
 
 <br>
 
