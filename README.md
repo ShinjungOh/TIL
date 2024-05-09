@@ -90,7 +90,8 @@ https://shinjungoh.tistory.com/
 [브라우저 렌더링 과정](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EA%B3%BC%EC%A0%95.md)  
 [브라우저 렌더링 최적화](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94.md)  
 [브라우저 성능 측정](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%84%B1%EB%8A%A5%20%EC%B8%A1%EC%A0%95.md)  
-[Console API](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Console%20API.md)
+[Console API](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/Console%20API.md)   
+[웹 바이탈(Web Vitals)](https://github.com/ShinjungOh/TIL/blob/main/WebAPI/%EC%9B%B9%20%EB%B0%94%EC%9D%B4%ED%83%88.md)
 
 <br>
 
@@ -257,9 +258,11 @@ https://shinjungoh.tistory.com/
 [라우터 - 에러 페이지 구현하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%97%90%EB%9F%AC%20%ED%8E%98%EC%9D%B4%EC%A7%80.md)  
 [테스트 - CodeceptJS 개념](https://github.com/ShinjungOh/TIL/blob/e1bc0157fca03c0f7d467c2f3c402ca926cc2c36/React/CodeceptJS.md)  
 [테스트 - CodeceptJS로 E2E 테스트하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/CodeceptJS.md)  
+[테스트 - CodeceptJS Custom Helpers 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/CodeceptJS%20Custom%20Helpers%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 [테스트 - vite 프로젝트에서 jest 설정하기](https://github.com/ShinjungOh/TIL/blob/fa5e4c8aa0e738345f3e746dece778b0b58407a0/React/vite%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C%20jest%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)    
 [테스트 - Jest로 Lottie 모킹하기](https://github.com/ShinjungOh/TIL/blob/main/React/Jest%20-%20Lottie%20%EB%AA%A8%ED%82%B9%ED%95%98%EA%B8%B0.md)    
 [MSW 설정하기](https://github.com/ShinjungOh/TIL/blob/main/React/MSW%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)    
+[useSocket으로 웹소켓 연결하기](https://github.com/ShinjungOh/TIL/blob/main/React/useSocket%EC%9C%BC%EB%A1%9C%20%EC%9B%B9%EC%86%8C%EC%BC%93%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.md)  
 [스토리북 - 스토리북 개념](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%B6%81.md)  
 [스토리북 - 스토리북 사용하기](https://github.com/ShinjungOh/TIL/blob/main/React/%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%B6%81%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 [스토리북 - 크로마틱으로 스토리북 관리하기](https://github.com/ShinjungOh/TIL/blob/main/React/%ED%81%AC%EB%A1%9C%EB%A7%88%ED%8B%B1%EC%9C%BC%EB%A1%9C%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EB%B6%81%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)  
@@ -306,7 +309,8 @@ https://shinjungoh.tistory.com/
 [React PropsWithChildren](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/PropsWithChildren.md)   
 [React event type](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/React%20event%20type.md)  
 [is 타입가드](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/is%20%ED%83%80%EC%9E%85%EA%B0%80%EB%93%9C.md)    
-[as const](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/as%20const.md)
+[as const](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/as%20const.md)  
+[CSSProperties](https://github.com/ShinjungOh/TIL/blob/main/TypeScript/CSSProperties.md)
 
 <br>
 
@@ -350,7 +354,9 @@ https://shinjungoh.tistory.com/
 [styled-components textarea 태그 rows, cols 속성](https://github.com/ShinjungOh/TIL/blob/main/CSS/styled-components%20textarea%20%ED%83%9C%EA%B7%B8%20rows%2C%20cols%20%EC%86%8D%EC%84%B1.md)  
 [Emotion - Global Style 적용하기](https://github.com/ShinjungOh/TIL/blob/main/CSS/emotion%20-%20Global%20Style%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)    
 [CSS-in-JS props 문법 사용하기](https://github.com/ShinjungOh/TIL/blob/b29f685ff4809d132b0393a7c6fbff992496095e/CSS/CSS-in-JS%20props%20%EB%AC%B8%EB%B2%95%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
-[classnames로 조건부 className 결합하기](https://github.com/ShinjungOh/TIL/blob/main/CSS/classnames%EB%A1%9C%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20className%20%EA%B2%B0%ED%95%A9%ED%95%98%EA%B8%B0.md)
+[classnames로 조건부 className 결합하기](https://github.com/ShinjungOh/TIL/blob/main/CSS/classnames%EB%A1%9C%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20className%20%EA%B2%B0%ED%95%A9%ED%95%98%EA%B8%B0.md)  
+[Vanilla Extract 사용방법](https://github.com/ShinjungOh/TIL/blob/main/CSS/Vanilla%20Extract.md)  
+[Vanilla-extract recipes](https://github.com/ShinjungOh/TIL/blob/main/CSS/Vanilla%20Extract%20ecipes.md)  
 
 <br>
 
