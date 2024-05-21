@@ -1,10 +1,5 @@
 # Git Hooks - Husky
 
-> https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Hooks  
-> https://typicode.github.io/husky/getting-started.html
-
-<br><br>
-
 ## husky 설치 방법 1 
 
 ### 1️⃣ husky & lint-staged 사용
@@ -125,6 +120,34 @@ npx lint-staged
 
 이후 커밋을 시도하면 허스키가 작동 
 
+
+<br><br>
+
+## Nextjs 사용 시  
+
+lint-staged와 `next lint` 명령어를 사용할 경우 
+
+> [lint-staged](https://nextjs.org/docs/app/building-your-application/configuring/eslint#lint-staged)
+
+<img src="../Images/next_lint_lint_staged.png" alt="next lint 에러">
+
+### `.lintstagedrc.js` 파일 생성
+
+```js
+const path = require('path')
+ 
+const buildEslintCommand = (filenames) =>
+  `next lint --fix --file ${filenames
+    .map((f) => path.relative(process.cwd(), f))
+    .join(' --file ')}`
+ 
+module.exports = {
+  '*.{js,jsx,ts,tsx}': [buildEslintCommand],
+}
+```
+
+* .lintstagedrc.js 파일을 생성하면 에러 해결 
+
 <br><br>
 
 ## 작동 원리
@@ -132,4 +155,11 @@ npx lint-staged
 1. 커밋을 시도하면 허스키가 실행됨
 2. 허스키 폴더의 `pre-commit` 파일에 추가한 `npx lint-staged` 명령어가 실행됨
 3. `package.json`의 lint-staged 설정에 적힌 명령어를 실행
-4. script에 적힌 명령어가 실행되며 eslint, prettier 체크 
+4. script에 적힌 명령어가 실행되며 eslint, prettier 체크
+
+<br><br>
+
+## 참고 사이트 
+
+> https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Hooks  
+> https://typicode.github.io/husky/getting-started.html
