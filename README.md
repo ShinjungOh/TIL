@@ -207,6 +207,7 @@ https://shinjungoh.tistory.com/
 
 ### 라이브러리
 
+[패키지 매니저 - npm, pnpm, yarn, yarn berry](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/%ED%8C%A8%ED%82%A4%EC%A7%80%20%EB%A7%A4%EB%8B%88%EC%A0%80%20-%20npm%2C%20pnpm%2C%20yarn%2C%20yarn%20berry.md)     
 [Day.js로 날짜, 시간 표기하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/Day.js%EB%A1%9C%20%EB%82%A0%EC%A7%9C%2C%20%EC%8B%9C%EA%B0%84%20%ED%91%9C%EA%B8%B0%ED%95%98%EA%B8%B0.md)  
 [faker를 이용해 더미 데이터 생성하기](https://github.com/ShinjungOh/TIL/blob/main/JavaScript/faker%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%B4%20%EB%8D%94%EB%AF%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0.md)
 
