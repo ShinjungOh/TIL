@@ -107,6 +107,80 @@ export default function App() {
 
 <br><br>
 
+## 유효성 검사
+
+### yup 사용하기 
+
+React Hook Form 자체에 내장된 유효성 검사 기능을 사용하면 쉽게 사용자 입력값을 검증 가능 
+
+```
+npm install @hookform/resolvers yup
+```
+
+유효성 검사를 강화하고, 입력 필드에 따라 동적으로 오류 메시지를 표시     
+yup 라이브러리를 사용하여 스키마 기반 유효성 검사를 수행
+
+### yup으로 유효성 검사 스키마 정의
+
+```tsx
+import * as yup from 'yup';
+import { yupResolver } from '@hookform/resolvers/yup';
+
+type SignupInput = {
+  email: string;
+  password: string;
+  passwordCheck: string;
+  name: string;
+  nickname: string;
+};
+
+const validationSchema = yup
+        .object({
+          email: yup.string().email('유효한 이메일 형식이 아닙니다.').required('이메일을 입력해주세요.'),
+          password: yup
+                  .string()
+                  .min(8, '8글자 이상 입력해주세요.')
+                  .matches(
+                          /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+                          '한 개 이상의 영문자, 숫자, 특수문자를 포함해야 합니다.',
+                  )
+                  .required('비밀번호를 입력해주세요.'),
+          passwordCheck: yup
+                  .string()
+                  .oneOf([yup.ref('password'), undefined], '비밀번호가 일치하지 않습니다.')
+                  .required('비밀번호를 다시 입력해주세요.'),
+          name: yup
+                  .string()
+                  .matches(/^[가-힣]{2,10}$/, '2글자 이상 10글자 이하의 한글만 가능합니다.')
+                  .required('이름을 입력해주세요.'),
+          nickname: yup
+                  .string()
+                  .matches(/^[가-힣]{2,10}$/, '2글자 이상 10글자 이하의 한글만 가능합니다.')
+                  .required('닉네임을 입력해주세요.'),
+        })
+        .required();
+````
+
+### React Hook Form에 통합하기
+
+```tsx
+export const Signup = () => {
+  const navigate = useNavigate();
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm<SignupInput>({
+    resolver: yupResolver(schema),
+  });
+  
+// ...
+```
+
+<br><br>
+
 ## 참고 사이트 
 
-> https://www.react-hook-form.com/get-started/#Quickstart
+> https://www.react-hook-form.com/get-started/#Quickstart  
+> https://react-hook-form.com/get-started#SchemaValidation
