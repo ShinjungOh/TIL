@@ -11,7 +11,7 @@
 * HTML 표준
   * 기존 HTML 마크업을 활용하고, 제약 기반 검증 API로 폼을 검증 가능
 * 초경량 패키지 크기
-  * React Hook Form은 의존성이 없는 작은 라이브러리입니다
+  * React Hook Form은 의존성이 없는 작은 라이브러리
 * 성능
   * 리렌더링 횟수를 최소화하고, 검증 계산을 최소화하며, 더 빠르게 마운팅
 * 도입 가능성
@@ -120,6 +120,8 @@ npm install @hookform/resolvers yup
 유효성 검사를 강화하고, 입력 필드에 따라 동적으로 오류 메시지를 표시     
 yup 라이브러리를 사용하여 스키마 기반 유효성 검사를 수행
 
+<br>
+
 ### yup으로 유효성 검사 스키마 정의
 
 ```tsx
@@ -159,11 +161,15 @@ const validationSchema = yup
                   .required('닉네임을 입력해주세요.'),
         })
         .required();
-````
+```
+
+<br>
 
 ### React Hook Form에 통합하기
 
 ```tsx
+import { yupResolver } from '@hookform/resolvers/yup';
+
 export const Signup = () => {
   const navigate = useNavigate();
   const {
@@ -172,11 +178,44 @@ export const Signup = () => {
     watch,
     formState: { errors },
   } = useForm<SignupInput>({
-    resolver: yupResolver(schema),
+    resolver: yupResolver(schema), // ✅
+    mode: 'onChange', // 필드 값이 변경될 때마다 유효성 검사를 수행
   });
   
 // ...
 ```
+
+<br>
+
+### Submit 버튼과 연동하기
+
+#### 버튼의 disabled 속성을 이용하는 방법 
+
+* useForm 훅의 formState와 isValid 속성을 사용해서 버튼의 비활성화 상태 관리하기
+* isValid를 사용하면 **현재 폼의 모든 필드가 유효한지** 확인 가능 
+
+```tsx
+const {
+  register,
+  handleSubmit,
+  formState: { errors, isValid }, // ✅isValid 추가
+} = useForm<SignupInput>({
+  resolver: yupResolver(validationSchema),
+  mode: 'onChange',
+});
+
+// ...
+
+ <BaseButton 
+    type="submit" 
+    theme="active" 
+    fontColor={styleToken.color.white} 
+    isDisabled={!isValid} // ✅
+>
+  회원가입
+</BaseButton>
+```
+
 
 <br><br>
 
