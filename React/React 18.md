@@ -120,6 +120,101 @@ root.unmount를 호출해 React 루트부터 그 하위에 렌더링된 트리�
 
 <br><br>
 
+## Rendering API - Server React DOM API
+
+서버에서 React 컴포넌트를 생성하는 API에 변경 - API 추가
+
+### renderToPipeableStream
+
+React 트리를 파이프 가능한 [Node.js 스트림](https://nodejs.org/api/stream.html)으로 렌더링
+
+리액트 컴포넌트를 HTML로 렌더링하는 메소드, 스트림을 지원  
+스트림을 사용하면 HTML을 점진적으로 렌더링하고 클라이언트에서는 중간에 script 삽입 가능  
+
+`hydrateRoot`와 함께 사용하면, 서버에서 렌더링된 HTML을 클라이언트에서 hydration 가능  
+-> 첫번째 로딩을 매우 빠르게 수행 
+
+최초에 브라우저는 아직 불러오지 못한 데이터 부분을 Suspense의 fallback으로 받음  
+💡 순서나 오래 걸리는 렌더링에 영향받지 않고 빠르게 렌더링 가능
+
+<br>
+
+### renderToReadableStream
+
+`renderToPipeableStream`이 Node.js 환경에서의 렌더링을 위해 사용되는 반면,  
+`renderToReadableStream`은 **웹 스트림**을 기반으로 작동
+
+[Readable Web Stream](https://developer.mozilla.org/ko/docs/Web/API/ReadableStream)를 이용해 React tree를 그림 
+
+* 서버 환경이 아닌 Cloudflare, Deno 같은 웹 스트림을 이용하는 환경에서 사용 가능
+  * 모던 엣지 런타임 환경에서 사용  
+* 웹 애플리케이션을 개발하는 경우에는 이 메서드를 사용할 일이 거의 없을 것
+
+<br>
+
+### renderToNodeStream 지원 중단 
+
+renderToPipeableStream을 사용할 것을 권장 
+
+<br><br>
+
+## Automatic Batching(자동 배치)
+
+React가 렌더링을 **자동으로 배치**함   
+여러 상태 업데이트를 하나의 리렌더링으로 묶어서 성능을 향상시키는 방법
+
+* 리액트 17이하의 버전에서는 이벤트 핸들러 내부에서는 자동 배칭이 이뤄졌지만,   
+Promise, setTimeout 등의 비동기 작업은 자동 배칭이 이뤄지지 않았음  
+
+-> 동기와 비동기 배치 작업에 일관성이 X   
+
+=> 리액트 18버전부터는 루트 컴포넌트를 createRoot로 만들면 모든 업데이트가 배치 작업으로 최적화  
+
+### createRoot
+
+* createRoot를 사용하면 자동 배치가 활성화됨
+* 동기, 비동기, 이벤트 핸들러 등에 상관 없이 렌더링을 배치 작업으로 처리
+
+<br><br>
+
+## Strict Mode 강화 
+
+### 엄격 모드 개념 
+
+```tsx
+root.render((
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+));
+```
+
+* `<App />` 컴포넌트 각각의 자손까지 검사가 이루어짐
+* 개발자 모드에서만 작동
+
+⚠️ Ex. useEffect 등을 사용할 때 콘솔에 두 번씩 호출하는 경우  
+두 번 체크해서 두 결과가 다를 경우 함수의 사이드이펙트가 크다고 경고   
+=> 함수형 프로그래밍 원칙에 따라 모든 컴포넌트는 항상 순수하다고 가정,  
+순수한 결과를을 내고 있는지 확인시켜주기 위해 두 번 실행 
+
+<br>
+
+### 1. UNSAFE_가 붙은 생명주기 메소드 사용 시 경고
+
+### 2. 문자열 ref 사용 시 경고
+
+* 여러 컴포넌트에 걸쳐 사용될 수 있음 -> 충돌 우려
+* 실제 어떤 ref애서 참조되고 있는지 파악하기 어려움
+
+### 3. findDOMNode 사용 시 경고
+
+* 클래스형 컴포넌트 인스턴스에서 실제 DOM 요소에 대한 참조를 가져올 수 있는 메소드
+* 현재는 사용이 권장되지 않음
+* 문자열 ref와 마찬가지로, createRef나 useRef를 사용하는 것이 좋음
+
+### 4. 레거시 context API 사용 시 경고
+
+* childContextTypes, getChildContext 등을 사용하는 경우
 
 <br><br>
 
@@ -218,4 +313,5 @@ useInsertionEffect(setup, dependencies?);
 
 > https://react.dev/blog/2022/03/08/react-18-upgrade-guide  
 > https://react.dev/blog/2022/03/29/react-v18   
-> https://react-ko.dev/reference/react-dom/client
+> https://react-ko.dev/reference/react-dom/client  
+> https://ko.react.dev/reference/react-dom/server
