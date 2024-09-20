@@ -443,6 +443,7 @@ https://shinjungoh.tistory.com/
 [Yarn berry - tsconfig, eslint, prettier 적용하기](https://github.com/ShinjungOh/TIL/blob/main/Monorepo/Yarn%20berry%20-%20tsconfig%2C%20eslint%2C%20prettier%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 [Yarn berry - 리액트 컴포넌트 공유하기](https://github.com/ShinjungOh/TIL/blob/main/Monorepo/Yarn%20berry%20-%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0.md)  
 [Yarn berry - type check](https://github.com/ShinjungOh/TIL/blob/main/Monorepo/Yarn%20berry%20-%20type%20check.md)  
+[모노레포 프로젝트 설정하기](https://github.com/ShinjungOh/TIL/blob/main/Monorepo/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)
 
 ### TurboRepo
 
